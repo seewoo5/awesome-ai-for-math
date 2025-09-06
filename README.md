@@ -11,6 +11,10 @@ See `CONTRIBUTING.md` for contribution.
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
+| **[Learning Fricke signs from Maass Coefficients](https://arxiv.org/abs/2501.02105)** | Number Theory, LDA | arXiv 2025 | |
+| **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | Number Theory, Transformer | arXiv 2025 | |
+| **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | Number Theory, Transformer | arXiv 2025 |
+| **[Machine Learning the vanishing order of rational L-functions](https://arxiv.org/abs/2502.10360)** | Number Theory, LDA, Neural Network | arXiv 2025 | |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [Analysis](./subjects/analysis.md), [Combinatorics](./subjects/combinatorics.md), [Discrete Geometry](./subjects/discrete-geometry.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [RL](./subjects/rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
