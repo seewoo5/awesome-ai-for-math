@@ -2,7 +2,7 @@
 To contribute, add one or more rows to the table of `README.md`.
 
 - Include a link to the paper in the title column as `[TITLE](LINK)`. If the paper is published, add the official link.
-- Add subject(s). These could be topics (e.g., number theory, geometry, mathematical physics, etc.) or methodologies (e.g., RL, LLM, decision tree, etc.). If tag already exists, use the exact same name. All the links in the column are also automatically added, so you don't want to add links manually.
+- Add subject(s). These could be topics (e.g., number theory, geometry, mathematical physics, etc.) or methodologies (e.g., RL, LLM, decision tree, etc.). If tag already exists, use the exact same name. All the links in the column are also automatically added, so you don't want to add links manually. (For example, you only need to put `Number Theory` instead of `[Number Theory](./subjects/number-theory.md)`, where CI will automatically update the former to the latter.
 - Add venue and year. arXiv is fine if it is not published.
 - Add additional links, such as (official) blog posts, articles, or code. Add "Unofficial" if the code or blog is not an official resource.
 - The rows will be automatically sorted by title in alphabetical order when a PR is merged to the main branch.
