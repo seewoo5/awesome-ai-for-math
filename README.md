@@ -25,7 +25,7 @@ See `CONTRIBUTING.md` for contribution.
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | [Number Theory](./subjects/number-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | [Discrete Geometry](./subjects/discrete-geometry.md), [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
-| **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 | [DOI](https://doi.org/10.48550/arXiv.2410.00315) |
+| **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 |  |
 
 
 <!-- Table end -->
