@@ -104,4 +104,4 @@ jobs:
             git push
           else
             echo "No subject pages updates to commit."
-          
+          fi
