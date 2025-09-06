@@ -5,7 +5,10 @@ description: A curated list of awesome papers on AI for Mathematics.
 # The theme to use for your site
 theme: jekyll-theme-minimal
 
-# Add these lines to use the GitHub Flavored Markdown parser
+# Use GitHub’s Markdown processor for Pages
+markdown: GFM
+
+# Optional: retain Kramdown configuration (harmless when markdown=GFM)
 kramdown:
   input: GFM
   hard_wrap: false
