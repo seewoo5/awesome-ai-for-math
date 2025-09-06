@@ -1,20 +1,27 @@
-name: Generate subject pages and link tags
+# GitHub Actions workflow to generate subject pages after the README has been sorted.
+# This workflow waits for the "🤖 Sort Papers Table" workflow to finish before running.
+# It also supports manual triggering via workflow_dispatch.
+
+name: Generate subject pages after sorting
 
 on:
-  push:
-    branches: ["main"]
-  # allow manual triggering
+  workflow_run:
+    workflows: ["🤖 Sort Papers Table"]
+    branches: [ main ]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate-pages:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -23,101 +30,97 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate subject pages and update README links
+      - name: Install dependencies
         run: |
-          python3 - <<'PY'
-          import os
+          python -m pip install --upgrade pip
+
+      - name: Generate subject pages and update links
+        run: |
           import re
           from pathlib import Path
 
-          def slugify(text: str) -> str:
-              return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
-
-          # Read README
-          readme_path = Path('README.md')
-          lines = readme_path.read_text(encoding='utf-8').splitlines()
-
-          # Find table boundaries
-          start = None
-          for idx, line in enumerate(lines):
-              if line.lstrip().startswith('| Title'):
-                  start = idx
-                  break
-          if start is None:
-              raise SystemExit('Table header not found')
-
-          end = len(lines)
-          for j in range(start + 2, len(lines)):
-              if lines[j].strip().startswith('<!--'):
-                  end = j
-                  break
-
-          header = lines[start]
-          separator = lines[start + 1]
-          table_rows = lines[start + 2:end]
-
-          subjects_map = {}
-          # Build mapping of subject names to slug and associated rows
-          for row in table_rows:
-              cols = [c.strip() for c in row.strip('|').split('|')]
-              if len(cols) < 4:
-                  continue
-              subs = [s.strip() for s in cols[1].split(',')]
-              for sub in subs:
-                  if sub:
-                      subjects_map.setdefault(sub, {'slug': slugify(sub), 'rows': []})['rows'].append(row)
-
-          # Create/update subject pages
-          subjects_dir = Path('subjects')
+          repo_root = Path('.')
+          readme_path = repo_root / 'README.md'
+          subjects_dir = repo_root / 'subjects'
           subjects_dir.mkdir(exist_ok=True)
-          for sub, info in subjects_map.items():
-              slug = info['slug']
-              rows = info['rows']
-              with (subjects_dir / f"{slug}.md").open('w', encoding='utf-8') as f:
-                  f.write('---\n')
-                  f.write(f"title: {sub}\n")
-                  f.write('layout: default\n')
-                  f.write('---\n\n')
-                  f.write(f'# {sub} papers\n\n')
-                  f.write('| Title | Subject(s) | Venue & Year | Links & Resources |\n')
-                  f.write('| :--- | :--- | :--- | :--- |\n')
-                  for r in rows:
-                      f.write(r + '\n')
 
-          # Update README table to link subjects to pages
-          # Prepare replacement patterns sorted by decreasing length to avoid partial matches
-          sorted_subjects = sorted(subjects_map.keys(), key=len, reverse=True)
+          def slugify(text: str) -> str:
+              text = text.lower().strip()
+              text = re.sub(r'[^a-z0-9]+', '-', text)
+              return text.strip('-')
 
-          new_table_rows = []
-          for row in table_rows:
-              cols = [c.strip() for c in row.strip('|').split('|')]
-              if len(cols) < 4:
-                  new_table_rows.append(row)
+          content = readme_path.read_text(encoding='utf-8').splitlines()
+
+          # Locate table boundaries
+          header_idx = next(i for i, line in enumerate(content) if line.strip().startswith('|') and 'Title' in line)
+          sep_idx = header_idx + 1
+          body_start = header_idx + 2
+          body_end = next((i for i in range(body_start, len(content)) if content[i].strip() == ''), len(content))
+
+          header = content[header_idx]
+          separator = content[sep_idx]
+          rows = content[body_start:body_end]
+
+          unique_subjects = set()
+          parsed_rows = []
+
+          for row in rows:
+              columns = [c.strip() for c in row.strip('|').split('|')]
+              if len(columns) < 4:
+                  parsed_rows.append((row, []))
                   continue
-              subjects_field = cols[1]
-              for sub in sorted_subjects:
-                  slug = subjects_map[sub]['slug']
-                  link = f'[{sub}](./subjects/{slug}.md)'
-                  # Replace only whole subject occurrences, avoid already linked
-                  pattern = rf'(?<!\[)\b{re.escape(sub)}\b(?!\])'
-                  subjects_field = re.sub(pattern, link, subjects_field)
-              cols[1] = subjects_field
-              new_row = '| ' + ' | '.join(cols) + ' |'
-              new_table_rows.append(new_row)
+              subjects_col = columns[1]
+              raw_subs = [s.strip() for s in re.split(r',\s*', subjects_col)]
+              subs = []
+              for s in raw_subs:
+                  s_clean = re.sub(r'^[\[\(]+|[\)\]]+$', '', s).strip()
+                  if s_clean:
+                      subs.append(s_clean)
+                      unique_subjects.add(s_clean)
+              parsed_rows.append((row, subs))
 
-          # Build new README content
-          new_lines = lines[:start + 2] + new_table_rows + lines[end:]
-          readme_path.write_text('\n'.join(new_lines) + '\n', encoding='utf-8')
-          PY
+          # Generate subject pages
+          for subj in sorted(unique_subjects):
+              slug = slugify(subj)
+              page_path = subjects_dir / f'{slug}.md'
+              rows_for_subj = [r for r, subs in parsed_rows if subj in subs]
+              lines = []
+              lines.append('---')
+              lines.append(f'title: {subj}')
+              lines.append('layout: default')
+              lines.append('---\n')
+              lines.append(f'# {subj} papers\n')
+              lines.append(header)
+              lines.append(separator)
+              lines.extend(rows_for_subj)
+              page_path.write_text('\n'.join(lines), encoding='utf-8')
+
+          # Update README links
+          new_rows = []
+          for row, subs in parsed_rows:
+              if not subs:
+                  new_rows.append(row)
+                  continue
+              cols = [c.strip() for c in row.strip('|').split('|')]
+              links = []
+              for s in subs:
+                  slug = slugify(s)
+                  links.append(f'[{s}](./subjects/{slug}.md)')
+              cols[1] = ', '.join(links)
+              new_rows.append('| ' + ' | '.join(cols) + ' |')
+
+          updated = content[:body_start] + new_rows + content[body_end:]
+          readme_path.write_text('\n'.join(updated), encoding='utf-8')
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add subjects README.md
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git add README.md subjects
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-generate subject pages and update links"
             git push
           else
-            echo "No subject pages or README updates to commit."
+            echo "No changes detected."
           fi
