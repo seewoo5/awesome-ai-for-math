@@ -46,18 +46,26 @@ def main():
     parsed_rows = []
     for row in table_rows:
         cols = [c.strip() for c in row.strip('|').split('|')]
+        # If the row doesn't have the expected number of columns, record it as-is with no subjects
         if len(cols) < 4:
             parsed_rows.append((row, []))
             continue
         subj_col = cols[1]
+        # Split the subject column by comma to get individual subject tokens
         raw_subjects = [s.strip() for s in re.split(r',\s*', subj_col)]
         subjects = []
         for s in raw_subjects:
-            # Remove leading/trailing brackets or parentheses
-            s_clean = re.sub(r'^[\[\(]+|[\)\]]+$', '', s).strip()
-            if s_clean:
-                subjects.append(s_clean)
-                unique_subjects.add(s_clean)
+            # If the subject is already a markdown link, extract the display text
+            # e.g. "[Number Theory](./subjects/number-theory.md)" -> "Number Theory"
+            link_match = re.match(r'\[(.*?)\]\([^\)]*\)', s)
+            if link_match:
+                clean = link_match.group(1).strip()
+            else:
+                # Otherwise, remove any enclosing brackets or parentheses
+                clean = re.sub(r'^[\[\(]+|[\)\]]+$', '', s).strip()
+            if clean:
+                subjects.append(clean)
+                unique_subjects.add(clean)
         parsed_rows.append((row, subjects))
 
     # Generate/update subject pages
