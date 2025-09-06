@@ -13,8 +13,8 @@ See `CONTRIBUTING.md` for contribution.
 | :--- | :--- | :--- | :--- |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | Knot Theory, Representation Theory | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | Matrix Multiplication, Analysis, Combinatorics, Discrete Geometry, LLM | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
-| **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | Matrix Multiplication, Reinforcement Learning | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
-| **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | Graph Theory, Reinforcement Learning | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
+| **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | Matrix Multiplication, RL | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
+| **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | Graph Theory, RL | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Machine Learning in the String Landscape](https://link.springer.com/article/10.1007/JHEP09(2017)157)** | Mathematical Physics | JHEP 2017 | |
 | **[Machine learning invariants of arithmetic curves](https://www.sciencedirect.com/science/article/pii/S0747717122000839)** | Number Theory, Logistic Regression, Random Forest | Journal of Symbolic Computation | |
 | **[Machine Learning Number Fields](https://link.intlpress.com/JDetail/1806620813564551169)** | Number Theory, Neural Network, Random Forest | MCGD 2022 | |
