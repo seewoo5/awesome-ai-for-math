@@ -66,6 +66,7 @@ def main():
             if clean:
                 subjects.append(clean)
                 unique_subjects.add(clean)
+        row = row.replace('./subjects/', '')  # Update relative path 
         parsed_rows.append((row, subjects))
 
     # Generate/update subject pages
