@@ -7,5 +7,4 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | Number Theory, Transformer | arXiv 2025 |  |
-| **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
+| **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | Number Theory, Transformer | arXiv 2025 | |
