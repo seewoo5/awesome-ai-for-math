@@ -21,5 +21,9 @@ See `CONTRIBUTING.md` for contribution.
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | Number Theory, PCA | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | Geometry | Nature Reviews Physics 2024 | |
+| **[Learning Fricke signs from Maass Coefficients](https://arxiv.org/abs/2501.02105)** | Number Theory, LDA | arXiv 2025 | |
+| **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | Number Theory, Transformer | arXiv 2025 | |
+| **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | Number Theory, Transformer | arXiv 2025 |
+| **[Machine Learning the vanishing order of rational L-functions](https://arxiv.org/abs/2502.10360)** | Number Theory, LDA, Neural Network | arXiv 2025 | |
 
 <!-- Table end -->
