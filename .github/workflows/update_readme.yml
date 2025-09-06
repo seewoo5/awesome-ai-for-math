@@ -5,6 +5,9 @@ on:
     branches:
       - main # Or your default branch
 
+permissions:
+  contents: write
+
 jobs:
   sort-table:
     runs-on: ubuntu-latest
