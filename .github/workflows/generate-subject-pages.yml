@@ -1,0 +1,55 @@
+# GitHub Actions workflow to generate subject pages after README sorting.
+# This version calls an external Python script located at `.github/scripts/generate_subject_pages.py`
+# rather than embedding the script in the YAML. The workflow pulls the latest main
+# branch before generating pages to avoid unstaged-changes errors.
+
+name: Generate subject pages after sorting
+
+on:
+  workflow_run:
+    workflows: ["🤖 Sort Papers Table"]
+    branches: [ main ]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-pages:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Generate subject pages and update links using script
+        run: python .github/scripts/generate_subject_pages.py
+
+      - name: Commit and push changes
+        run: |
+          git add README.md subjects
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: auto-generate subject pages and update links"
+            git push origin HEAD:main
+          else
+            echo "No changes detected."
+          fi
