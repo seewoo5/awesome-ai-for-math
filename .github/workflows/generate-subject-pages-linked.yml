@@ -1,6 +1,8 @@
 # GitHub Actions workflow to generate subject pages after the README has been sorted.
-# This workflow waits for the "🤖 Sort Papers Table" workflow to finish before running.
-# It also supports manual triggering via workflow_dispatch.
+# This version fixes a previous error where the Python script was executed as shell
+# commands, causing "command not found" failures (exit code 127). The script is
+# now wrapped in a python heredoc. It triggers after the "🤖 Sort Papers Table"
+# workflow completes and on manual runs.
 
 name: Generate subject pages after sorting
 
@@ -17,6 +19,7 @@ permissions:
 
 jobs:
   generate-pages:
+    # Only run if the sorting workflow succeeded or if triggered manually
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
 
@@ -31,11 +34,11 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
+        run: python -m pip install --upgrade pip
 
       - name: Generate subject pages and update links
         run: |
+          python <<'PY'
           import re
           from pathlib import Path
 
@@ -111,6 +114,7 @@ jobs:
 
           updated = content[:body_start] + new_rows + content[body_end:]
           readme_path.write_text('\n'.join(updated), encoding='utf-8')
+          PY
 
       - name: Commit and push changes
         run: |
