@@ -23,9 +23,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
+      - name: Pull latest main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # Pull the latest main branch before making any changes
+          git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -54,12 +62,11 @@ jobs:
           lines = readme.read_text(encoding='utf-8').splitlines()
 
           header_idx = next(i for i,l in enumerate(lines) if l.strip().startswith('|') and 'Title' in l)
-          sep_idx = header_idx + 1
           body_start = header_idx + 2
           body_end = next((i for i in range(body_start, len(lines)) if lines[i].strip() == ''), len(lines))
 
           header = lines[header_idx]
-          sep = lines[sep_idx]
+          separator = lines[header_idx + 1]
           table_rows = lines[body_start:body_end]
 
           unique_subs = set()
@@ -82,7 +89,7 @@ jobs:
           # Create subject pages
           for sub in sorted(unique_subs):
               slug = slugify(sub)
-              path = subjects_dir / f'{slug}.md'
+              page_path = subjects_dir / f'{slug}.md'
               rows_for_sub = [r for r, subs in parsed if sub in subs]
               md = []
               md.append('---')
@@ -91,9 +98,9 @@ jobs:
               md.append('---\n')
               md.append(f'# {sub} papers\n')
               md.append(header)
-              md.append(sep)
+              md.append(separator)
               md.extend(rows_for_sub)
-              path.write_text('\n'.join(md), encoding='utf-8')
+              page_path.write_text('\n'.join(md), encoding='utf-8')
 
           # Rewrite README links
           new_rows = []
@@ -112,11 +119,9 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Pull latest main branch with rebase to avoid non-fast-forward errors
-          git pull --rebase origin main
+          # Stage changes
           git add README.md subjects
+          # Only commit if there are changes
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-generate subject pages and update links"
             git push origin HEAD:main
