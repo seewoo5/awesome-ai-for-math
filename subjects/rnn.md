@@ -7,4 +7,4 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 | |
+| **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](number-theory.md), [RNN](rnn.md), [CNN](cnn.md) | IJDSMS 2024 |  |
