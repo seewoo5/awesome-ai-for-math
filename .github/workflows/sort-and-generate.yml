@@ -14,6 +14,10 @@ permissions:
 
 jobs:
   build:
+    # only run this job on an actual push to main,
+    # not on pull_request events
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
     runs-on: ubuntu-latest
 
     steps:
