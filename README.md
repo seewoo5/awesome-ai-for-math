@@ -35,6 +35,6 @@ See `CONTRIBUTING.md` for contribution.
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-
+| **[Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers](https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf)** | Analysis, Transformer | NeurIPS 2024 | [Code](https://github.com/facebookresearch/Lyapunov) |
 
 <!-- Table end -->
