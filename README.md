@@ -22,6 +22,7 @@ See `CONTRIBUTING.md` for contribution.
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 |  |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](./subjects/number-theory.md), [LDA](./subjects/lda.md) | arXiv 2025 |  |
+| **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | [Number Theory](./subjects/number-theory.md), [Neural Network](./subjects/neural-network.md), [Decision Tree](./subjects/decision-tree.md) | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 | **[Machine learning BPS spectra and the gap conjecture](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.046016)** | [Mathematical Physics](./subjects/mathematical-physics.md), [PCA](./subjects/pca.md) | Physical Review D 2024 |  |
 | **[Machine learning Calabi-Yau hypersurfaces](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.066002)** | [Mathematical Physics](./subjects/mathematical-physics.md) | Physical Review D 2022 |  |
 | **[Machine learning class numbers of real quadratic fields](https://www.worldscientific.com/doi/abs/10.1142/S2810939223500016)** | [Number Theory](./subjects/number-theory.md), [Interpretability](./subjects/interpretability.md) | IJDSMS 2023 |  |
@@ -46,7 +47,6 @@ See `CONTRIBUTING.md` for contribution.
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | Number Theory, Neural Network, Decision Tree | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 
 
 <!-- Table end -->

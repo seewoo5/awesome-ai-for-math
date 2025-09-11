@@ -10,6 +10,7 @@ layout: default
 | **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 | [Code](https://github.com/f-charton/Int2Int) |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](number-theory.md), [LDA](lda.md) | arXiv 2025 |  |
+| **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | Number Theory, Neural Network, Decision Tree | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 | **[Machine learning class numbers of real quadratic fields](https://www.worldscientific.com/doi/abs/10.1142/S2810939223500016)** | [Number Theory](number-theory.md), [Interpretability](interpretability.md) | IJDSMS 2023 |  |
 | **[Machine learning invariants of arithmetic curves](https://www.sciencedirect.com/science/article/pii/S0747717122000839)** | [Number Theory](number-theory.md), [Logistic Regression](logistic-regression.md), [Random Forest](random-forest.md) | Journal of Symbolic Computation 2023 |  |
 | **[Machine Learning Number Fields](https://link.intlpress.com/JDetail/1806620813564551169)** | [Number Theory](number-theory.md), [Neural Network](neural-network.md), [Random Forest](random-forest.md) | MCGD 2022 |  |
