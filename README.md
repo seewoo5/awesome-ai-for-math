@@ -5,7 +5,7 @@
 
 A curated list of awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
-See `[CONTRIBUTING.md](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md)` for contribution.
+See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md)` for contribution.
 
 <!-- Table start -->
 
