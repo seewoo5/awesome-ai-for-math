@@ -42,7 +42,7 @@ jobs:
         run: python -m pip install --upgrade pip
 
       - name: Sort the README table
-        run: python .github/scripts/sort_table.py
+        run: python .github/scripts/update_readme.py
 
       - name: Generate subject pages and update links
         run: python .github/scripts/generate_subject_pages.py

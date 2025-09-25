@@ -3,9 +3,20 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 42 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
+
+- By years, there are
+    - 2 papers in 2017
+    - 1 paper in 2019
+    - 4 papers in 2021
+    - 5 papers in 2022
+    - 5 papers in 2023
+    - 14 papers in 2024
+    - 13 papers in 2025
+- 18 of them are open-sourced.
+
 
 <!-- Table start -->
 
