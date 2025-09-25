@@ -2,9 +2,6 @@
 title: Awesome AI for Math
 description: A curated list of awesome papers on AI for Mathematics.
 
-# The theme to use for your site
-theme: jekyll-theme-minimal
-
 # Use GitHub’s Markdown processor for Pages
 markdown: GFM
 
