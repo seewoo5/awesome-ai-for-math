@@ -1,0 +1,10 @@
+/* Disable bold on hover for links in tables */
+table a {
+  font-weight: normal;
+}
+
+table a:hover,
+table a:focus {
+  font-weight: normal;      /* keep weight the same on hover */
+  text-decoration: underline; /* optional: provide hover feedback */
+}
