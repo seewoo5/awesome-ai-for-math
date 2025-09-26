@@ -117,7 +117,7 @@ header = table_lines[0]
 separator = table_lines[1]
 data_rows = table_lines[2:]
 
-num_papers = len(data_rows) - 2  # Exclude the header and separator from the count
+num_papers = len(data_rows)
 
 # 4. Sort only the data rows
 sorted_data_rows = sorted(data_rows, key=get_sort_key)
