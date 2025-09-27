@@ -3,19 +3,19 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 46 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 51 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
 - By years, there are
     - 2 papers in 2017
     - 1 paper in 2019
-    - 4 papers in 2021
+    - 5 papers in 2021
     - 5 papers in 2022
-    - 5 papers in 2023
-    - 14 papers in 2024
-    - 15 papers in 2025
-- 20 of them are open-sourced.
+    - 6 papers in 2023
+    - 16 papers in 2024
+    - 16 papers in 2025
+- 25 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -24,13 +24,17 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
+| **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](./subjects/number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [Analysis](./subjects/analysis.md), [Combinatorics](./subjects/combinatorics.md), [Discrete Geometry](./subjects/discrete-geometry.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [RL](./subjects/rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger](https://arxiv.org/abs/2509.13231)** | [Representation Theory](./subjects/representation-theory.md), [Neural Network](./subjects/neural-network.md) | arXiv 2025 | [Code](https://github.com/ThomasLanard/aubert-zelevinsky-duality) |
+| **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | [Number Theory](./subjects/number-theory.md) | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Interpretability](./subjects/interpretability.md), [Transformer](./subjects/transformer.md) | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
+| **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
+| **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](./subjects/number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Generative AI for brane configurations and coamoeba](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013)** | [Mathematical Physics](./subjects/mathematical-physics.md), [VAE](./subjects/vae.md) | Physical Review D 2025 |  |
 | **[Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers](https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf)** | [Analysis](./subjects/analysis.md), [Transformer](./subjects/transformer.md) | NeurIPS 2024 | [Code](https://github.com/facebookresearch/Lyapunov) |
 | **[Hilbert series, machine learning, and applications to physics](https://www.sciencedirect.com/science/article/pii/S0370269322001009)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | Physics Letters B 2024 | [Code](https://github.com/edhirst/HilbertSeriesML) |
@@ -67,12 +71,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
+| **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | Number Theory | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
-| **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
-| **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | Number Theory | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
-| **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
-| **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | Number Theory, LLM | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 
 
 <!-- Table end -->
