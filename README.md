@@ -33,6 +33,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
+| **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 | **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](./subjects/number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Generative AI for brane configurations and coamoeba](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013)** | [Mathematical Physics](./subjects/mathematical-physics.md), [VAE](./subjects/vae.md) | Physical Review D 2025 |  |
@@ -73,7 +74,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | Analysis, PINN | arXiv 2025 |  |
 
 
 <!-- Table end -->

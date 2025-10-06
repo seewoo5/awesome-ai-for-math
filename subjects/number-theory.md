@@ -7,10 +7,10 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | Number Theory | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
-| **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
-| **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | Number Theory, LLM | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
-| **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | Number Theory | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
+| **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
+| **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | [Number Theory](number-theory.md) | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
+| **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](number-theory.md), [LLM](llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
+| **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 | [Code](https://github.com/f-charton/Int2Int) |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](number-theory.md), [LDA](lda.md) | arXiv 2025 |  |
@@ -26,4 +26,4 @@ layout: default
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](number-theory.md), [RNN](rnn.md), [CNN](cnn.md) | IJDSMS 2024 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](number-theory.md), [CNN](cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
-| **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
+| **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
