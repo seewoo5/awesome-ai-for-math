@@ -17,6 +17,37 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def add_subpage_link(row: str) -> str:
+    """
+    Convert a row with a new row where subject page links are added.
+    Each row has 4 columns: Title, Subjects, Venue, Resources, divided by '|'.
+    If a subject column contains subjects (divided by ",") in plain texts
+    "without links", add links to the corresponding subject page.
+    For example, "Number Theory" becomes "[Number Theory](number-theory.md)".
+    If the subject is already a link, leave it unchanged.
+    """
+    cols = [c.strip() for c in row.strip('|').split('|')]
+    if len(cols) < 4:
+        return row  # Not enough columns to process
+
+    subj_col = cols[1]
+    # Split the subject column by comma to get individual subject tokens
+    raw_subjects = [s.strip() for s in re.split(r',\s*', subj_col)]
+    subjects = []
+    for s in raw_subjects:
+        # If the subject is already a markdown link, keep it as is
+        if re.match(r'\[.*?\]\(.*?\)', s):
+            subjects.append(s)
+        else:
+            # Otherwise, create a link to the subject page
+            clean = re.sub(r'^[\[\(]+|[\)\]]+$', '', s).strip()
+            if clean:
+                link = f'[{clean}](./subjects/{slugify(clean)}.md)'
+                subjects.append(link)
+    cols[1] = ', '.join(subjects)
+    return '| ' + ' | '.join(cols) + ' |'
+    
+
 def main():
     repo_root = Path('.')
     readme_path = repo_root / 'README.md'
@@ -69,24 +100,6 @@ def main():
         row = row.replace('./subjects/', '')  # Update relative path 
         parsed_rows.append((row, subjects))
 
-    # Generate/update subject pages
-    for subject in sorted(unique_subjects):
-        slug = slugify(subject)
-        page_path = subjects_dir / f'{slug}.md'
-        # Filter rows containing this subject
-        rows_for_subject = [r for r, subs in parsed_rows if subject in subs]
-        # Build page content
-        md_lines = []
-        md_lines.append('---')
-        md_lines.append(f'title: {subject}')
-        md_lines.append('layout: default')
-        md_lines.append('---\n')
-        md_lines.append(f'# {subject} papers\n')
-        md_lines.append(header)
-        md_lines.append(separator)
-        md_lines.extend(rows_for_subject)
-        page_path.write_text('\n'.join(md_lines), encoding='utf-8')
-
     # Rewrite subject column in README with links
     new_rows = []
     for row, subjects in parsed_rows:
@@ -100,6 +113,24 @@ def main():
 
     updated_lines = lines[:body_start] + new_rows + lines[body_end:]
     readme_path.write_text('\n'.join(updated_lines), encoding='utf-8')
+
+    # Generate/update subject pages
+    for subject in sorted(unique_subjects):
+        slug = slugify(subject)
+        page_path = subjects_dir / f'{slug}.md'
+        # Filter rows containing this subject
+        rows_for_subject = [add_subpage_link(r) for r, subs in parsed_rows if subject in subs]
+        # Build page content
+        md_lines = []
+        md_lines.append('---')
+        md_lines.append(f'title: {subject}')
+        md_lines.append('layout: default')
+        md_lines.append('---\n')
+        md_lines.append(f'# {subject} papers\n')
+        md_lines.append(header)
+        md_lines.append(separator)
+        md_lines.extend(rows_for_subject)
+        page_path.write_text('\n'.join(md_lines), encoding='utf-8')
 
 
 if __name__ == '__main__':
