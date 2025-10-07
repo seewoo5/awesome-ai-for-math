@@ -7,4 +7,4 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
+| **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](analysis.md), [PINN](pinn.md) | arXiv 2025 |  |
