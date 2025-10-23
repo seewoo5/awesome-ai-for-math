@@ -15,7 +15,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 6 papers in 2023
     - 17 papers in 2024
     - 21 papers in 2025
-- 26 of them are open-sourced.
+- 27 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -35,7 +35,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
-| **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), LLM | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
+| **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
 | **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 | **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](./subjects/number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Generative AI for brane configurations and coamoeba](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013)** | [Mathematical Physics](./subjects/mathematical-physics.md), [VAE](./subjects/vae.md) | Physical Review D 2025 |  |
