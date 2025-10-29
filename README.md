@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 58 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 59 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,7 +14,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2022
     - 6 papers in 2023
     - 17 papers in 2024
-    - 22 papers in 2025
+    - 23 papers in 2025
 - 27 of them are open-sourced.
 
 
@@ -73,6 +73,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Genetic Algorithm](./subjects/genetic-algorithm.md) | Physics Letters B 2024 |  |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | [Discrete Geometry](./subjects/discrete-geometry.md), [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
+| **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](./subjects/number-theory.md), [RNN](./subjects/rnn.md), [CNN](./subjects/cnn.md) | IJDSMS 2024 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](./subjects/number-theory.md), [CNN](./subjects/cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
@@ -80,6 +81,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 
 <!-- Table end -->
