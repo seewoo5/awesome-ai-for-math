@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 59 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 61 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -12,10 +12,10 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 1 paper in 2019
     - 5 papers in 2021
     - 5 papers in 2022
-    - 6 papers in 2023
-    - 17 papers in 2024
+    - 7 papers in 2023
+    - 18 papers in 2024
     - 23 papers in 2025
-- 27 of them are open-sourced.
+- 29 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -29,6 +29,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [Analysis](./subjects/analysis.md), [Combinatorics](./subjects/combinatorics.md), [Discrete Geometry](./subjects/discrete-geometry.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [RL](./subjects/rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger](https://arxiv.org/abs/2509.13231)** | [Representation Theory](./subjects/representation-theory.md), [Neural Network](./subjects/neural-network.md) | arXiv 2025 | [Code](https://github.com/ThomasLanard/aubert-zelevinsky-duality) |
+| **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | [Number Theory](./subjects/number-theory.md) | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Interpretability](./subjects/interpretability.md), [Transformer](./subjects/transformer.md) | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
@@ -76,13 +77,12 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](./subjects/number-theory.md), [RNN](./subjects/rnn.md), [CNN](./subjects/cnn.md) | IJDSMS 2024 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](./subjects/number-theory.md), [CNN](./subjects/cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |
+| **[Reinforcement Learning the Chromatic Symmetric Function](https://arxiv.org/abs/2410.19189)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/berczig/PositivityConjectures) |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
-| **[Reinforcement Learning the Chromatic Symmetric Function](https://arxiv.org/abs/2410.19189)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/berczig/PositivityConjectures) |
 
 
 <!-- Table end -->
