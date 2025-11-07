@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 61 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 62 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,8 +14,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2022
     - 7 papers in 2023
     - 18 papers in 2024
-    - 23 papers in 2025
-- 29 of them are open-sourced.
+    - 24 papers in 2025
+- 30 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -70,6 +70,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Machines Learn Number Fields, But How? The Case of Galois Groups](https://arxiv.org/abs/2508.06670)** | [Number Theory](./subjects/number-theory.md), [Logistic Regression](./subjects/logistic-regression.md), [Decision Tree](./subjects/decision-tree.md), [Interpretability](./subjects/interpretability.md) | arXiv 2025 | [Code](https://github.com/seewoo5/ML-NF) |
 | **[Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | Nature 2024 | [Code](https://github.com/google-deepmind/funsearch) |
 | **[Mathematical discovery in the age of artificial intelligence](https://www.nature.com/articles/s41567-025-03042-0)** | [Survey](./subjects/survey.md) | Nature Physics 2025 |  |
+| **[Mathematical exploration and discovery at scale](https://arxiv.org/abs/2511.02864)** | [Combinatorics](./subjects/combinatorics.md), [Analysis](./subjects/analysis.md), [Number Theory](./subjects/number-theory.md), [Discrete Mathematics](./subjects/discrete-mathematics.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/google-deepmind/alphaevolve_repository_of_problems) |
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | [Number Theory](./subjects/number-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Genetic Algorithm](./subjects/genetic-algorithm.md) | Physics Letters B 2024 |  |
@@ -83,7 +84,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Mathematical exploration and discovery at scale](https://arxiv.org/abs/2511.02864)** | Combinatorics, Analysis, Number Theory, Discrete Mathematics, LLM | arXiv 2025 | [Code](https://github.com/google-deepmind/alphaevolve_repository_of_problems) |
 
 
 <!-- Table end -->
