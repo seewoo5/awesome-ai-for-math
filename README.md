@@ -91,6 +91,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | Analysis, LLM | arXiv 2025 | |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | Combinatorics, Optimization Theory, LLM | arXiv 2025 | |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | Combinatorics, Number Theory, LLM | arXiv 2025 | |
+| **[Learning the Inverse Ryu--Takayanagi Formula with Transformers](https://arxiv.org/abs/2511.06387)** | Mathematical Physics, Transformer | arXiv 2025 | [Code](https://github.com/power817/HEE_3D) |
 
 
 <!-- Table end -->
