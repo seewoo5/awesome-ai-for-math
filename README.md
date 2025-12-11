@@ -14,7 +14,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2022
     - 7 papers in 2023
     - 18 papers in 2024
-    - 31 papers in 2025
+    - 32 papers in 2025
     - 1 paper in arXiv2025
 - 31 of them are open-sourced.
 
