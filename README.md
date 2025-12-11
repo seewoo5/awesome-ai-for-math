@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 63 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 70 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,8 +14,9 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2022
     - 7 papers in 2023
     - 18 papers in 2024
-    - 25 papers in 2025
-- 30 of them are open-sourced.
+    - 30 papers in 2025
+    - 2 papers in arXiv2025
+- 31 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -23,6 +24,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
+| **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | [Survey](./subjects/survey.md) | Nature Reviews Physics 2025 |  |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](./subjects/number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
@@ -37,19 +39,23 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
+| **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
+| **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm](https://www.arxiv.org/abs/2511.12421)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 | **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](./subjects/number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Generative AI for brane configurations and coamoeba](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013)** | [Mathematical Physics](./subjects/mathematical-physics.md), [VAE](./subjects/vae.md) | Physical Review D 2025 |  |
 | **[Geometric Generality of Transformer-Based Gröbner Basis Computation](https://arxiv.org/abs/2504.12465)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers](https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf)** | [Analysis](./subjects/analysis.md), [Transformer](./subjects/transformer.md) | NeurIPS 2024 | [Code](https://github.com/facebookresearch/Lyapunov) |
+| **[Gödel Test: Can Large Language Models Solve Easy Conjectures?](https://arxiv.org/abs/2509.18383)** | [Discrete Mathematics](./subjects/discrete-mathematics.md), [LLM](./subjects/llm.md) | arXiv2025 |  |
 | **[Hilbert series, machine learning, and applications to physics](https://www.sciencedirect.com/science/article/pii/S0370269322001009)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | Physics Letters B 2024 | [Code](https://github.com/edhirst/HilbertSeriesML) |
 | **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/f-charton/Int2Int) |
 | **[Interpretable Machine Learning for Kronecker Coefficients](https://arxiv.org/abs/2502.11774)** | [Representation Theory](./subjects/representation-theory.md), [Neural Network](./subjects/neural-network.md), [Symbolic Regression](./subjects/symbolic-regression.md), [PCA](./subjects/pca.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 |  |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](./subjects/number-theory.md), [LDA](./subjects/lda.md) | arXiv 2025 |  |
+| **[Learning the Inverse Ryu--Takayanagi Formula with Transformers](https://arxiv.org/abs/2511.06387)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/power817/HEE_3D) |
 | **[Learning to compute Gröbner Basis](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3a1de90699eec7d7f42c91d81f94af16-Abstract-Conference.html)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Transformer](./subjects/transformer.md) | NeurIPS 2024 | [Code](https://github.com/HiroshiKERA/transformer-groebner) |
 | **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | [Number Theory](./subjects/number-theory.md), [Neural Network](./subjects/neural-network.md), [Decision Tree](./subjects/decision-tree.md) | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 | **[Machine learning assisted exploration for affine Deligne-Lusztig varieties](https://doi.org/10.1007/s42543-024-00086-8)** | [Number Theory](./subjects/number-theory.md), [Representation Theory](./subjects/representation-theory.md) | Peking Math J 2024 | [Code](https://github.com/Jinpf314/ML4ADLV/) |
@@ -77,21 +83,16 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Genetic Algorithm](./subjects/genetic-algorithm.md) | Physics Letters B 2024 |  |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | [Discrete Geometry](./subjects/discrete-geometry.md), [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
+| **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](./subjects/number-theory.md), [RNN](./subjects/rnn.md), [CNN](./subjects/cnn.md) | IJDSMS 2024 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](./subjects/number-theory.md), [CNN](./subjects/cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |
 | **[Reinforcement Learning the Chromatic Symmetric Function](https://arxiv.org/abs/2410.19189)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/berczig/PositivityConjectures) |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
+| **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | [Statistics](./subjects/statistics.md), [LLM](./subjects/llm.md) | arXiv2025 |  |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv2025 | |
-| **[Gödel Test: Can Large Language Models Solve Easy Conjectures?](https://arxiv.org/abs/2509.18383)** | Discrete Mathematics, LLM | arXiv2025 | |
-| **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | Optimization Theory, LLM | arXiv 2025 | |
-| **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | Analysis, LLM | arXiv 2025 | |
-| **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | Combinatorics, Optimization Theory, LLM | arXiv 2025 | |
-| **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | Combinatorics, Number Theory, LLM | arXiv 2025 | |
-| **[Learning the Inverse Ryu--Takayanagi Formula with Transformers](https://arxiv.org/abs/2511.06387)** | Mathematical Physics, Transformer | arXiv 2025 | [Code](https://github.com/power817/HEE_3D) |
 
 
 <!-- Table end -->
