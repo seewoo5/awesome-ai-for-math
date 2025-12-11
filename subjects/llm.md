@@ -17,6 +17,5 @@ layout: default
 | **[Gödel Test: Can Large Language Models Solve Easy Conjectures?](https://arxiv.org/abs/2509.18383)** | [Discrete Mathematics](discrete-mathematics.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | Nature 2024 | [Code](https://github.com/google-deepmind/funsearch) |
 | **[Mathematical exploration and discovery at scale](https://arxiv.org/abs/2511.02864)** | [Combinatorics](combinatorics.md), [Analysis](analysis.md), [Number Theory](number-theory.md), [Discrete Geometry](discrete-geometry.md), [LLM](llm.md) | arXiv 2025 | [Code](https://github.com/google-deepmind/alphaevolve_repository_of_problems) |
-| **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Optimization Theory](optimization-theory.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | [Statistics](statistics.md), [LLM](llm.md) | arXiv 2025 |  |
