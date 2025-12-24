@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 70 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 72 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -13,9 +13,9 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2021
     - 5 papers in 2022
     - 7 papers in 2023
-    - 18 papers in 2024
-    - 32 papers in 2025
-- 32 of them are open-sourced.
+    - 19 papers in 2024
+    - 33 papers in 2025
+- 34 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -39,6 +39,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
+| **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm](https://www.arxiv.org/abs/2511.12421)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
@@ -62,6 +63,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Machine learning Calabi-Yau hypersurfaces](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.066002)** | [Mathematical Physics](./subjects/mathematical-physics.md) | Physical Review D 2022 |  |
 | **[Machine learning class numbers of real quadratic fields](https://www.worldscientific.com/doi/abs/10.1142/S2810939223500016)** | [Number Theory](./subjects/number-theory.md), [Interpretability](./subjects/interpretability.md) | IJDSMS 2023 |  |
 | **[Machine learning for complete intersection Calabi-Yau manifolds: a methodological study](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.126014)** | [Mathematical Physics](./subjects/mathematical-physics.md) | Physical Review D 2021 |  |
+| **[Machine learning for modular multiplication](https://arxiv.org/abs/2402.19254)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/meghabyte/mod-math/) |
 | **[Machine Learning in the String Landscape](https://link.springer.com/article/10.1007/JHEP09(2017)157)** | [Mathematical Physics](./subjects/mathematical-physics.md) | JHEP 2017 |  |
 | **[Machine learning invariants of arithmetic curves](https://www.sciencedirect.com/science/article/pii/S0747717122000839)** | [Number Theory](./subjects/number-theory.md), [Logistic Regression](./subjects/logistic-regression.md), [Random Forest](./subjects/random-forest.md) | Journal of Symbolic Computation 2023 |  |
 | **[Machine Learning Kreuzer–Skarke Calabi–Yau Threefolds](https://arxiv.org/abs/2112.09117)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Algebraic Geometry](./subjects/algebraic-geometry.md), [Neural Network](./subjects/neural-network.md) | arXiv 2025 |  |
@@ -92,8 +94,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](./subjects/algebra.md), [LLM](./subjects/llm.md), [CNN](./subjects/cnn.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) [Site](https://teorth.github.io/equational_theories/) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) |
-| **[Machine learning for modular multiplication](https://arxiv.org/abs/2402.19254)** | Number Theory, Transformer | arXiv 2024 | [Code](https://github.com/meghabyte/mod-math/) |
 
 
 <!-- Table end -->
