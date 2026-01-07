@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 72 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 73 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,8 +14,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 5 papers in 2022
     - 7 papers in 2023
     - 19 papers in 2024
-    - 33 papers in 2025
-- 34 of them are open-sourced.
+    - 34 papers in 2025
+- 35 of them are open-sourced.
 
 
 <!-- Table start -->
@@ -26,6 +26,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | [Survey](./subjects/survey.md) | Nature Reviews Physics 2025 |  |
+| **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](./subjects/number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [Analysis](./subjects/analysis.md), [Combinatorics](./subjects/combinatorics.md), [Discrete Geometry](./subjects/discrete-geometry.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](./subjects/matrix-multiplication.md), [RL](./subjects/rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
@@ -94,6 +95,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](./subjects/algebra.md), [LLM](./subjects/llm.md), [CNN](./subjects/cnn.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) [Site](https://teorth.github.io/equational_theories/) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | Combinatorics, LLM, RL | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 
 <!-- Table end -->
