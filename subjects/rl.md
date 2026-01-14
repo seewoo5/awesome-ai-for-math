@@ -8,7 +8,7 @@ layout: default
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](graph-theory.md), [Group Theory](group-theory.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
-| **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
+| **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](combinatorics.md), [LLM](llm.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](matrix-multiplication.md), [RL](rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | [Algebraic Geometry](algebraic-geometry.md), [RL](rl.md) | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](graph-theory.md), [Group Theory](group-theory.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
