@@ -8,6 +8,7 @@ layout: default
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | [Algebraic Geometry](algebraic-geometry.md), [Interpretability](interpretability.md), [Transformer](transformer.md) | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
+| **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md) | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
 | **[From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm](https://www.arxiv.org/abs/2511.12421)** | [Combinatorics](combinatorics.md), [Transformer](transformer.md) | arXiv 2025 |  |
 | **[Geometric Generality of Transformer-Based Gröbner Basis Computation](https://arxiv.org/abs/2504.12465)** | [Algebraic Geometry](algebraic-geometry.md), [Transformer](transformer.md) | arXiv 2025 |  |
 | **[Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers](https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf)** | [Analysis](analysis.md), [Transformer](transformer.md) | NeurIPS 2024 | [Code](https://github.com/facebookresearch/Lyapunov) |
