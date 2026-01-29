@@ -1,0 +1,23 @@
+name: Check for duplicates
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+
+jobs:
+  check-duplicates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Check for duplicate papers
+        run: python .github/scripts/check_duplicates.py
