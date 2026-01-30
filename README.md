@@ -18,6 +18,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
     - 3 papers in 2026
 - 36 of them are open-sourced.
 
+![Papers by Year](assets/papers_by_year.png)
 
 <!-- Table start -->
 
