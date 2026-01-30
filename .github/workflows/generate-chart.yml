@@ -1,0 +1,53 @@
+name: Generate papers by year chart
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-chart:
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git for committing
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate papers by year chart
+        run: python .github/scripts/generate_papers_chart.py
+
+      - name: Commit and push changes
+        run: |
+          git add assets/papers_by_year.png
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update papers by year chart"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
