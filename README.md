@@ -7,17 +7,6 @@ A curated list of 77 awesome papers exploring the use of artificial intelligence
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
-- By years, there are
-    - 2 papers in 2017
-    - 1 paper in 2019
-    - 5 papers in 2021
-    - 5 papers in 2022
-    - 7 papers in 2023
-    - 19 papers in 2024
-    - 35 papers in 2025
-    - 3 papers in 2026
-- 36 of them are open-sourced.
-
 ![Papers by Year](assets/papers_by_year.png)
 
 <!-- Table start -->
