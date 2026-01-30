@@ -13,24 +13,25 @@ OUTPUT_PATH = 'assets/papers_by_year.png'
 
 
 def extract_year_counts(readme_content):
-    """Extract year counts from the README table."""
+    """Extract year counts and open-sourced counts from the README table."""
     try:
         start_index = readme_content.index(TABLE_START_MARKER)
         end_index = readme_content.index(TABLE_END_MARKER)
     except ValueError:
         print(f"Error: Markers not found.")
-        return {}
+        return {}, {}
 
     content_between_markers = readme_content[start_index + len(TABLE_START_MARKER):end_index]
     table_lines = content_between_markers.strip().split('\n')
 
     if len(table_lines) < 3:
-        return {}
+        return {}, {}
 
     # Skip header and separator
     data_rows = table_lines[2:]
 
     year_counts = defaultdict(int)
+    open_source_counts = defaultdict(int)
     for row in data_rows:
         # Extract year from the third column (Venue & Year)
         # Format: "Venue YYYY" - take the last element after splitting by space
@@ -41,27 +42,44 @@ def extract_year_counts(readme_content):
             if year_match:
                 year = int(year_match.group())
                 year_counts[year] += 1
+                # Check if open-sourced (has [Code] in the last column)
+                if len(cells) >= 5 and '[Code]' in cells[4]:
+                    open_source_counts[year] += 1
 
-    return dict(sorted(year_counts.items()))
+    years = sorted(year_counts.keys())
+    year_counts = {y: year_counts[y] for y in years}
+    open_source_counts = {y: open_source_counts[y] for y in years}
+    return year_counts, open_source_counts
 
 
-def generate_bar_chart(year_counts, output_path):
-    """Generate a bar chart from year counts."""
+def generate_bar_chart(year_counts, open_source_counts, output_path):
+    """Generate a bar chart from year counts with open-source sub-bars."""
     if not year_counts:
         print("No data to plot.")
         return
 
     years = list(year_counts.keys())
     counts = list(year_counts.values())
+    os_counts = [open_source_counts.get(y, 0) for y in years]
 
     with plt.xkcd():
         plt.figure(figsize=(10, 5))
-        bars = plt.bar(years, counts, color='#4285f4', edgecolor='white', linewidth=0.7)
+        # Draw total papers bar (blue)
+        bars = plt.bar(years, counts, color='#4285f4', edgecolor='white', linewidth=0.7, label='Total')
+        # Draw open-sourced papers bar (orange) on top
+        plt.bar(years, os_counts, color='#ff9500', edgecolor='white', linewidth=0.7, label='Open-sourced')
 
-        # Add count labels on top of each bar
+        # Add count labels on top of each bar (total count)
         for bar, count in zip(bars, counts):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.3,
                      str(count), ha='center', va='bottom', fontsize=11, fontweight='bold')
+
+        # Add open-source count labels inside the bar, above the orange sub-bar
+        for bar, os_count in zip(bars, os_counts):
+            if os_count > 0:
+                plt.text(bar.get_x() + bar.get_width() / 2, os_count + 0.3,
+                         str(os_count), ha='center', va='bottom', fontsize=9,
+                         fontweight='bold', color='#cc7000')
 
         plt.xlabel('Year', fontsize=12)
         plt.ylabel('Number of Papers', fontsize=12)
@@ -70,6 +88,9 @@ def generate_bar_chart(year_counts, output_path):
         # Set integer ticks for x-axis
         plt.xticks(years, [str(y) for y in years], fontsize=10)
         plt.yticks(fontsize=10)
+
+        # Add legend
+        plt.legend(loc='upper left', fontsize=10)
 
         # Add some padding at the top for labels
         plt.ylim(0, max(counts) * 1.15)
@@ -87,11 +108,12 @@ def main():
         content = f.read()
 
     # Extract year counts
-    year_counts = extract_year_counts(content)
+    year_counts, open_source_counts = extract_year_counts(content)
     print(f"Year counts: {year_counts}")
+    print(f"Open-source counts: {open_source_counts}")
 
     # Generate chart
-    generate_bar_chart(year_counts, OUTPUT_PATH)
+    generate_bar_chart(year_counts, open_source_counts, OUTPUT_PATH)
 
 
 if __name__ == '__main__':
