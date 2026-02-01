@@ -13,7 +13,7 @@ layout: default
 | **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | [Number Theory](number-theory.md), [LLM](llm.md) | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 | **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | [Number Theory](number-theory.md) | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
 | **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 | [Code](https://github.com/f-charton/Int2Int) |
-| **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
+| **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | [Number Theory](number-theory.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](number-theory.md), [Transformer](transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](number-theory.md), [LDA](lda.md) | arXiv 2025 |  |
 | **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | [Number Theory](number-theory.md), [Neural Network](neural-network.md), [Decision Tree](decision-tree.md) | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
