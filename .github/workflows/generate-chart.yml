@@ -47,6 +47,7 @@ jobs:
           git add assets/papers_by_year.png
           if ! git diff --cached --quiet; then
             git commit -m "chore: update papers by year chart"
+            git pull --rebase origin main
             git push origin HEAD:main
           else
             echo "No changes to commit."
