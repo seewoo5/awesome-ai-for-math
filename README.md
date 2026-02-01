@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 78 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 80 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -31,6 +31,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
+| **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) |
@@ -52,6 +53,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](./subjects/number-theory.md), [LDA](./subjects/lda.md) | arXiv 2025 |  |
 | **[Learning the Inverse Ryu--Takayanagi Formula with Transformers](https://arxiv.org/abs/2511.06387)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/power817/HEE_3D) |
 | **[Learning to compute Gröbner Basis](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3a1de90699eec7d7f42c91d81f94af16-Abstract-Conference.html)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Transformer](./subjects/transformer.md) | NeurIPS 2024 | [Code](https://github.com/HiroshiKERA/transformer-groebner) |
+| **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | [Linear Algebra](./subjects/linear-algebra.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
 | **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | [Number Theory](./subjects/number-theory.md), [Neural Network](./subjects/neural-network.md), [Decision Tree](./subjects/decision-tree.md) | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 | **[Machine learning assisted exploration for affine Deligne-Lusztig varieties](https://doi.org/10.1007/s42543-024-00086-8)** | [Number Theory](./subjects/number-theory.md), [Representation Theory](./subjects/representation-theory.md) | Peking Math J 2024 | [Code](https://github.com/Jinpf314/ML4ADLV/) |
 | **[Machine learning BPS spectra and the gap conjecture](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.046016)** | [Mathematical Physics](./subjects/mathematical-physics.md), [PCA](./subjects/pca.md) | Physical Review D 2024 |  |
@@ -91,8 +93,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | Differential Equations, Symbolic Computation, Transformer | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
-| **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | Linear Algebra, Symbolic Computation, Transformer | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
 
 
 <!-- Table end -->
