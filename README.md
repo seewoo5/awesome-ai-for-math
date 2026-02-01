@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 77 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 78 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -46,6 +46,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Hilbert series, machine learning, and applications to physics](https://www.sciencedirect.com/science/article/pii/S0370269322001009)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | Physics Letters B 2024 | [Code](https://github.com/edhirst/HilbertSeriesML) |
 | **[Int2Int: a framework for mathematics with transformers](https://arxiv.org/abs/2502.17513)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/f-charton/Int2Int) |
 | **[Interpretable Machine Learning for Kronecker Coefficients](https://arxiv.org/abs/2502.11774)** | [Representation Theory](./subjects/representation-theory.md), [Neural Network](./subjects/neural-network.md), [Symbolic Regression](./subjects/symbolic-regression.md), [PCA](./subjects/pca.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
+| **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 |  |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](./subjects/number-theory.md), [LDA](./subjects/lda.md) | arXiv 2025 |  |
@@ -90,6 +91,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | Number Theory, LLM | arXiv 2026 | |
 
 <!-- Table end -->
