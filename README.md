@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 80 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 82 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -34,6 +34,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Analysis](./subjects/analysis.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
+| **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) |
 | **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [Discrete Geometry](./subjects/discrete-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
@@ -87,14 +88,13 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof](https://arxiv.org/abs/2601.07421)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 |  |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
+| **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | [Statistics](./subjects/statistics.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](./subjects/algebra.md), [LLM](./subjects/llm.md), [CNN](./subjects/cnn.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) [Site](https://teorth.github.io/equational_theories/) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
-| **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 
 
 <!-- Table end -->
