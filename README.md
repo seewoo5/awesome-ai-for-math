@@ -95,6 +95,13 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-
+| **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://arxiv.org/abs/2406.12667)** | [Graph Theory](subjects/graph-theory.md), [RL](subjects/rl.md) | arXiv 2024 | [Code](https://github.com/CuriosAI/graph_conjectures) |
+| **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | [Graph Theory](subjects/graph-theory.md), [Optimization Theory](subjects/optimization-theory.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
+| **[Artificial intelligence and machine learning generated conjectures with TxGraffiti](https://arxiv.org/abs/2407.02731)** | [Graph Theory](subjects/graph-theory.md), [Combinatorics](subjects/combinatorics.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/TxGraffiti2) |
+| **[Learning Formal Mathematics From Intrinsic Motivation](https://arxiv.org/abs/2407.00695)** | [ATP](subjects/atp.md), [LLM](subjects/llm.md) | arXiv 2024 | [Code](https://github.com/gpoesia/minimo) |
+| **[In between myth and reality: AI for math -- a case study in category theory](https://arxiv.org/abs/2504.13360)** | [Survey](subjects/survey.md), [LLM](subjects/llm.md) | arXiv 2025 | |
+| **[Learning knot invariants across dimensions](https://arxiv.org/abs/2112.00016)** | [Knot Theory](subjects/knot-theory.md), [Neural Network](subjects/neural-network.md) | SciPost Physics 2023 | [Code](https://github.com/JessRachel97/Knots_across_dims) |
+| **[Illuminating new and known relations between knot invariants](https://arxiv.org/abs/2211.01404)** | [Knot Theory](subjects/knot-theory.md), [Neural Network](subjects/neural-network.md) | arXiv 2022 | [Code](https://github.com/JessRachel97/Knot_searcher_experiments) |
+| **[Learning Topological Invariance](https://arxiv.org/abs/2504.12390)** | [Knot Theory](subjects/knot-theory.md), [Neural Network](subjects/neural-network.md), [Transformer](subjects/transformer.md) | arXiv 2025 | |
 
 <!-- Table end -->
