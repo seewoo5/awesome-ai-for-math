@@ -108,5 +108,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | [Graph Theory](./subjects/graph-theory.md), [Optimization Theory](./subjects/optimization-theory.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |  |
+| **[Learning Fast Monomial Orders for Gröbner Basis Computations](https://arxiv.org/abs/2602.02972)** | [Algebraic Geometry](subjects/algebraic-geometry.md), [Symbolic Computation](subjects/symbolic-computation.md), [RL](subjects/rl.md) | arXiv 2026 | [Code](https://github.com/codesubmission2026/code-submission) |
 
 <!-- Table end -->
