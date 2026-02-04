@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 95 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 96 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -57,6 +57,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 |  |
 | **[Learning Euler factors of elliptic curves](https://arxiv.org/abs/2502.10357)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
+| **[Learning Fast Monomial Orders for Gröbner Basis Computations](https://arxiv.org/abs/2602.02972)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Symbolic Computation](./subjects/symbolic-computation.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/codesubmission2026/code-submission) |
 | **[Learning Formal Mathematics From Intrinsic Motivation](https://arxiv.org/abs/2407.00695)** | [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2024 | [Code](https://github.com/gpoesia/minimo) |
 | **[Learning Fricke signs from Maass form Coefficients](https://arxiv.org/abs/2501.02105)** | [Number Theory](./subjects/number-theory.md), [LDA](./subjects/lda.md) | arXiv 2025 |  |
 | **[Learning knot invariants across dimensions](https://arxiv.org/abs/2112.00016)** | [Knot Theory](./subjects/knot-theory.md), [Neural Network](./subjects/neural-network.md) | SciPost Physics 2023 | [Code](https://github.com/JessRachel97/Knots_across_dims) |
@@ -108,6 +109,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | [Graph Theory](./subjects/graph-theory.md), [Optimization Theory](./subjects/optimization-theory.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |  |
-| **[Learning Fast Monomial Orders for Gröbner Basis Computations](https://arxiv.org/abs/2602.02972)** | [Algebraic Geometry](subjects/algebraic-geometry.md), [Symbolic Computation](subjects/symbolic-computation.md), [RL](subjects/rl.md) | arXiv 2026 | [Code](https://github.com/codesubmission2026/code-submission) |
 
 <!-- Table end -->
