@@ -3,8 +3,28 @@ Generate a bar chart showing the number of papers by year.
 Reads the README.md table and creates a PNG image.
 """
 import re
+import shutil
 from collections import defaultdict
+from pathlib import Path
+import matplotlib
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+
+# Install Humor Sans into matplotlib's font directory if available on the system
+_humor_sans_sources = [
+    Path.home() / 'Library' / 'Fonts' / 'HumorSans.ttf',  # macOS
+    Path.home() / '.local' / 'share' / 'fonts' / 'HumorSans.ttf',  # Linux
+]
+_mpl_ttf_dir = Path(matplotlib.get_data_path()) / 'fonts' / 'ttf'
+for src in _humor_sans_sources:
+    if src.exists():
+        dst = _mpl_ttf_dir / 'HumorSans.ttf'
+        if not dst.exists():
+            shutil.copy2(src, dst)
+        break
+
+# Rebuild font cache so the newly copied font is discovered
+fm._load_fontmanager(try_read_cache=False)
 
 README_PATH = 'README.md'
 TABLE_START_MARKER = '<!-- Table start -->'
@@ -63,6 +83,10 @@ def generate_bar_chart(year_counts, open_source_counts, output_path):
     os_counts = [open_source_counts.get(y, 0) for y in years]
 
     with plt.xkcd():
+        # Override font.family inside the xkcd context so Humor Sans is found
+        matplotlib.rcParams['font.family'] = [
+            'Humor Sans', 'xkcd', 'xkcd Script', 'Comic Neue', 'Comic Sans MS',
+        ]
         plt.figure(figsize=(10, 5))
         # Draw total papers bar (blue)
         bars = plt.bar(years, counts, color='#4285f4', edgecolor='white', linewidth=0.7, label='Total')

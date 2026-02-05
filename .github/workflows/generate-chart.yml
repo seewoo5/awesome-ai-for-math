@@ -31,6 +31,13 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install Humor Sans font (for xkcd-style plots)
+        run: |
+          mkdir -p ~/.local/share/fonts
+          curl -fsSL -o ~/.local/share/fonts/HumorSans.ttf \
+            https://raw.githubusercontent.com/shreyankg/xkcd-desktop/master/Humor-Sans.ttf
+          fc-cache -fv
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
