@@ -8,10 +8,10 @@ layout: default
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
-| **[Almost all primes are partially regular](https://arxiv.org/abs/2602.05090)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/partial-regularity) |
+| **[Almost all primes are partially regular](https://arxiv.org/abs/2602.05090)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/partial-regularity) |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | [Number Theory](number-theory.md) | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
-| **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
+| **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](number-theory.md), [Representation Theory](representation-theory.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://arxiv.org/abs/2602.03716)** | [Combinatorics](combinatorics.md), [Algebra](algebra.md), [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](combinatorics.md), [Number Theory](number-theory.md), [LLM](llm.md), [ATP](atp.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
