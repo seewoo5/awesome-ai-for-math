@@ -36,3 +36,4 @@ layout: default
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | [Computational Complexity](computational-complexity.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](algebra.md), [LLM](llm.md), [CNN](cnn.md), [ATP](atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
+| **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
