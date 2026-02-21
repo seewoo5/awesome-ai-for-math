@@ -47,9 +47,12 @@ jobs:
       - name: Generate subject pages and update links
         run: python .github/scripts/generate_subject_pages.py
 
+      - name: Generate papers JSON for interactive table
+        run: python .github/scripts/generate_papers_json.py
+
       - name: Commit and push changes
         run: |
-          git add README.md subjects
+          git add README.md subjects assets/papers.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-sort table and generate subject pages"
             git pull --rebase origin main

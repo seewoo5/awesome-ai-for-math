@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>awesome-ai-for-math</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #24292f;
+    --border: #d0d7de;
+    --accent: #0969da;
+    --tag-bg: #ddf4ff;
+    --tag-fg: #0969da;
+    --hover: #f6f8fa;
+    --header-bg: #f6f8fa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--fg);
+    background: var(--bg);
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  .header { margin-bottom: 1.5rem; }
+  .header h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+  .header p { color: #57606a; margin-bottom: 0.5rem; }
+  .header-links { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; }
+  .chart-img { max-width: 100%; height: auto; margin-bottom: 1rem; border-radius: 6px; }
+
+  /* Controls */
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+    margin-bottom: 1rem; padding: 0.75rem; background: var(--header-bg);
+    border: 1px solid var(--border); border-radius: 6px;
+  }
+  .controls select, .controls input {
+    padding: 0.4rem 0.6rem; border: 1px solid var(--border); border-radius: 6px;
+    font-size: 0.875rem; background: var(--bg);
+  }
+  .controls input { flex: 1; min-width: 180px; }
+  .controls button {
+    padding: 0.4rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--bg); cursor: pointer; font-size: 0.875rem;
+  }
+  .controls button:hover { background: var(--hover); }
+  .count { font-size: 0.875rem; color: #57606a; margin-left: auto; white-space: nowrap; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+  th, td { padding: 0.5rem 0.75rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th {
+    background: var(--header-bg); font-weight: 600; position: sticky; top: 0;
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  th:hover { background: #eaeef2; }
+  th .sort-arrow { font-size: 0.7rem; margin-left: 0.25rem; opacity: 0.4; }
+  th.sorted .sort-arrow { opacity: 1; }
+  tr:hover td { background: var(--hover); }
+
+  /* Tags */
+  .tag {
+    display: inline-block; padding: 0.1rem 0.45rem; margin: 0.1rem;
+    background: var(--tag-bg); color: var(--tag-fg); border-radius: 1rem;
+    font-size: 0.75rem; cursor: pointer; white-space: nowrap;
+  }
+  .tag:hover { background: #b6e3ff; text-decoration: none; }
+
+  /* Links */
+  .resource-link {
+    display: inline-block; margin-right: 0.4rem; font-size: 0.8rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    body { padding: 1rem 0.5rem; }
+    .controls { flex-direction: column; }
+    .controls input { min-width: 100%; }
+    .count { margin-left: 0; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.35rem 0.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>awesome-ai-for-math</h1>
+  <p id="description"></p>
+  <div class="header-links">
+    <a href="https://github.com/seewoo5/awesome-ai-for-math">GitHub Repository</a>
+    <a href="https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md">Contributing</a>
+  </div>
+  <img class="chart-img" src="assets/papers_by_year.png" alt="Papers by Year">
+</div>
+
+<div class="controls">
+  <select id="subject-filter"><option value="">All Subjects</option></select>
+  <select id="year-filter"><option value="">All Years</option></select>
+  <input id="search-box" type="text" placeholder="Search title, subject, or venue...">
+  <button id="clear-btn">Clear</button>
+  <span class="count" id="count-display">Loading...</span>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th data-col="title">Title <span class="sort-arrow">&#9650;</span></th>
+      <th data-col="subjects">Subject(s)</th>
+      <th data-col="venue">Venue <span class="sort-arrow">&#9650;</span></th>
+      <th data-col="year">Year <span class="sort-arrow">&#9650;</span></th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody id="table-body"></tbody>
+</table>
+
+<script>
+(function () {
+  var papers = [];
+  var subjects = [];
+  var years = [];
+  var sortCol = "title";
+  var sortAsc = true;
+
+  var subjectFilter = document.getElementById("subject-filter");
+  var yearFilter = document.getElementById("year-filter");
+  var searchBox = document.getElementById("search-box");
+  var clearBtn = document.getElementById("clear-btn");
+  var countDisplay = document.getElementById("count-display");
+  var tableBody = document.getElementById("table-body");
+
+  function escapeHtml(str) {
+    var div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function populateFilters() {
+    subjects.forEach(function (s) {
+      var opt = document.createElement("option");
+      opt.value = s;
+      opt.textContent = s;
+      subjectFilter.appendChild(opt);
+    });
+    years.forEach(function (y) {
+      var opt = document.createElement("option");
+      opt.value = y;
+      opt.textContent = y;
+      yearFilter.appendChild(opt);
+    });
+  }
+
+  function filterAndRender() {
+    var subj = subjectFilter.value;
+    var yr = yearFilter.value;
+    var q = searchBox.value.toLowerCase();
+
+    var filtered = papers.filter(function (p) {
+      if (subj && p.subjects.indexOf(subj) === -1) return false;
+      if (yr && String(p.year) !== yr) return false;
+      if (q) {
+        var haystack = (p.title + " " + p.subjects.join(" ") + " " + p.venue).toLowerCase();
+        if (haystack.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    filtered.sort(function (a, b) {
+      var va, vb;
+      if (sortCol === "title") { va = a.title.toLowerCase(); vb = b.title.toLowerCase(); }
+      else if (sortCol === "venue") { va = a.venue.toLowerCase(); vb = b.venue.toLowerCase(); }
+      else if (sortCol === "year") { va = a.year; vb = b.year; }
+      else { va = ""; vb = ""; }
+      if (va < vb) return sortAsc ? -1 : 1;
+      if (va > vb) return sortAsc ? 1 : -1;
+      return 0;
+    });
+
+    renderTable(filtered);
+    countDisplay.textContent = "Showing " + filtered.length + " of " + papers.length + " papers";
+  }
+
+  function renderTable(list) {
+    var html = "";
+    list.forEach(function (p) {
+      var tags = p.subjects.map(function (s) {
+        return '<span class="tag" data-subject="' + escapeHtml(s) + '">' + escapeHtml(s) + "</span>";
+      }).join(" ");
+
+      var links = p.links.map(function (l) {
+        return '<a class="resource-link" href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener">' + escapeHtml(l.label) + "</a>";
+      }).join(" ");
+
+      html += "<tr>"
+        + "<td><a href=\"" + escapeHtml(p.url) + "\" target=\"_blank\" rel=\"noopener\">" + escapeHtml(p.title) + "</a></td>"
+        + "<td>" + tags + "</td>"
+        + "<td>" + escapeHtml(p.venue) + "</td>"
+        + "<td>" + p.year + "</td>"
+        + "<td>" + links + "</td>"
+        + "</tr>";
+    });
+    tableBody.innerHTML = html;
+  }
+
+  function updateSortArrows() {
+    var ths = document.querySelectorAll("th[data-col]");
+    for (var i = 0; i < ths.length; i++) {
+      var th = ths[i];
+      var arrow = th.querySelector(".sort-arrow");
+      if (!arrow) continue;
+      if (th.getAttribute("data-col") === sortCol) {
+        th.classList.add("sorted");
+        arrow.innerHTML = sortAsc ? "&#9650;" : "&#9660;";
+      } else {
+        th.classList.remove("sorted");
+        arrow.innerHTML = "&#9650;";
+      }
+    }
+  }
+
+  // Event listeners
+  subjectFilter.addEventListener("change", filterAndRender);
+  yearFilter.addEventListener("change", filterAndRender);
+  searchBox.addEventListener("input", filterAndRender);
+  clearBtn.addEventListener("click", function () {
+    subjectFilter.value = "";
+    yearFilter.value = "";
+    searchBox.value = "";
+    sortCol = "title";
+    sortAsc = true;
+    updateSortArrows();
+    filterAndRender();
+  });
+
+  document.querySelectorAll("th[data-col]").forEach(function (th) {
+    th.addEventListener("click", function () {
+      var col = th.getAttribute("data-col");
+      if (sortCol === col) {
+        sortAsc = !sortAsc;
+      } else {
+        sortCol = col;
+        sortAsc = true;
+      }
+      updateSortArrows();
+      filterAndRender();
+    });
+  });
+
+  // Clickable tags — delegate from table body
+  tableBody.addEventListener("click", function (e) {
+    if (e.target.classList.contains("tag")) {
+      e.preventDefault();
+      subjectFilter.value = e.target.getAttribute("data-subject");
+      filterAndRender();
+    }
+  });
+
+  // Load data
+  fetch("assets/papers.json")
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      papers = data.papers;
+      subjects = data.subjects;
+      years = data.years;
+      document.getElementById("description").textContent =
+        "A curated list of " + papers.length + " awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.";
+      populateFilters();
+      updateSortArrows();
+      filterAndRender();
+    })
+    .catch(function (err) {
+      countDisplay.textContent = "Error loading data";
+      console.error(err);
+    });
+})();
+</script>
+
+</body>
+</html>

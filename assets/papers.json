@@ -1,0 +1,1766 @@
+{
+  "papers": [
+    {
+      "title": "A Machine Learning Approach That Beats Large Rubik's Cubes",
+      "url": "https://arxiv.org/abs/2502.13266",
+      "subjects": [
+        "Graph Theory",
+        "Group Theory",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/cayleypy/cayleypy"
+        }
+      ]
+    },
+    {
+      "title": "A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2406.12667",
+      "subjects": [
+        "Graph Theory",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/CuriosAI/graph_conjectures"
+        }
+      ]
+    },
+    {
+      "title": "Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem",
+      "url": "https://arxiv.org/abs/2510.26647",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Advancing mathematics by guiding human intuition with AI",
+      "url": "https://www.nature.com/articles/s41586-021-04086-x",
+      "subjects": [
+        "Knot Theory",
+        "Representation Theory"
+      ],
+      "venue": "Nature",
+      "year": 2021,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/mathematics_conjectures"
+        }
+      ]
+    },
+    {
+      "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory",
+      "url": "https://arxiv.org/abs/2510.26380",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "AI Mathematician: Towards Fully Automated Frontier Mathematical Research",
+      "url": "https://arxiv.org/abs/2505.22451",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "AI-driven research in pure mathematics and theoretical physics",
+      "url": "https://www.nature.com/articles/s42254-024-00740-1",
+      "subjects": [
+        "Survey"
+      ],
+      "venue": "Nature Reviews Physics",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2504.05108",
+      "subjects": [
+        "Combinatorics",
+        "LLM",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/CLAIRE-Labo/EvoTune"
+        }
+      ]
+    },
+    {
+      "title": "Algorithm-assisted discovery of an intrinsic order among mathematical constants",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2321440121",
+      "subjects": [
+        "Number Theory"
+      ],
+      "venue": "PNAS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RamanujanMachine/"
+        }
+      ]
+    },
+    {
+      "title": "Almost all primes are partially regular",
+      "url": "https://arxiv.org/abs/2602.05090",
+      "subjects": [
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/partial-regularity"
+        }
+      ]
+    },
+    {
+      "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "url": "https://arxiv.org/abs/2506.13131",
+      "subjects": [
+        "Matrix Multiplication",
+        "Analysis",
+        "Combinatorics",
+        "Discrete Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Unofficial Code",
+          "url": "https://github.com/codelion/openevolve"
+        }
+      ]
+    },
+    {
+      "title": "AlphaTensor: Discovering faster matrix multiplication algorithms",
+      "url": "https://www.nature.com/articles/s41586-022-05172-4",
+      "subjects": [
+        "Matrix Multiplication",
+        "RL"
+      ],
+      "venue": "Nature",
+      "year": 2022,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/alphatensor"
+        },
+        {
+          "label": "Blog",
+          "url": "https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/"
+        }
+      ]
+    },
+    {
+      "title": "An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger",
+      "url": "https://arxiv.org/abs/2509.13231",
+      "subjects": [
+        "Representation Theory",
+        "Neural Network"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/ThomasLanard/aubert-zelevinsky-duality"
+        }
+      ]
+    },
+    {
+      "title": "An ML approach to resolution of singularities",
+      "url": "https://proceedings.mlr.press/v221/berczi23a",
+      "subjects": [
+        "Algebraic Geometry",
+        "RL"
+      ],
+      "venue": "TAG-ML",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/honglu2875/hironaka"
+        }
+      ]
+    },
+    {
+      "title": "Arithmetic volumes of moduli stacks of Shtukas",
+      "url": "https://arxiv.org/abs/2601.18557",
+      "subjects": [
+        "Number Theory",
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "Artificial intelligence and machine learning generated conjectures with TxGraffiti",
+      "url": "https://arxiv.org/abs/2407.02731",
+      "subjects": [
+        "Graph Theory",
+        "Combinatorics"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RandyRDavila/TxGraffiti2"
+        }
+      ]
+    },
+    {
+      "title": "Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences",
+      "url": "https://proceedings.mlr.press/v202/razon23a.html",
+      "subjects": [
+        "Number Theory"
+      ],
+      "venue": "ICML",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RamanujanMachine/"
+        }
+      ]
+    },
+    {
+      "title": "Can Transformers Do Enumerative Geometry?",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf",
+      "subjects": [
+        "Algebraic Geometry",
+        "Interpretability",
+        "Transformer"
+      ],
+      "venue": "ICLR",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Baran-phys/DynamicFormer"
+        }
+      ]
+    },
+    {
+      "title": "CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs",
+      "url": "https://arxiv.org/abs/2502.18663",
+      "subjects": [
+        "Graph Theory",
+        "Group Theory",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/cayleypy/cayleypy"
+        }
+      ]
+    },
+    {
+      "title": "Constructions in combinatorics via neural networks",
+      "url": "https://arxiv.org/abs/2104.14516",
+      "subjects": [
+        "Graph Theory",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2021,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/zawagner22/cross-entropy-for-combinatorics"
+        }
+      ]
+    },
+    {
+      "title": "Counterexample to majority optimality in NICD with erasures",
+      "url": "https://arxiv.org/abs/2510.20013",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Data-scientific study of Kronecker coefficients",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576",
+      "subjects": [
+        "Representation Theory",
+        "PCA"
+      ],
+      "venue": "Experimental Mathematics",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "Dead ends in square-free digit walks",
+      "url": "https://arxiv.org/abs/2602.05095",
+      "subjects": [
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/dead-ends"
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning for Symbolic Mathematics",
+      "url": "https://openreview.net/forum?id=S1eZYeHFDS",
+      "subjects": [
+        "Differential Equations",
+        "Symbolic Computation",
+        "Transformer"
+      ],
+      "venue": "ICLR",
+      "year": 2020,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/facebookresearch/SymbolicMathematics"
+        }
+      ]
+    },
+    {
+      "title": "Discovery of Unstable Singularities",
+      "url": "https://arxiv.org/abs/2509.14185",
+      "subjects": [
+        "Differential Equations",
+        "PINN"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Early science acceleration experiments with GPT-5",
+      "url": "https://arxiv.org/abs/2511.16072",
+      "subjects": [
+        "Combinatorics",
+        "Optimization Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Eigenweights for arithmetic Hirzebruch Proportionality",
+      "url": "https://arxiv.org/abs/2601.23245",
+      "subjects": [
+        "Number Theory",
+        "Representation Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery",
+      "url": "https://arxiv.org/abs/2601.01400",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Even with AI, Bijection Discovery is Still Hard: The Opportunities and Challenges of OpenEvolve for Novel Bijection Construction",
+      "url": "https://arxiv.org/abs/2511.20987",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic",
+      "url": "https://arxiv.org/abs/2602.06553",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI",
+      "url": "https://arxiv.org/abs/2512.14575",
+      "subjects": [
+        "Algebraic Geometry",
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/schmittj/balanced-vectors-blueprint"
+        }
+      ]
+    },
+    {
+      "title": "Fel's Conjecture on Syzygies of Numerical Semigroups",
+      "url": "https://arxiv.org/abs/2602.03716",
+      "subjects": [
+        "Combinatorics",
+        "Algebra",
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/fel-polynomial"
+        }
+      ]
+    },
+    {
+      "title": "FIMO: A Challenge Formal Dataset for Automated Theorem Proving",
+      "url": "https://arxiv.org/abs/2309.04295",
+      "subjects": [
+        "Benchmark",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "First Proof",
+      "url": "https://arxiv.org/abs/2602.05192",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://1stproof.org/"
+        }
+      ]
+    },
+    {
+      "title": "Flow-based Extremal Mathematical Structure Discovery",
+      "url": "https://www.arxiv.org/abs/2601.18005",
+      "subjects": [
+        "Combinatorics",
+        "Transformer",
+        "Discrete Geometry",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/berczig/FlowBoost"
+        }
+      ]
+    },
+    {
+      "title": "Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof",
+      "url": "https://arxiv.org/abs/2510.19804",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://borisalexeev.com/papers/Erdos707.lean"
+        }
+      ]
+    },
+    {
+      "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models",
+      "url": "https://arxiv.org/abs/2505.02735",
+      "subjects": [
+        "Benchmark",
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://spherelab.ai/FormalMATH/"
+        }
+      ]
+    },
+    {
+      "title": "From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm",
+      "url": "https://www.arxiv.org/abs/2511.12421",
+      "subjects": [
+        "Combinatorics",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "From Euler to AI: Unifying Formulas for Mathematical Constants",
+      "url": "https://arxiv.org/abs/2502.17533",
+      "subjects": [
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RamanujanMachine/euler2ai"
+        }
+      ]
+    },
+    {
+      "title": "FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI",
+      "url": "https://arxiv.org/abs/2411.04872",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://epoch.ai/frontiermath"
+        }
+      ]
+    },
+    {
+      "title": "GAUSS: Benchmarking Structured Mathematical Skills for Large Language Models",
+      "url": "https://arxiv.org/abs/2509.18122",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://gaussmath.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generating conjectures on fundamental constants with the Ramanujan Machine",
+      "url": "https://www.nature.com/articles/s41586-021-03229-4",
+      "subjects": [
+        "Number Theory"
+      ],
+      "venue": "Nature",
+      "year": 2021,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RamanujanMachine/"
+        }
+      ]
+    },
+    {
+      "title": "Generative AI for brane configurations and coamoeba",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013",
+      "subjects": [
+        "Mathematical Physics",
+        "VAE"
+      ],
+      "venue": "Physical Review D",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Geometric Generality of Transformer-Based Gröbner Basis Computation",
+      "url": "https://arxiv.org/abs/2504.12465",
+      "subjects": [
+        "Algebraic Geometry",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf",
+      "subjects": [
+        "Differential Equations",
+        "Transformer"
+      ],
+      "venue": "NeurIPS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/facebookresearch/Lyapunov"
+        }
+      ]
+    },
+    {
+      "title": "Gödel Test: Can Large Language Models Solve Easy Conjectures?",
+      "url": "https://arxiv.org/abs/2509.18383",
+      "subjects": [
+        "Discrete Mathematics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics",
+      "url": "https://arxiv.org/abs/2410.09988",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/sarahmart/HARDMath"
+        }
+      ]
+    },
+    {
+      "title": "Hilbert series, machine learning, and applications to physics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269322001009",
+      "subjects": [
+        "Algebraic Geometry",
+        "Mathematical Physics",
+        "Neural Network"
+      ],
+      "venue": "Physics Letters B",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/edhirst/HilbertSeriesML"
+        }
+      ]
+    },
+    {
+      "title": "Humanity's Last Exam",
+      "url": "https://arxiv.org/abs/2501.14249",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://lastexam.ai"
+        }
+      ]
+    },
+    {
+      "title": "Illuminating new and known relations between knot invariants",
+      "url": "https://arxiv.org/abs/2211.01404",
+      "subjects": [
+        "Knot Theory",
+        "Neural Network"
+      ],
+      "venue": "arXiv",
+      "year": 2022,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/JessRachel97/Knot_searcher_experiments"
+        }
+      ]
+    },
+    {
+      "title": "IMProofBench: Benchmarking AI on Research-Level Mathematical Proof Generation",
+      "url": "https://arxiv.org/abs/2509.26076",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://improofbench.math.ethz.ch/"
+        }
+      ]
+    },
+    {
+      "title": "In between myth and reality: AI for math -- a case study in category theory",
+      "url": "https://arxiv.org/abs/2504.13360",
+      "subjects": [
+        "Survey",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Int2Int: a framework for mathematics with transformers",
+      "url": "https://arxiv.org/abs/2502.17513",
+      "subjects": [
+        "Number Theory",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/f-charton/Int2Int"
+        }
+      ]
+    },
+    {
+      "title": "Interpretable Machine Learning for Kronecker Coefficients",
+      "url": "https://arxiv.org/abs/2502.11774",
+      "subjects": [
+        "Representation Theory",
+        "Neural Network",
+        "Symbolic Computation",
+        "PCA",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Irrationality of rapidly converging series: a problem of Erdős and Graham",
+      "url": "https://arxiv.org/abs/2601.21442",
+      "subjects": [
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "Lattice-Valued Bottleneck Duality",
+      "url": "https://arxiv.org/abs/2410.00315",
+      "subjects": [
+        "Combinatorics"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": []
+    },
+    {
+      "title": "Learning Euler factors of elliptic curves",
+      "url": "https://arxiv.org/abs/2502.10357",
+      "subjects": [
+        "Number Theory",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Learning Fast Monomial Orders for Gröbner Basis Computations",
+      "url": "https://arxiv.org/abs/2602.02972",
+      "subjects": [
+        "Algebraic Geometry",
+        "Symbolic Computation",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/codesubmission2026/code-submission"
+        }
+      ]
+    },
+    {
+      "title": "Learning Formal Mathematics From Intrinsic Motivation",
+      "url": "https://arxiv.org/abs/2407.00695",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/gpoesia/minimo"
+        }
+      ]
+    },
+    {
+      "title": "Learning Fricke signs from Maass form Coefficients",
+      "url": "https://arxiv.org/abs/2501.02105",
+      "subjects": [
+        "Number Theory",
+        "LDA"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Learning knot invariants across dimensions",
+      "url": "https://arxiv.org/abs/2112.00016",
+      "subjects": [
+        "Knot Theory",
+        "Neural Network"
+      ],
+      "venue": "SciPost Physics",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/JessRachel97/Knots_across_dims"
+        }
+      ]
+    },
+    {
+      "title": "Learning the Inverse Ryu--Takayanagi Formula with Transformers",
+      "url": "https://arxiv.org/abs/2511.06387",
+      "subjects": [
+        "Mathematical Physics",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/power817/HEE_3D"
+        }
+      ]
+    },
+    {
+      "title": "Learning to compute Gröbner Basis",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3a1de90699eec7d7f42c91d81f94af16-Abstract-Conference.html",
+      "subjects": [
+        "Algebraic Geometry",
+        "Transformer"
+      ],
+      "venue": "NeurIPS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/HiroshiKERA/transformer-groebner"
+        }
+      ]
+    },
+    {
+      "title": "Learning Topological Invariance",
+      "url": "https://arxiv.org/abs/2504.12390",
+      "subjects": [
+        "Knot Theory",
+        "Neural Network",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Linear algebra with transformers",
+      "url": "https://openreview.net/forum?id=Hp4g7FAXXG",
+      "subjects": [
+        "Linear Algebra",
+        "Symbolic Computation",
+        "Transformer"
+      ],
+      "venue": "TMLR",
+      "year": 2022,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/facebookresearch/LAWT"
+        }
+      ]
+    },
+    {
+      "title": "Lower bounds for multivariate independence polynomials and their generalisations",
+      "url": "https://www.arxiv.org/abs/2602.02450",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015",
+      "subjects": [
+        "Number Theory",
+        "Neural Network",
+        "Decision Tree"
+      ],
+      "venue": "IJDSMS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/barinderbanwait/ml_rnt"
+        }
+      ]
+    },
+    {
+      "title": "Machine learning assisted exploration for affine Deligne-Lusztig varieties",
+      "url": "https://doi.org/10.1007/s42543-024-00086-8",
+      "subjects": [
+        "Number Theory",
+        "Representation Theory"
+      ],
+      "venue": "Peking Math J",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Jinpf314/ML4ADLV/"
+        }
+      ]
+    },
+    {
+      "title": "Machine learning BPS spectra and the gap conjecture",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.046016",
+      "subjects": [
+        "Mathematical Physics",
+        "PCA"
+      ],
+      "venue": "Physical Review D",
+      "year": 2024,
+      "links": []
+    },
+    {
+      "title": "Machine learning Calabi-Yau hypersurfaces",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.066002",
+      "subjects": [
+        "Mathematical Physics"
+      ],
+      "venue": "Physical Review D",
+      "year": 2022,
+      "links": []
+    },
+    {
+      "title": "Machine learning class numbers of real quadratic fields",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S2810939223500016",
+      "subjects": [
+        "Number Theory",
+        "Interpretability"
+      ],
+      "venue": "IJDSMS",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "Machine learning detects terminal singularities",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/d453490ada2b1991852f053fbd213a6a-Abstract-Conference.html",
+      "subjects": [
+        "Algebraic Geometry"
+      ],
+      "venue": "NeurIPS",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://bitbucket.org/fanosearch/ml_terminality"
+        },
+        {
+          "label": "Talk",
+          "url": "https://youtu.be/woCQH-Qmlfo?si=od_rdJs44xM4Jxt3"
+        }
+      ]
+    },
+    {
+      "title": "Machine learning for complete intersection Calabi-Yau manifolds: a methodological study",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.126014",
+      "subjects": [
+        "Mathematical Physics"
+      ],
+      "venue": "Physical Review D",
+      "year": 2021,
+      "links": []
+    },
+    {
+      "title": "Machine learning for modular multiplication",
+      "url": "https://arxiv.org/abs/2402.19254",
+      "subjects": [
+        "Number Theory",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/meghabyte/mod-math/"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning in the String Landscape",
+      "url": "https://link.springer.com/article/10.1007/JHEP09(2017)157",
+      "subjects": [
+        "Mathematical Physics"
+      ],
+      "venue": "JHEP",
+      "year": 2017,
+      "links": []
+    },
+    {
+      "title": "Machine learning invariants of arithmetic curves",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717122000839",
+      "subjects": [
+        "Number Theory",
+        "Logistic Regression",
+        "Random Forest"
+      ],
+      "venue": "Journal of Symbolic Computation",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "Machine Learning Kreuzer–Skarke Calabi–Yau Threefolds",
+      "url": "https://arxiv.org/abs/2112.09117",
+      "subjects": [
+        "Mathematical Physics",
+        "Algebraic Geometry",
+        "Neural Network"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Machine learning Kronecker coefficients",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S2810939224400094",
+      "subjects": [
+        "Representation Theory",
+        "CNN",
+        "Decision Tree"
+      ],
+      "venue": "IJDSMS",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "Machine learning line bundle cohomologies of hypersurfaces in toric varieties",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269319300085",
+      "subjects": [
+        "Algebraic Geometry"
+      ],
+      "venue": "Physics Letters B",
+      "year": 2019,
+      "links": []
+    },
+    {
+      "title": "Machine Learning Number Fields",
+      "url": "https://link.intlpress.com/JDetail/1806620813564551169",
+      "subjects": [
+        "Number Theory",
+        "Neural Network",
+        "Random Forest"
+      ],
+      "venue": "MCGD",
+      "year": 2022,
+      "links": []
+    },
+    {
+      "title": "Machine learning of Calabi-Yau volumes",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.066014",
+      "subjects": [
+        "Mathematical Physics",
+        "CNN",
+        "Linear Regression"
+      ],
+      "venue": "Physical Review D",
+      "year": 2017,
+      "links": []
+    },
+    {
+      "title": "Machine learning Sasakian G2 topology on contact Calabi-Yau 7-manifolds",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269324000753",
+      "subjects": [
+        "Mathematical Physics",
+        "Neural Network"
+      ],
+      "venue": "Physics Letters B",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/TomasSilva/MLcCY7"
+        }
+      ]
+    },
+    {
+      "title": "Machine learning the dimension of a Fano variety",
+      "url": "https://www.nature.com/articles/s41467-023-41157-1",
+      "subjects": [
+        "Algebraic Geometry"
+      ],
+      "venue": "Nature Communications",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://bitbucket.org/fanosearch/mldim/src/master/"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning the vanishing order of rational L-functions",
+      "url": "https://arxiv.org/abs/2502.10360",
+      "subjects": [
+        "Number Theory",
+        "LDA",
+        "Neural Network"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Machine-learning dessins d'enfants: explorations via modular and Seiberg–Witten curves",
+      "url": "https://iopscience.iop.org/article/10.1088/1751-8121/abbc4f/meta?casa_token=cZ63RVRdvnsAAAAA:xnYl-Q3AxTTiLmSVpagIJDplLlUaR5it-7OUQOgn4PFXZ_PzvWQAjkYqL3nAd4XuY1HznxsH7XN4D-ZEkrXNvRYBxc5a",
+      "subjects": [
+        "Algebraic Geometry",
+        "Mathematical Physics"
+      ],
+      "venue": "Journal of Physics A",
+      "year": 2021,
+      "links": []
+    },
+    {
+      "title": "Machine-learning Sato-Tate conjecture",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717121000729",
+      "subjects": [
+        "Number Theory"
+      ],
+      "venue": "Journal of Symbolic Computation",
+      "year": 2022,
+      "links": []
+    },
+    {
+      "title": "Machines Learn Number Fields, But How? The Case of Galois Groups",
+      "url": "https://arxiv.org/abs/2508.06670",
+      "subjects": [
+        "Number Theory",
+        "Logistic Regression",
+        "Decision Tree",
+        "Interpretability"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/seewoo5/ML-NF"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical Capabilities of ChatGPT",
+      "url": "https://arxiv.org/abs/2301.13867",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "NeurIPS",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/friederrr/GHOSTS"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical discoveries from program search with large language models",
+      "url": "https://www.nature.com/articles/s41586-023-06924-6",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "Nature",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/funsearch"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical discovery in the age of artificial intelligence",
+      "url": "https://www.nature.com/articles/s41567-025-03042-0",
+      "subjects": [
+        "Survey"
+      ],
+      "venue": "Nature Physics",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Mathematical exploration and discovery at scale",
+      "url": "https://arxiv.org/abs/2511.02864",
+      "subjects": [
+        "Combinatorics",
+        "Analysis",
+        "Number Theory",
+        "Discrete Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems"
+        }
+      ]
+    },
+    {
+      "title": "MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics",
+      "url": "https://arxiv.org/abs/2109.00110",
+      "subjects": [
+        "Benchmark",
+        "ATP"
+      ],
+      "venue": "ICLR",
+      "year": 2022,
+      "links": []
+    },
+    {
+      "title": "Murmurations of Elliptic Curves",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361",
+      "subjects": [
+        "Number Theory",
+        "PCA"
+      ],
+      "venue": "Experimental Mathematics",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Quanta",
+          "url": "https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/"
+        }
+      ]
+    },
+    {
+      "title": "Neural network approximations for Calabi-Yau metrics",
+      "url": "https://link.springer.com/article/10.1007/JHEP08(2022)105",
+      "subjects": [
+        "Mathematical Physics",
+        "Neural Network"
+      ],
+      "venue": "JHEP",
+      "year": 2022,
+      "links": []
+    },
+    {
+      "title": "New Calabi–Yau manifolds from genetic algorithms",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269324000625",
+      "subjects": [
+        "Algebraic Geometry",
+        "Mathematical Physics",
+        "Genetic Algorithm"
+      ],
+      "venue": "Physics Letters B",
+      "year": 2024,
+      "links": []
+    },
+    {
+      "title": "Parity of k-differentials in genus zero and one",
+      "url": "https://arxiv.org/abs/2602.03722",
+      "subjects": [
+        "Algebraic Geometry",
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/parity-differential"
+        }
+      ]
+    },
+    {
+      "title": "PatternBoost: Constructions in Mathematics with a Little Help from AI",
+      "url": "https://arxiv.org/abs/2411.00566",
+      "subjects": [
+        "Discrete Geometry",
+        "Combinatorics",
+        "Transformer",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/zawagner22/transformers_math_experiments"
+        }
+      ]
+    },
+    {
+      "title": "Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof",
+      "url": "https://arxiv.org/abs/2510.23513",
+      "subjects": [
+        "Optimization Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Predicting root numbers with neural networks",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057",
+      "subjects": [
+        "Number Theory",
+        "RNN",
+        "CNN"
+      ],
+      "venue": "IJDSMS",
+      "year": 2024,
+      "links": []
+    },
+    {
+      "title": "Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad",
+      "url": "https://arxiv.org/abs/2503.21934",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics",
+      "url": "https://arxiv.org/abs/2302.12433",
+      "subjects": [
+        "Benchmark",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2023,
+      "links": []
+    },
+    {
+      "title": "Putnam-AXIOM: A Functional and Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2508.08292",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
+      "url": "https://arxiv.org/abs/2407.11214",
+      "subjects": [
+        "Benchmark",
+        "ATP"
+      ],
+      "venue": "NeurIPS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/trishullab/PutnamBench"
+        },
+        {
+          "label": "Website",
+          "url": "https://trishullab.github.io/PutnamBench/"
+        }
+      ]
+    },
+    {
+      "title": "Ranks of elliptic curves and deep neural networks",
+      "url": "https://link.springer.com/article/10.1007/s40993-023-00462-w",
+      "subjects": [
+        "Number Theory",
+        "CNN"
+      ],
+      "venue": "Research in Number Theory",
+      "year": 2023,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/domagojvlah/deepellrank"
+        }
+      ]
+    },
+    {
+      "title": "RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics",
+      "url": "https://arxiv.org/abs/2505.12575",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "NeurIPS",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Reinforced Generation of Combinatorial Structures: Hardness of Approximation",
+      "url": "https://arxiv.org/abs/2509.18057",
+      "subjects": [
+        "Computational Complexity",
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Reinforcement Learning the Chromatic Symmetric Function",
+      "url": "https://arxiv.org/abs/2410.19189",
+      "subjects": [
+        "Graph Theory",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/berczig/PositivityConjectures"
+        }
+      ]
+    },
+    {
+      "title": "Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof",
+      "url": "https://arxiv.org/abs/2601.07421",
+      "subjects": [
+        "Number Theory",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Rigor with Machine Learning from Field Theory to the Poincaré Conjecture",
+      "url": "https://www.nature.com/articles/s42254-024-00709-0",
+      "subjects": [
+        "Geometry",
+        "Mathematical Physics"
+      ],
+      "venue": "Nature Reviews Physics",
+      "year": 2024,
+      "links": []
+    },
+    {
+      "title": "Searching for ribbons with machine learning",
+      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta",
+      "subjects": [
+        "Geometry",
+        "Bayesian Optimization",
+        "RL",
+        "Neural Network"
+      ],
+      "venue": "Machine Learning Science and Technology",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/ruehlef/ribbon"
+        }
+      ]
+    },
+    {
+      "title": "Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems",
+      "url": "https://arxiv.org/abs/2601.22401",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "Solving a Research Problem in Mathematical Statistics with AI Assistance",
+      "url": "https://arxiv.org/abs/2511.18828",
+      "subjects": [
+        "Statistics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs",
+      "url": "https://arxiv.org/abs/2601.23229",
+      "subjects": [
+        "Computational Complexity",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
+    },
+    {
+      "title": "Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions",
+      "url": "https://arxiv.org/abs/2502.10335",
+      "subjects": [
+        "Number Theory",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/davidlowryduda/mobius_case_study"
+        }
+      ]
+    },
+    {
+      "title": "The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale",
+      "url": "https://arxiv.org/abs/2512.07087",
+      "subjects": [
+        "Algebra",
+        "LLM",
+        "CNN",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/teorth/equational_theories"
+        }
+      ]
+    },
+    {
+      "title": "The motivic class of the space of genus 0 maps to the flag variety",
+      "url": "https://arxiv.org/abs/2601.07222",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "The Optimist: Towards Fully Automated Graph Theory Research",
+      "url": "https://arxiv.org/abs/2411.09158",
+      "subjects": [
+        "Graph Theory",
+        "Optimization Theory"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RandyRDavila/The-Optimist"
+        }
+      ]
+    },
+    {
+      "title": "Towards Autonomous Mathematics Research",
+      "url": "https://arxiv.org/abs/2602.10177",
+      "subjects": [
+        "Survey",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Unsupervised Discovery of Formulas for Mathematical Constants",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html",
+      "subjects": [
+        "Number Theory"
+      ],
+      "venue": "NeurIPS",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/RamanujanMachine/Blind-Delta-Algorithm"
+        }
+      ]
+    },
+    {
+      "title": "What makes math problems hard for reinforcement learning: a case study",
+      "url": "https://arxiv.org/abs/2408.15332",
+      "subjects": [
+        "Group Theory",
+        "RL",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/shehper/AC-Solver"
+        }
+      ]
+    }
+  ],
+  "subjects": [
+    "ATP",
+    "Algebra",
+    "Algebraic Geometry",
+    "Analysis",
+    "Bayesian Optimization",
+    "Benchmark",
+    "CNN",
+    "Combinatorics",
+    "Computational Complexity",
+    "Decision Tree",
+    "Differential Equations",
+    "Discrete Geometry",
+    "Discrete Mathematics",
+    "Genetic Algorithm",
+    "Geometry",
+    "Graph Theory",
+    "Group Theory",
+    "Interpretability",
+    "Knot Theory",
+    "LDA",
+    "LLM",
+    "Linear Algebra",
+    "Linear Regression",
+    "Logistic Regression",
+    "Mathematical Physics",
+    "Matrix Multiplication",
+    "Neural Network",
+    "Number Theory",
+    "Optimization Theory",
+    "PCA",
+    "PINN",
+    "RL",
+    "RNN",
+    "Random Forest",
+    "Representation Theory",
+    "Statistics",
+    "Survey",
+    "Symbolic Computation",
+    "Transformer",
+    "VAE"
+  ],
+  "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2017
+  ]
+}
