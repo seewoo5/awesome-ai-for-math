@@ -19,17 +19,21 @@
     },
     {
       "title": "A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2406.12667",
+      "url": "https://doi.org/10.1007/978-3-031-78977-9_21",
       "subjects": [
         "Graph Theory",
         "RL"
       ],
-      "venue": "arXiv",
-      "year": 2024,
+      "venue": "Discovery Science",
+      "year": 2025,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/CuriosAI/graph_conjectures"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2406.12667"
         }
       ]
     },
@@ -639,14 +643,19 @@
     },
     {
       "title": "Geometric Generality of Transformer-Based Gröbner Basis Computation",
-      "url": "https://arxiv.org/abs/2504.12465",
+      "url": "https://doi.org/10.1090/conm/835/16758",
       "subjects": [
         "Algebraic Geometry",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "Artificial Intelligence and Mathematics Research",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2504.12465"
+        }
+      ]
     },
     {
       "title": "Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers",
@@ -710,33 +719,41 @@
     },
     {
       "title": "Humanity's Last Exam",
-      "url": "https://arxiv.org/abs/2501.14249",
+      "url": "https://doi.org/10.1038/s41586-025-09962-4",
       "subjects": [
         "Benchmark",
         "LLM"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Nature",
+      "year": 2026,
       "links": [
         {
           "label": "Website",
           "url": "https://lastexam.ai"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2501.14249"
         }
       ]
     },
     {
       "title": "Illuminating new and known relations between knot invariants",
-      "url": "https://arxiv.org/abs/2211.01404",
+      "url": "https://doi.org/10.1088/2632-2153/ad95d9",
       "subjects": [
         "Knot Theory",
         "Neural Network"
       ],
-      "venue": "arXiv",
-      "year": 2022,
+      "venue": "Machine Learning: Science and Technology",
+      "year": 2024,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/JessRachel97/Knot_searcher_experiments"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2211.01404"
         }
       ]
     },
@@ -853,17 +870,21 @@
     },
     {
       "title": "Learning Formal Mathematics From Intrinsic Motivation",
-      "url": "https://arxiv.org/abs/2407.00695",
+      "url": "https://doi.org/10.52202/079017-1362",
       "subjects": [
         "ATP",
         "LLM"
       ],
-      "venue": "arXiv",
+      "venue": "Advances in Neural Information Processing Systems",
       "year": 2024,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/gpoesia/minimo"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2407.00695"
         }
       ]
     },
@@ -880,7 +901,7 @@
     },
     {
       "title": "Learning knot invariants across dimensions",
-      "url": "https://arxiv.org/abs/2112.00016",
+      "url": "https://doi.org/10.21468/SciPostPhys.14.2.021",
       "subjects": [
         "Knot Theory",
         "Neural Network"
@@ -891,6 +912,10 @@
         {
           "label": "Code",
           "url": "https://github.com/JessRachel97/Knots_across_dims"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2112.00016"
         }
       ]
     },
@@ -1105,15 +1130,20 @@
     },
     {
       "title": "Machine Learning Kreuzer–Skarke Calabi–Yau Threefolds",
-      "url": "https://arxiv.org/abs/2112.09117",
+      "url": "https://doi.org/10.1142/s0217751x25500976",
       "subjects": [
         "Mathematical Physics",
         "Algebraic Geometry",
         "Neural Network"
       ],
-      "venue": "arXiv",
+      "venue": "International Journal of Modern Physics A",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2112.09117"
+        }
+      ]
     },
     {
       "title": "Machine learning Kronecker coefficients",
@@ -1245,7 +1275,7 @@
     },
     {
       "title": "Mathematical Capabilities of ChatGPT",
-      "url": "https://arxiv.org/abs/2301.13867",
+      "url": "https://doi.org/10.52202/075280-1205",
       "subjects": [
         "Benchmark",
         "LLM"
@@ -1256,6 +1286,10 @@
         {
           "label": "Code",
           "url": "https://github.com/friederrr/GHOSTS"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2301.13867"
         }
       ]
     },
@@ -1447,7 +1481,7 @@
     },
     {
       "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
-      "url": "https://arxiv.org/abs/2407.11214",
+      "url": "https://doi.org/10.52202/079017-0368",
       "subjects": [
         "Benchmark",
         "ATP"
@@ -1462,6 +1496,10 @@
         {
           "label": "Website",
           "url": "https://trishullab.github.io/PutnamBench/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2407.11214"
         }
       ]
     },

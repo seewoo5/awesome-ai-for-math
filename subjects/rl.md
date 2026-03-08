@@ -8,7 +8,7 @@ layout: default
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](graph-theory.md), [Group Theory](group-theory.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
-| **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://arxiv.org/abs/2406.12667)** | [Graph Theory](graph-theory.md), [RL](rl.md) | arXiv 2024 | [Code](https://github.com/CuriosAI/graph_conjectures) |
+| **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | [Graph Theory](graph-theory.md), [RL](rl.md) | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](combinatorics.md), [LLM](llm.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | [Matrix Multiplication](matrix-multiplication.md), [RL](rl.md) | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | [Algebraic Geometry](algebraic-geometry.md), [RL](rl.md) | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
