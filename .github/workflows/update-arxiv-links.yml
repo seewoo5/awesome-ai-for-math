@@ -1,0 +1,48 @@
+name: Weekly arXiv link updater
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC.
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-arxiv-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Update arXiv links in README
+        run: python update_arxiv_links.py
+
+      - name: Create pull request when updates exist
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update published links for arXiv papers'
+          title: 'chore: update published links for arXiv papers'
+          body: |
+            Automated weekly update from `update_arxiv_links.py`.
+
+            This PR is created only when new DOI or venue metadata is found for arXiv-linked papers.
+          branch: chore/weekly-arxiv-link-updates
+          delete-branch: true
+          add-paths: |
+            README.md
