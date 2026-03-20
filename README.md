@@ -14,6 +14,9 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
+
+| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM], [Benchmark] | arXiv 2026 |  |
+
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
