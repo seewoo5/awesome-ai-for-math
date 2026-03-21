@@ -10,7 +10,7 @@ layout: default
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
-| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM](llm.md), [Benchmark](benchmark.md) | arXiv 2026 |  |
+| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM](llm.md), [Benchmark](benchmark.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](combinatorics.md), [LLM](llm.md), [RL](rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | [Matrix Multiplication](matrix-multiplication.md), [Analysis](analysis.md), [Combinatorics](combinatorics.md), [Discrete Geometry](discrete-geometry.md), [LLM](llm.md) | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
@@ -41,6 +41,7 @@ layout: default
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Optimization Theory](optimization-theory.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/abs/2503.21934)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Putnam-AXIOM: A Functional and Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs](https://arxiv.org/abs/2508.08292)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2025 |  |
+| **[R-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence](https://arxiv.org/abs/2603.19215)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)** | [Benchmark](benchmark.md), [LLM](llm.md) | NeurIPS 2025 |  |
 | **[Reinforced Generation of Combinatorial Structures: Hardness of Approximation](https://arxiv.org/abs/2509.18057)** | [Computational Complexity](computational-complexity.md), [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof](https://arxiv.org/abs/2601.07421)** | [Number Theory](number-theory.md), [LLM](llm.md), [ATP](atp.md) | arXiv 2026 |  |
@@ -49,4 +50,5 @@ layout: default
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | [Computational Complexity](computational-complexity.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](algebra.md), [LLM](llm.md), [CNN](cnn.md), [ATP](atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
+| **[The Simplicity of Hodge Bundle](https://arxiv.org/abs/2603.19052)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](survey.md), [LLM](llm.md) | arXiv 2026 |  |

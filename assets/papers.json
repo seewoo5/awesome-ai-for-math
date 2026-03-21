@@ -105,7 +105,12 @@
       ],
       "venue": "arXiv",
       "year": 2026,
-      "links": []
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        }
+      ]
     },
     {
       "title": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
@@ -1515,6 +1520,17 @@
       ]
     },
     {
+      "title": "R-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence",
+      "url": "https://arxiv.org/abs/2603.19215",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Ranks of elliptic curves and deep neural networks",
       "url": "https://link.springer.com/article/10.1007/s40993-023-00462-w",
       "subjects": [
@@ -1712,6 +1728,22 @@
         {
           "label": "Code",
           "url": "https://github.com/RandyRDavila/The-Optimist"
+        }
+      ]
+    },
+    {
+      "title": "The Simplicity of Hodge Bundle",
+      "url": "https://arxiv.org/abs/2603.19052",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
     },
