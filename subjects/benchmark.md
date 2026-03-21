@@ -7,7 +7,7 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM](./subjects/llm.md), [Benchmark](./subjects/benchmark.md) | arXiv 2026 |  |
+| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM](llm.md), [Benchmark](benchmark.md) | arXiv 2026 |  |
 | **[EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery](https://arxiv.org/abs/2601.01400)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | [Benchmark](benchmark.md), [ATP](atp.md) | arXiv 2023 |  |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2026 | [Website](https://1stproof.org/) |
