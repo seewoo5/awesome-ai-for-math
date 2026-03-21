@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 120 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 121 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -20,6 +20,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | [Survey](./subjects/survey.md) | Nature Reviews Physics 2025 |  |
+| **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | [LLM](./subjects/llm.md), [Benchmark](./subjects/benchmark.md) | arXiv 2026 |  |
 | **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](./subjects/number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
 | **[Almost all primes are partially regular](https://arxiv.org/abs/2602.05090)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/partial-regularity) |
