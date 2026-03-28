@@ -65,6 +65,18 @@
       ]
     },
     {
+      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
+      "url": "https://arxiv.org/abs/2603.08322",
+      "subjects": [
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory",
       "url": "https://arxiv.org/abs/2510.26380",
       "subjects": [
@@ -230,6 +242,17 @@
           "url": "https://github.com/honglu2875/hironaka"
         }
       ]
+    },
+    {
+      "title": "Aristotle: IMO-level Automated Theorem Proving",
+      "url": "https://arxiv.org/abs/2510.01346",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": []
     },
     {
       "title": "Arithmetic volumes of moduli stacks of Shtukas",
@@ -658,6 +681,23 @@
       "links": []
     },
     {
+      "title": "Generative Modeling for Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2503.11061",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/kitft/funsearch"
+        }
+      ]
+    },
+    {
       "title": "Geometric Generality of Transformer-Based Gröbner Basis Computation",
       "url": "https://doi.org/10.1090/conm/835/16758",
       "subjects": [
@@ -977,6 +1017,17 @@
       ],
       "venue": "arXiv",
       "year": 2025,
+      "links": []
+    },
+    {
+      "title": "LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics",
+      "url": "https://arxiv.org/abs/2602.24173",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
       "links": []
     },
     {
@@ -1403,6 +1454,53 @@
       "venue": "Physics Letters B",
       "year": 2024,
       "links": []
+    },
+    {
+      "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
+      "url": "https://www.nature.com/articles/s41586-025-09833-y",
+      "subjects": [
+        "RL",
+        "ATP"
+      ],
+      "venue": "Nature",
+      "year": 2025,
+      "links": []
+    },
+    {
+      "title": "On the paucity of lattice triangles",
+      "url": "https://arxiv.org/abs/2603.23928",
+      "subjects": [
+        "Geometry",
+        "Number Theory",
+        "Combinatorics",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/lattice-triangle"
+        }
+      ]
+    },
+    {
+      "title": "On the Quartic Invariant of Odd Degree Binary Forms",
+      "url": "https://arxiv.org/abs/2603.24330",
+      "subjects": [
+        "Algebraic Geometry",
+        "Number Theory",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/ashvin-swaminathan/quartic-invariant"
+        }
+      ]
     },
     {
       "title": "Parity of k-differentials in genus zero and one",
