@@ -136,5 +136,13 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
+| **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | Algebraic Geometry, Number Theory, LLM, ATP | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
+| **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | Geometry, Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
+| **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | RL, ATP | Nature 2025 | |
+| **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 | |
+| **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | Benchmark, LLM | arXiv 2026 | |
+| **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | Combinatorics, LLM, ATP | arXiv 2026 | |
+| **[Generative Modeling for Mathematical Discovery](https://arxiv.org/abs/2503.11061)** | Combinatorics, Number Theory, LLM | arXiv 2025 | [Code](https://github.com/kitft/funsearch) |
+
 
 <!-- Table end -->
