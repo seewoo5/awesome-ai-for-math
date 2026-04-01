@@ -17,7 +17,7 @@ layout: default
 | **[HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics](https://arxiv.org/abs/2410.09988)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2024 | [Code](https://github.com/sarahmart/HARDMath) |
 | **[Humanity's Last Exam](https://doi.org/10.1038/s41586-025-09962-4)** | [Benchmark](benchmark.md), [LLM](llm.md) | Nature 2026 | [Website](https://lastexam.ai) [arXiv](https://arxiv.org/abs/2501.14249) |
 | **[IMProofBench: Benchmarking AI on Research-Level Mathematical Proof Generation](https://arxiv.org/abs/2509.26076)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2025 | [Website](https://improofbench.math.ethz.ch/) |
-| **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | [Benchmark](./subjects/benchmark.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
+| **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Mathematical Capabilities of ChatGPT](https://doi.org/10.52202/075280-1205)** | [Benchmark](benchmark.md), [LLM](llm.md) | NeurIPS 2023 | [Code](https://github.com/friederrr/GHOSTS) [arXiv](https://arxiv.org/abs/2301.13867) |
 | **[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110)** | [Benchmark](benchmark.md), [ATP](atp.md) | ICLR 2022 |  |
 | **[Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/abs/2503.21934)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2025 |  |

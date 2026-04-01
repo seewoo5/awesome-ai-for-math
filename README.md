@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 130 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 132 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -127,12 +127,14 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[R-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence](https://arxiv.org/abs/2603.19215)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](./subjects/number-theory.md), [CNN](./subjects/cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |
 | **[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)** | [Benchmark](./subjects/benchmark.md), [LLM](./subjects/llm.md) | NeurIPS 2025 |  |
+| **[Recursive-algebraic solution of the closed string tachyon vacuum equation](https://arxiv.org/abs/2603.29926)** | [Mathematical Physics](./subjects/mathematical-physics.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/mk2427/csft-tachyon-vacuum) |
 | **[Reinforced Generation of Combinatorial Structures: Hardness of Approximation](https://arxiv.org/abs/2509.18057)** | [Computational Complexity](./subjects/computational-complexity.md), [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Reinforcement Learning the Chromatic Symmetric Function](https://arxiv.org/abs/2410.19189)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/berczig/PositivityConjectures) |
 | **[Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof](https://arxiv.org/abs/2601.07421)** | [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 |  |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | [Geometry](./subjects/geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md) | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | [Statistics](./subjects/statistics.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | [Computational Complexity](./subjects/computational-complexity.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://arxiv.org/abs/2502.10335)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | arXiv 2025 | [Code](https://github.com/davidlowryduda/mobius_case_study) |
@@ -143,7 +145,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Recursive-algebraic solution of the closed string tachyon vacuum equation](https://arxiv.org/abs/2603.29926)** | [Mathematical Physics](./subjects/mathematical-physics.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Code](https://github.com/mk2427/csft-tachyon-vacuum) |
-| **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 
 <!-- Table end -->
