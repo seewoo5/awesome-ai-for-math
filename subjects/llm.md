@@ -17,6 +17,7 @@ layout: default
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | [ATP](atp.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
+| **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](combinatorics.md), [Optimization Theory](optimization-theory.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](number-theory.md), [Representation Theory](representation-theory.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery](https://arxiv.org/abs/2601.01400)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2026 |  |

@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 132 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 133 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -37,6 +37,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
+| **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
@@ -145,6 +146,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 
 <!-- Table end -->
