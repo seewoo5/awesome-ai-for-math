@@ -143,6 +143,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-
+| **[Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524v1)** | [Survey](./subjects/survey.md) | arXiv 2026 | |
+| **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
+| **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean)
 
 <!-- Table end -->
