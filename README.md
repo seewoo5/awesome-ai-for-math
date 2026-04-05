@@ -149,6 +149,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524)** | [Survey](./subjects/survey.md) | arXiv 2026 | |
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
 | **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean)
-| **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | Geometry, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 
 <!-- Table end -->
