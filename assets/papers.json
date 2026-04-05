@@ -38,6 +38,22 @@
       ]
     },
     {
+      "title": "ABC implies that Ramanujan's tau function misses almost all primes",
+      "url": "https://arxiv.org/abs/2603.29970",
+      "subjects": [
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/ramanujan-tau-misses-primes"
+        }
+      ]
+    },
+    {
       "title": "Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem",
       "url": "https://arxiv.org/abs/2510.26647",
       "subjects": [
@@ -1417,6 +1433,16 @@
       ]
     },
     {
+      "title": "Mathematical methods and human thought in the age of AI",
+      "url": "https://arxiv.org/abs/2603.26524",
+      "subjects": [
+        "Survey"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics",
       "url": "https://arxiv.org/abs/2109.00110",
       "subjects": [
@@ -1510,6 +1536,23 @@
         {
           "label": "Code",
           "url": "https://github.com/ashvin-swaminathan/quartic-invariant"
+        }
+      ]
+    },
+    {
+      "title": "Optimal bounds for an Erdős problem on matching integers to distinct multiples",
+      "url": "https://arxiv.org/abs/2603.28636",
+      "subjects": [
+        "Number Theory",
+        "Combinatorics",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean"
         }
       ]
     },

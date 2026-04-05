@@ -7,6 +7,7 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
+| **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | [Number Theory](number-theory.md) | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
 | **[Almost all primes are partially regular](https://arxiv.org/abs/2602.05090)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/partial-regularity) |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
@@ -35,6 +36,7 @@ layout: default
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | [Number Theory](number-theory.md), [PCA](pca.md) | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | [Geometry](geometry.md), [Number Theory](number-theory.md), [Combinatorics](combinatorics.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 | **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | [Algebraic Geometry](algebraic-geometry.md), [Number Theory](number-theory.md), [LLM](llm.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
+| **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](number-theory.md), [Combinatorics](combinatorics.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean) |
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | [Algebraic Geometry](algebraic-geometry.md), [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | [Number Theory](number-theory.md), [RNN](rnn.md), [CNN](cnn.md) | IJDSMS 2024 |  |
 | **[Ranks of elliptic curves and deep neural networks](https://link.springer.com/article/10.1007/s40993-023-00462-w)** | [Number Theory](number-theory.md), [CNN](cnn.md) | Research in Number Theory 2023 | [Code](https://github.com/domagojvlah/deepellrank) |

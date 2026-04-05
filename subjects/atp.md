@@ -7,6 +7,7 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
+| **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | [Combinatorics](combinatorics.md), [LLM](llm.md), [ATP](atp.md) | arXiv 2026 |  |
 | **[Almost all primes are partially regular](https://arxiv.org/abs/2602.05090)** | [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/partial-regularity) |
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | [ATP](atp.md), [LLM](llm.md) | arXiv 2025 |  |
@@ -21,6 +22,7 @@ layout: default
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | [RL](rl.md), [ATP](atp.md) | Nature 2025 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | [Geometry](geometry.md), [Number Theory](number-theory.md), [Combinatorics](combinatorics.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 | **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | [Algebraic Geometry](algebraic-geometry.md), [Number Theory](number-theory.md), [LLM](llm.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
+| **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](number-theory.md), [Combinatorics](combinatorics.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean) |
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | [Algebraic Geometry](algebraic-geometry.md), [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics](https://arxiv.org/abs/2302.12433)** | [Benchmark](benchmark.md), [ATP](atp.md) | arXiv 2023 |  |
 | **[PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition](https://doi.org/10.52202/079017-0368)** | [Benchmark](benchmark.md), [ATP](atp.md) | NeurIPS 2024 | [Code](https://github.com/trishullab/PutnamBench) [Website](https://trishullab.github.io/PutnamBench/) [arXiv](https://arxiv.org/abs/2407.11214) |

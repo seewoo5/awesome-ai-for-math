@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 133 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 136 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -15,6 +15,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
+| **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | [Knot Theory](./subjects/knot-theory.md), [Representation Theory](./subjects/representation-theory.md) | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 |  |
@@ -110,6 +111,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | Nature 2024 | [Code](https://github.com/google-deepmind/funsearch) |
 | **[Mathematical discovery in the age of artificial intelligence](https://www.nature.com/articles/s41567-025-03042-0)** | [Survey](./subjects/survey.md) | Nature Physics 2025 |  |
 | **[Mathematical exploration and discovery at scale](https://arxiv.org/abs/2511.02864)** | [Combinatorics](./subjects/combinatorics.md), [Analysis](./subjects/analysis.md), [Number Theory](./subjects/number-theory.md), [Discrete Geometry](./subjects/discrete-geometry.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Code](https://github.com/google-deepmind/alphaevolve_repository_of_problems) |
+| **[Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524)** | [Survey](./subjects/survey.md) | arXiv 2026 |  |
 | **[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110)** | [Benchmark](./subjects/benchmark.md), [ATP](./subjects/atp.md) | ICLR 2022 |  |
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | [Number Theory](./subjects/number-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | JHEP 2022 |  |
@@ -117,6 +119,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | [RL](./subjects/rl.md), [ATP](./subjects/atp.md) | Nature 2025 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | [Geometry](./subjects/geometry.md), [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 | **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
+| **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean) |
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | [Discrete Geometry](./subjects/discrete-geometry.md), [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [RL](./subjects/rl.md) | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
@@ -146,8 +149,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524)** | [Survey](./subjects/survey.md) | arXiv 2026 | |
-| **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
-| **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean)
 
 <!-- Table end -->
