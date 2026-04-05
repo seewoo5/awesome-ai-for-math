@@ -364,6 +364,17 @@
       "links": []
     },
     {
+      "title": "Counting partial Hadamard matrices in the cubic regime",
+      "url": "https://arxiv.org/abs/2603.30013",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Data-scientific study of Kronecker coefficients",
       "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576",
       "subjects": [
@@ -1656,6 +1667,22 @@
       "links": []
     },
     {
+      "title": "Recursive-algebraic solution of the closed string tachyon vacuum equation",
+      "url": "https://arxiv.org/abs/2603.29926",
+      "subjects": [
+        "Mathematical Physics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/mk2427/csft-tachyon-vacuum"
+        }
+      ]
+    },
+    {
       "title": "Reinforced Generation of Combinatorial Structures: Hardness of Approximation",
       "url": "https://arxiv.org/abs/2509.18057",
       "subjects": [
@@ -1740,6 +1767,18 @@
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
+    },
+    {
+      "title": "Short proofs in combinatorics and number theory",
+      "url": "https://arxiv.org/abs/2603.29961",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Solving a Research Problem in Mathematical Statistics with AI Assistance",
