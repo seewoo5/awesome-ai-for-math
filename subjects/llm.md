@@ -20,6 +20,7 @@ layout: default
 | **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](combinatorics.md), [Optimization Theory](optimization-theory.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](number-theory.md), [Representation Theory](representation-theory.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Equality in Fill's spectral gap problem](https://arxiv.org/abs/2604.03937)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery](https://arxiv.org/abs/2601.01400)** | [Benchmark](benchmark.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Even with AI, Bijection Discovery is Still Hard: The Opportunities and Challenges of OpenEvolve for Novel Bijection Construction](https://arxiv.org/abs/2511.20987)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
