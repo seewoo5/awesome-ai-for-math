@@ -62,7 +62,12 @@
       ],
       "venue": "arXiv",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2510.26647"
+        }
+      ]
     },
     {
       "title": "Advancing mathematics by guiding human intuition with AI",
@@ -101,7 +106,12 @@
       ],
       "venue": "arXiv",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2510.26380"
+        }
+      ]
     },
     {
       "title": "AI Mathematician: Towards Fully Automated Frontier Mathematical Research",
@@ -112,7 +122,12 @@
       ],
       "venue": "arXiv",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2505.22451"
+        }
+      ]
     },
     {
       "title": "AI-driven research in pure mathematics and theoretical physics",
@@ -135,7 +150,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -282,7 +297,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -455,7 +470,12 @@
       ],
       "venue": "arXiv",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2511.16072"
+        }
+      ]
     },
     {
       "title": "Eigenweights for arithmetic Hirzebruch Proportionality",
@@ -469,7 +489,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -532,6 +552,10 @@
         {
           "label": "Code",
           "url": "https://github.com/schmittj/balanced-vectors-blueprint"
+        },
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2512.14575"
         }
       ]
     },
@@ -919,7 +943,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -1096,7 +1120,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -1733,6 +1757,10 @@
         {
           "label": "Code",
           "url": "https://github.com/mk2427/csft-tachyon-vacuum"
+        },
+        {
+          "label": "Chat Logs",
+          "url": "https://github.com/mk2427/csft-tachyon-vacuum"
         }
       ]
     },
@@ -1817,7 +1845,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -1856,7 +1884,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
@@ -1933,7 +1961,7 @@
       "year": 2026,
       "links": [
         {
-          "label": "Code",
+          "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]

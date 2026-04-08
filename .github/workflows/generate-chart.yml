@@ -46,14 +46,14 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Generate papers by year chart
+      - name: Generate papers by year charts
         run: python .github/scripts/generate_papers_chart.py
 
       - name: Commit and push changes
         run: |
-          git add assets/papers_by_year.png
+          git add assets/papers_by_year.png assets/llm_papers_by_year.png
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update papers by year chart"
+            git commit -m "chore: update papers by year charts"
             git pull --rebase origin main
             git push origin HEAD:main
           else
