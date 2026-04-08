@@ -2,11 +2,16 @@
 Generate a bar chart showing the number of papers by year.
 Reads the README.md table and creates a PNG image.
 """
+import os
 import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
+
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+
 import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
@@ -16,15 +21,18 @@ _humor_sans_sources = [
     Path.home() / '.local' / 'share' / 'fonts' / 'HumorSans.ttf',  # Linux
 ]
 _mpl_ttf_dir = Path(matplotlib.get_data_path()) / 'fonts' / 'ttf'
+copied_humor_sans = False
 for src in _humor_sans_sources:
     if src.exists():
         dst = _mpl_ttf_dir / 'HumorSans.ttf'
         if not dst.exists():
             shutil.copy2(src, dst)
+            copied_humor_sans = True
         break
 
-# Rebuild font cache so the newly copied font is discovered
-fm._load_fontmanager(try_read_cache=False)
+# Rebuild the font cache only when we actually install Humor Sans.
+if copied_humor_sans:
+    fm._load_fontmanager(try_read_cache=False)
 
 README_PATH = 'README.md'
 TABLE_START_MARKER = '<!-- Table start -->'

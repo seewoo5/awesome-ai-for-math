@@ -8,7 +8,7 @@ layout: default
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | [Algebraic Geometry](algebraic-geometry.md), [RL](rl.md) | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
-| **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](number-theory.md), [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | [Algebraic Geometry](algebraic-geometry.md), [Interpretability](interpretability.md), [Transformer](transformer.md) | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | [Algebraic Geometry](algebraic-geometry.md), [ATP](atp.md), [LLM](llm.md) | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) |
@@ -26,4 +26,4 @@ layout: default
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | [Algebraic Geometry](algebraic-geometry.md), [Number Theory](number-theory.md), [ATP](atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[R-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence](https://arxiv.org/abs/2603.19215)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 |  |
-| **[The Simplicity of Hodge Bundle](https://arxiv.org/abs/2603.19052)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Code](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[The Simplicity of Hodge Bundle](https://arxiv.org/abs/2603.19052)** | [Algebraic Geometry](algebraic-geometry.md), [LLM](llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
