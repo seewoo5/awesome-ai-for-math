@@ -8,6 +8,7 @@ A curated list of 137 awesome papers exploring the use of artificial intelligenc
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
 ![Papers by Year](assets/papers_by_year.png)
+![LLM Papers by Year](assets/llm_papers_by_year.png)
 
 <!-- Table start -->
 
