@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 137 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 138 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -15,7 +15,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
-| **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | [Graph Theory](./subjects/graph-theory.md), [RL](./subjects/rl.md) | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | [Analysis](./subjects/analysis.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26647) |
@@ -44,6 +43,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
+| **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Differential Equations](./subjects/differential-equations.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](./subjects/number-theory.md), [Representation Theory](./subjects/representation-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
