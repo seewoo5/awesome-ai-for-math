@@ -450,6 +450,22 @@
       ]
     },
     {
+      "title": "Deep Reinforcement Learning for Fano Hypersurfaces",
+      "url": "https://arxiv.org/abs/2603.15437",
+      "subjects": [
+        "Algebraic Geometry",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/marctruter/deep_fano_hypersurface"
+        }
+      ]
+    },
+    {
       "title": "Discovery of Unstable Singularities",
       "url": "https://arxiv.org/abs/2509.14185",
       "subjects": [

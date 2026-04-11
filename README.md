@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 137 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 138 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -43,6 +43,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | [Representation Theory](./subjects/representation-theory.md), [PCA](./subjects/pca.md) | Experimental Mathematics 2023 |  |
 | **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | [Number Theory](./subjects/number-theory.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
+| **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Differential Equations](./subjects/differential-equations.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](./subjects/number-theory.md), [Representation Theory](./subjects/representation-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
