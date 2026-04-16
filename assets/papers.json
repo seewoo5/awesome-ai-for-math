@@ -760,18 +760,22 @@
     },
     {
       "title": "Generative Modeling for Mathematical Discovery",
-      "url": "https://arxiv.org/abs/2503.11061",
+      "url": "https://doi.org/10.4310/atmp.260412165352",
       "subjects": [
         "Combinatorics",
         "Number Theory",
         "LLM"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/kitft/funsearch"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2503.11061"
         }
       ]
     },
@@ -920,17 +924,21 @@
     },
     {
       "title": "Int2Int: a framework for mathematics with transformers",
-      "url": "https://arxiv.org/abs/2502.17513",
+      "url": "https://doi.org/10.4310/atmp.260412100858",
       "subjects": [
         "Number Theory",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/f-charton/Int2Int"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.17513"
         }
       ]
     },
@@ -976,14 +984,19 @@
     },
     {
       "title": "Learning Euler factors of elliptic curves",
-      "url": "https://arxiv.org/abs/2502.10357",
+      "url": "https://doi.org/10.4310/atmp.260412180132",
       "subjects": [
         "Number Theory",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.10357"
+        }
+      ]
     },
     {
       "title": "Learning Fast Monomial Orders for Gröbner Basis Computations",
@@ -1024,14 +1037,19 @@
     },
     {
       "title": "Learning Fricke signs from Maass form Coefficients",
-      "url": "https://arxiv.org/abs/2501.02105",
+      "url": "https://doi.org/10.4310/atmp.260412220615",
       "subjects": [
         "Number Theory",
         "LDA"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2501.02105"
+        }
+      ]
     },
     {
       "title": "Learning knot invariants across dimensions",
@@ -1369,15 +1387,20 @@
     },
     {
       "title": "Machine Learning the vanishing order of rational L-functions",
-      "url": "https://arxiv.org/abs/2502.10360",
+      "url": "https://doi.org/10.4310/atmp.260412213616",
       "subjects": [
         "Number Theory",
         "LDA",
         "Neural Network"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.10360"
+        }
+      ]
     },
     {
       "title": "Machine-learning dessins d'enfants: explorations via modular and Seiberg–Witten curves",
@@ -1907,17 +1930,21 @@
     },
     {
       "title": "Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions",
-      "url": "https://arxiv.org/abs/2502.10335",
+      "url": "https://doi.org/10.4310/atmp.260412221625",
       "subjects": [
         "Number Theory",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/davidlowryduda/mobius_case_study"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.10335"
         }
       ]
     },
