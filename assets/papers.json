@@ -319,6 +319,40 @@
       ]
     },
     {
+      "title": "Artificial Intelligence and the Structure of Mathematics",
+      "url": "https://arxiv.org/abs/2604.06107",
+      "subjects": [
+        "Survey"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Automated Conjecture Resolution with Formal Verification",
+      "url": "https://arxiv.org/abs/2604.03789",
+      "subjects": [
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code (Rethlas)",
+          "url": "https://github.com/frenzymath/Rethlas"
+        },
+        {
+          "label": "Code (Archon)",
+          "url": "https://github.com/frenzymath/Archon"
+        },
+        {
+          "label": "Code (Lean)",
+          "url": "https://github.com/frenzymath/Anderson-Conjecture"
+        }
+      ]
+    },
+    {
       "title": "Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences",
       "url": "https://proceedings.mlr.press/v202/razon23a.html",
       "subjects": [
@@ -1902,6 +1936,19 @@
       "links": []
     },
     {
+      "title": "Short proofs in combinatorics, probability and number theory II",
+      "url": "https://arxiv.org/abs/2604.06609",
+      "subjects": [
+        "Combinatorics",
+        "Probability",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Solving a Research Problem in Mathematical Statistics with AI Assistance",
       "url": "https://arxiv.org/abs/2511.18828",
       "subjects": [
@@ -1947,6 +1994,16 @@
           "url": "https://arxiv.org/abs/2502.10335"
         }
       ]
+    },
+    {
+      "title": "The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning",
+      "url": "https://arxiv.org/abs/2603.15914",
+      "subjects": [
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale",
@@ -2085,6 +2142,7 @@
     "Optimization Theory",
     "PCA",
     "PINN",
+    "Probability",
     "RL",
     "RNN",
     "Random Forest",

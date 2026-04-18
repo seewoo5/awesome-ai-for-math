@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 138 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 143 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -34,6 +34,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | [Number Theory](./subjects/number-theory.md), [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Artificial intelligence and machine learning generated conjectures with TxGraffiti](https://arxiv.org/abs/2407.02731)** | [Graph Theory](./subjects/graph-theory.md), [Combinatorics](./subjects/combinatorics.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/TxGraffiti2) |
+| **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | [Survey](./subjects/survey.md) | arXiv 2026 |  |
+| **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | [Number Theory](./subjects/number-theory.md) | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Interpretability](./subjects/interpretability.md), [Transformer](./subjects/transformer.md) | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://arxiv.org/abs/2502.18663)** | [Graph Theory](./subjects/graph-theory.md), [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md) | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
@@ -56,6 +58,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | [Benchmark](./subjects/benchmark.md), [ATP](./subjects/atp.md) | arXiv 2023 |  |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | [Benchmark](./subjects/benchmark.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Website](https://1stproof.org/) |
 | **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md), [Discrete Geometry](./subjects/discrete-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
+| **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://arxiv.org/abs/2510.19804)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://borisalexeev.com/papers/Erdos707.lean) |
 | **[FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models](https://arxiv.org/abs/2505.02735)** | [Benchmark](./subjects/benchmark.md), [ATP](./subjects/atp.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Website](https://spherelab.ai/FormalMATH/) |
 | **[From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm](https://www.arxiv.org/abs/2511.12421)** | [Combinatorics](./subjects/combinatorics.md), [Transformer](./subjects/transformer.md) | arXiv 2025 |  |
@@ -142,9 +145,11 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | [Geometry](./subjects/geometry.md), [Bayesian Optimization](./subjects/bayesian-optimization.md), [RL](./subjects/rl.md), [Neural Network](./subjects/neural-network.md) | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | [Combinatorics](./subjects/combinatorics.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
+| **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | [Combinatorics](./subjects/combinatorics.md), [Probability](./subjects/probability.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | [Statistics](./subjects/statistics.md), [LLM](./subjects/llm.md) | arXiv 2025 |  |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | [Computational Complexity](./subjects/computational-complexity.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://doi.org/10.4310/atmp.260412221625)** | [Number Theory](./subjects/number-theory.md), [Transformer](./subjects/transformer.md) | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/davidlowryduda/mobius_case_study) [arXiv](https://arxiv.org/abs/2502.10335) |
+| **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | [Algebra](./subjects/algebra.md), [LLM](./subjects/llm.md), [CNN](./subjects/cnn.md), [ATP](./subjects/atp.md) | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | [Graph Theory](./subjects/graph-theory.md), [Optimization Theory](./subjects/optimization-theory.md) | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
@@ -152,11 +157,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |
-| **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | Survey | arXiv 2026 | |
-| **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
-| **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
-| **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
 
 
 <!-- Table end -->
