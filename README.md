@@ -153,7 +153,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
 | **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |
 | **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | Survey | arXiv 2026 | |
-| **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | Combinatorics, Number Theory, LLM | arXiv 2026 |  |
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
 | **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
