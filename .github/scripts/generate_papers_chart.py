@@ -39,6 +39,7 @@ TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
 OUTPUT_PATH = 'assets/papers_by_year.png'
 LLM_OUTPUT_PATH = 'assets/llm_papers_by_year.png'
+RESOURCE_LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 
 
 def extract_table_rows(readme_content):
@@ -65,6 +66,7 @@ def extract_year_counts(data_rows, row_filter=None, subcount_label='[Code]'):
     if row_filter is None:
         row_filter = lambda _row: True
 
+    target_label = subcount_label.strip().strip('[]')
     year_counts = defaultdict(int)
     sub_counts = defaultdict(int)
     for row in data_rows:
@@ -80,13 +82,22 @@ def extract_year_counts(data_rows, row_filter=None, subcount_label='[Code]'):
             if year_match:
                 year = int(year_match.group())
                 year_counts[year] += 1
-                if len(cells) >= 5 and subcount_label in cells[4]:
+                if len(cells) >= 5 and cell_has_resource_label(cells[4], target_label):
                     sub_counts[year] += 1
 
     years = sorted(year_counts.keys())
     year_counts = {y: year_counts[y] for y in years}
     sub_counts = {y: sub_counts[y] for y in years}
     return year_counts, sub_counts
+
+
+def cell_has_resource_label(cell, label):
+    """Return True if any resource link in cell matches the target label."""
+    labels = [m.group(1).strip().lower() for m in RESOURCE_LINK_RE.finditer(cell)]
+    target = label.strip().lower()
+    if target == 'code':
+        return any(re.search(r'\bcode\b', lab) for lab in labels)
+    return any(lab == target or lab.startswith(f'{target} ') or lab.startswith(f'{target}(') for lab in labels)
 
 
 def generate_bar_chart(

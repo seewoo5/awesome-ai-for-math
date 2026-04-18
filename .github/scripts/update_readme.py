@@ -5,6 +5,7 @@ from collections import defaultdict
 README_PATH = 'README.md'
 TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
+RESOURCE_LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 
 
 def count_by_year(data_rows):
@@ -67,13 +68,23 @@ def update_text_with_year_counts(content):
 
 def count_open_sourced(data_rows):
     """Count the number of papers that are open-sourced."""
-    # Check the fourth (last) column and see if the string "[Code]" is present
+    # Count one per row if the resource column contains any code-like label
+    # (e.g., "Code", "Unofficial Code", "Code (Rethlas)").
     count = 0
     for row in data_rows:
-        last_cell = row.split('|')[-2].strip()
-        if '[Code]' in last_cell:
+        if row_has_resource_label(row, 'Code'):
             count += 1
     return count
+
+
+def row_has_resource_label(row, label):
+    """Return True if any resource link label in a row matches the target."""
+    last_cell = row.split('|')[-2].strip()
+    labels = [m.group(1).strip().lower() for m in RESOURCE_LINK_RE.finditer(last_cell)]
+    target = label.strip().lower()
+    if target == 'code':
+        return any(re.search(r'\bcode\b', lab) for lab in labels)
+    return any(lab == target or lab.startswith(f'{target} ') or lab.startswith(f'{target}(') for lab in labels)
 
 
 def get_sort_key(row):
