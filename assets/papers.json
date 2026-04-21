@@ -1107,17 +1107,21 @@
     },
     {
       "title": "Learning the Inverse Ryu--Takayanagi Formula with Transformers",
-      "url": "https://arxiv.org/abs/2511.06387",
+      "url": "https://doi.org/10.1007/jhep04(2026)128",
       "subjects": [
         "Mathematical Physics",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "JHEP",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/power817/HEE_3D"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2511.06387"
         }
       ]
     },

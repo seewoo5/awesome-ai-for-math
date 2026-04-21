@@ -7,4 +7,4 @@ layout: default
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | [Combinatorics](./subjects/combinatorics.md), [Probability](./subjects/probability.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
+| **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | [Combinatorics](combinatorics.md), [Probability](probability.md), [Number Theory](number-theory.md), [LLM](llm.md) | arXiv 2026 |  |
