@@ -386,18 +386,22 @@
     },
     {
       "title": "CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs",
-      "url": "https://arxiv.org/abs/2502.18663",
+      "url": "https://doi.org/10.4310/atmp.260413005111",
       "subjects": [
         "Graph Theory",
         "Group Theory",
         "RL"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/cayleypy/cayleypy"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.18663"
         }
       ]
     },
@@ -978,7 +982,7 @@
     },
     {
       "title": "Interpretable Machine Learning for Kronecker Coefficients",
-      "url": "https://arxiv.org/abs/2502.11774",
+      "url": "https://doi.org/10.4310/atmp.260413002916",
       "subjects": [
         "Representation Theory",
         "Neural Network",
@@ -986,9 +990,14 @@
         "PCA",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.11774"
+        }
+      ]
     },
     {
       "title": "Irrationality of rapidly converging series: a problem of Erdős and Graham",
