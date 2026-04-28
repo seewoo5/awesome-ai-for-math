@@ -6,22 +6,24 @@ README_PATH = 'README.md'
 TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
 RESOURCE_LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+TITLE_LINK_RE = re.compile(r"\*\*\[(.*?)\]\((.*?)\)\*\*")
 
 
 def count_by_year(data_rows):
     year_counts = defaultdict(int)
     for row in data_rows:
-        # Extract published year from the third column
-        # It has a form of (journal name) YYYY or (conference name) YYYY
-        # We can split by space and take the last element
-        year = row.split('|')[3].strip().split(' ')[-1]
+        cols = parse_row_cells(row)
+        if not cols:
+            continue
+        # Extract published year from the venue cell, taking the trailing token.
+        year = cols[2].split(' ')[-1]
         year_counts[year] += 1
     # Sort by year
     year_counts = dict(sorted(year_counts.items()))
     return year_counts
 
 
-def update_text_with_year_counts(content):
+def update_text_with_year_counts(content, data_rows):
     """
     Updates a block of text with paper counts from a dictionary.
 
@@ -87,6 +89,21 @@ def row_has_resource_label(row, label):
     return any(lab == target or lab.startswith(f'{target} ') or lab.startswith(f'{target}(') for lab in labels)
 
 
+def parse_row_cells(row):
+    """Return parsed table cells for valid paper rows, else None."""
+    cols = [c.strip() for c in row.strip('|').split('|')]
+    if len(cols) < 4:
+        return None
+    if not TITLE_LINK_RE.search(cols[0]):
+        return None
+    return cols
+
+
+def get_valid_data_rows(data_rows):
+    """Keep rows that match the paper-row format used by JSON generation."""
+    return [row for row in data_rows if parse_row_cells(row)]
+
+
 def get_sort_key(row):
     """Extracts text from the first column's Markdown link for sorting."""
     first_cell = row.split('|')[1].strip()
@@ -127,8 +144,8 @@ if len(table_lines) < 2:
 header = table_lines[0]
 separator = table_lines[1]
 data_rows = table_lines[2:]
-
-num_papers = len(data_rows)
+valid_data_rows = get_valid_data_rows(data_rows)
+num_papers = len(valid_data_rows)
 
 # 4. Sort only the data rows
 sorted_data_rows = sorted(data_rows, key=get_sort_key)
@@ -166,7 +183,7 @@ else:
     print(f"✅ Updated paper count to {num_papers}.")
 
 # Open-sourced count
-open_sourced_count = count_open_sourced(data_rows)
+open_sourced_count = count_open_sourced(valid_data_rows)
 paper_count_pattern = re.compile(
     r'(?:\d+)(\s+of them are open-sourced.)',
     re.IGNORECASE,
@@ -178,7 +195,7 @@ else:
     print(f"✅ Updated open-sourced count to {open_sourced_count}.")
 
 # Year-wise count update
-new_content = update_text_with_year_counts(new_content)
+new_content = update_text_with_year_counts(new_content, valid_data_rows)
 
 # Write the corrected content back to the file
 with open(README_PATH, 'w', encoding='utf-8') as f:

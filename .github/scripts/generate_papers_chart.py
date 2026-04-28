@@ -61,6 +61,22 @@ def extract_table_rows(readme_content):
     return table_lines[2:]
 
 
+def parse_subjects_from_row(row):
+    """Extract subjects from a table row (linked or plain-text format)."""
+    cells = row.split('|')
+    if len(cells) < 3:
+        return []
+    subject_cell = cells[2].strip()
+    normalized = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", subject_cell)
+    return [s.strip() for s in normalized.split(',') if s.strip()]
+
+
+def row_has_subject(row, subject):
+    """Case-insensitive exact subject match in the subject column."""
+    target = subject.strip().lower()
+    return any(s.lower() == target for s in parse_subjects_from_row(row))
+
+
 def extract_year_counts(data_rows, row_filter=None, subcount_label='[Code]'):
     """Extract per-year counts and sub-counts for rows matching a filter."""
     if row_filter is None:
@@ -183,7 +199,7 @@ def main():
     # Generate LLM-only chart
     llm_year_counts, llm_chat_log_counts = extract_year_counts(
         data_rows,
-        row_filter=lambda row: '[LLM]' in row,
+        row_filter=lambda row: row_has_subject(row, 'LLM'),
         subcount_label='[Chat Logs]',
     )
     print(f"LLM paper year counts: {llm_year_counts}")
