@@ -7,23 +7,13 @@ import json
 import re
 from pathlib import Path
 
+from table_utils import parse_subjects
+
 README_PATH = Path("README.md")
 OUTPUT_PATH = Path("assets/papers.json")
 
 TABLE_START_MARKER = "<!-- Table start -->"
 TABLE_END_MARKER = "<!-- Table end -->"
-
-
-def parse_subjects(subject_cell: str) -> list[str]:
-    """
-    Parse the subject column from plain-text format.
-    Legacy markdown links are normalized to plain text first.
-
-    Examples:
-    - Number Theory, LLM
-    """
-    normalized = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", subject_cell)
-    return [s.strip() for s in re.split(r",\s*", normalized) if s.strip()]
 
 
 def parse_readme():

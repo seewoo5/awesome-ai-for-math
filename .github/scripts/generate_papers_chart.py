@@ -8,8 +8,9 @@ import shutil
 from collections import defaultdict
 from pathlib import Path
 
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+from table_utils import parse_subjects
 
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -66,9 +67,7 @@ def parse_subjects_from_row(row):
     cells = row.split('|')
     if len(cells) < 3:
         return []
-    subject_cell = cells[2].strip()
-    normalized = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", subject_cell)
-    return [s.strip() for s in normalized.split(',') if s.strip()]
+    return parse_subjects(cells[2].strip())
 
 
 def row_has_subject(row, subject):
