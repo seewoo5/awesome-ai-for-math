@@ -1,8 +1,8 @@
-# Combined GitHub Actions workflow to sort the README table and generate subject pages
-# in a single run. This avoids multiple commits and ensures that the Pages build
-# is triggered only once after both tasks have completed.
+# Combined GitHub Actions workflow to sort the README table and generate
+# data assets in a single run. This avoids multiple commits and ensures
+# that the Pages build is triggered only once after both tasks have completed.
 
-name: Sort table and generate subject pages
+name: Sort table and generate data
 
 on:
   push:
@@ -44,17 +44,14 @@ jobs:
       - name: Sort the README table
         run: python .github/scripts/update_readme.py
 
-      - name: Generate subject pages and update links
-        run: python .github/scripts/generate_subject_pages.py
-
       - name: Generate papers JSON for interactive table
         run: python .github/scripts/generate_papers_json.py
 
       - name: Commit and push changes
         run: |
-          git add README.md subjects assets/papers.json
+          git add README.md assets/papers.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-sort table and generate subject pages"
+            git commit -m "chore: auto-sort table and generate data"
             git pull --rebase origin main
             git push origin HEAD:main
           else

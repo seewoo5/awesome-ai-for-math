@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from table_utils import parse_subjects
+
 README_PATH = Path("README.md")
 OUTPUT_PATH = Path("assets/papers.json")
 
@@ -46,8 +48,8 @@ def parse_readme():
         title = title_match.group(1)
         url = title_match.group(2)
 
-        # Parse subjects from linked text: [Subject](./subjects/...)
-        subjects = re.findall(r"\[([^\]]+)\]\(", subj_col)
+        # Parse subjects from either linked text or plain text.
+        subjects = parse_subjects(subj_col)
         for s in subjects:
             all_subjects.add(s)
 

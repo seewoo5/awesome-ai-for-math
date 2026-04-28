@@ -8,8 +8,9 @@ import shutil
 from collections import defaultdict
 from pathlib import Path
 
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+from table_utils import parse_subjects
 
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -59,6 +60,20 @@ def extract_table_rows(readme_content):
 
     # Skip header and separator
     return table_lines[2:]
+
+
+def parse_subjects_from_row(row):
+    """Extract subjects from a table row (linked or plain-text format)."""
+    cells = row.split('|')
+    if len(cells) < 3:
+        return []
+    return parse_subjects(cells[2].strip())
+
+
+def row_has_subject(row, subject):
+    """Case-insensitive exact subject match in the subject column."""
+    target = subject.strip().lower()
+    return any(s.lower() == target for s in parse_subjects_from_row(row))
 
 
 def extract_year_counts(data_rows, row_filter=None, subcount_label='[Code]'):
@@ -183,7 +198,7 @@ def main():
     # Generate LLM-only chart
     llm_year_counts, llm_chat_log_counts = extract_year_counts(
         data_rows,
-        row_filter=lambda row: '[LLM]' in row,
+        row_filter=lambda row: row_has_subject(row, 'LLM'),
         subcount_label='[Chat Logs]',
     )
     print(f"LLM paper year counts: {llm_year_counts}")

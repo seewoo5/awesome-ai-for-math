@@ -1,90 +1,25 @@
 import re
-from collections import defaultdict
 
 # File paths and markers (using your exact strings)
 README_PATH = 'README.md'
 TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
-RESOURCE_LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+TITLE_LINK_RE = re.compile(r"\*\*\[(.*?)\]\((.*?)\)\*\*")
 
 
-def count_by_year(data_rows):
-    year_counts = defaultdict(int)
-    for row in data_rows:
-        # Extract published year from the third column
-        # It has a form of (journal name) YYYY or (conference name) YYYY
-        # We can split by space and take the last element
-        year = row.split('|')[3].strip().split(' ')[-1]
-        year_counts[year] += 1
-    # Sort by year
-    year_counts = dict(sorted(year_counts.items()))
-    return year_counts
+def parse_row_cells(row):
+    """Return parsed table cells for valid paper rows, else None."""
+    cols = [c.strip() for c in row.strip('|').split('|')]
+    if len(cols) < 4:
+        return None
+    if not TITLE_LINK_RE.search(cols[0]):
+        return None
+    return cols
 
 
-def update_text_with_year_counts(content):
-    """
-    Updates a block of text with paper counts from a dictionary.
-
-    Args:
-        content (str): The original text content to modify.
-
-    Returns:
-        str: The updated text content.
-    """
-    # 1. Build the new list of strings from the year_counts dictionary
-    new_year_lines = []
-    year_counts = count_by_year(data_rows)
-    for year, count in year_counts.items():
-        # Handle pluralization for "paper" vs "papers"
-        plural = "paper" if count == 1 else "papers"
-        new_year_lines.append(f"    - {count} {plural} in {year}")
-    
-    # Join the lines into a single string
-    new_list_block = "\n".join(new_year_lines) + "\n"
-
-    # 2. Define a regex to find the entire "By years" section
-    # This pattern does two things:
-    #   - Captures the header line (e.g., "- By years, there are")
-    #   - Matches the entire list of year entries that follows it
-    pattern = re.compile(
-        r"(^- By years, there are\s*$)\n(?:    - \d+ papers? in \d{4}\n?)*",
-        re.MULTILINE
-    )
-
-    # 3. Define the replacement string
-    # It uses a back-reference \g<1> to keep the original header line
-    # and then appends the new list block we generated.
-    replacement = rf"\g<1>\n{new_list_block}"
-
-    # 4. Perform the substitution
-    # The `sub()` method finds the pattern and replaces it.
-    updated_content, subs_made = pattern.subn(replacement, content)
-
-    if subs_made == 0:
-        print("Warning: Could not find the 'By years' section to update in the text.")
-
-    return updated_content
-
-
-def count_open_sourced(data_rows):
-    """Count the number of papers that are open-sourced."""
-    # Count one per row if the resource column contains any code-like label
-    # (e.g., "Code", "Unofficial Code", "Code (Rethlas)").
-    count = 0
-    for row in data_rows:
-        if row_has_resource_label(row, 'Code'):
-            count += 1
-    return count
-
-
-def row_has_resource_label(row, label):
-    """Return True if any resource link label in a row matches the target."""
-    last_cell = row.split('|')[-2].strip()
-    labels = [m.group(1).strip().lower() for m in RESOURCE_LINK_RE.finditer(last_cell)]
-    target = label.strip().lower()
-    if target == 'code':
-        return any(re.search(r'\bcode\b', lab) for lab in labels)
-    return any(lab == target or lab.startswith(f'{target} ') or lab.startswith(f'{target}(') for lab in labels)
+def get_valid_data_rows(data_rows):
+    """Keep rows that match the paper-row format used by JSON generation."""
+    return [row for row in data_rows if parse_row_cells(row)]
 
 
 def get_sort_key(row):
@@ -127,8 +62,8 @@ if len(table_lines) < 2:
 header = table_lines[0]
 separator = table_lines[1]
 data_rows = table_lines[2:]
-
-num_papers = len(data_rows)
+valid_data_rows = get_valid_data_rows(data_rows)
+num_papers = len(valid_data_rows)
 
 # 4. Sort only the data rows
 sorted_data_rows = sorted(data_rows, key=get_sort_key)
@@ -164,21 +99,6 @@ if subs_made == 0:
     print("ℹ️ Info: No 'A curated list of XXX awesome papers' line found to update.")
 else:
     print(f"✅ Updated paper count to {num_papers}.")
-
-# Open-sourced count
-open_sourced_count = count_open_sourced(data_rows)
-paper_count_pattern = re.compile(
-    r'(?:\d+)(\s+of them are open-sourced.)',
-    re.IGNORECASE,
-)
-new_content, subs_made = paper_count_pattern.subn(rf"{open_sourced_count}\g<1>", new_content, count=1)
-if subs_made == 0:
-    print("ℹ️ Info: No 'XXX of them are open-sourced.' line found to update.")
-else:
-    print(f"✅ Updated open-sourced count to {open_sourced_count}.")
-
-# Year-wise count update
-new_content = update_text_with_year_counts(new_content)
 
 # Write the corrected content back to the file
 with open(README_PATH, 'w', encoding='utf-8') as f:

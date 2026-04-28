@@ -2,7 +2,7 @@ name: Build and deploy site
 
 on:
   workflow_run:
-    workflows: ["Sort table and generate subject pages"]
+    workflows: ["Sort table and generate data"]
     types: [completed]
 
 jobs:
