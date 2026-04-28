@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 143 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 145 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -47,6 +47,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | [Differential Equations](./subjects/differential-equations.md), [Symbolic Computation](./subjects/symbolic-computation.md), [Transformer](./subjects/transformer.md) | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [RL](./subjects/rl.md) | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | [Differential Equations](./subjects/differential-equations.md), [PINN](./subjects/pinn.md) | arXiv 2025 |  |
+| **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](./subjects/combinatorics.md), [Optimization Theory](./subjects/optimization-theory.md), [LLM](./subjects/llm.md) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](./subjects/number-theory.md), [Representation Theory](./subjects/representation-theory.md), [LLM](./subjects/llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Equality in Fill's spectral gap problem](https://arxiv.org/abs/2604.03937)** | [Combinatorics](./subjects/combinatorics.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
@@ -123,6 +124,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | [Mathematical Physics](./subjects/mathematical-physics.md), [Neural Network](./subjects/neural-network.md) | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Mathematical Physics](./subjects/mathematical-physics.md), [Genetic Algorithm](./subjects/genetic-algorithm.md) | Physics Letters B 2024 |  |
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | [RL](./subjects/rl.md), [ATP](./subjects/atp.md) | Nature 2025 |  |
+| **[On (not) learning the Möbius function](https://arxiv.org/abs/2604.23427)** | [Number Theory](./subjects/number-theory.md) | arXiv 2026 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | [Geometry](./subjects/geometry.md), [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 | **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [Number Theory](./subjects/number-theory.md), [LLM](./subjects/llm.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
 | **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | [Number Theory](./subjects/number-theory.md), [Combinatorics](./subjects/combinatorics.md), [ATP](./subjects/atp.md) | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean) |
@@ -157,7 +159,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | [Survey](./subjects/survey.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | [Number Theory](./subjects/number-theory.md) | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | [Group Theory](./subjects/group-theory.md), [RL](./subjects/rl.md), [Transformer](./subjects/transformer.md) | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | Algebraic Geometry, LLM | arXiv 2026 | |
-| **[On (not) learning the Möbius function](https://arxiv.org/abs/2604.23427)** | Number Theory | arXiv 2026 | |
 
 <!-- Table end -->

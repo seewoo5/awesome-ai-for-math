@@ -19,6 +19,7 @@ layout: default
 | **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | [LLM](llm.md), [ATP](atp.md) | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | [Analysis](analysis.md), [LLM](llm.md) | arXiv 2025 |  |
 | **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2026 |  |
+| **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | [Algebraic Geometry](./subjects/algebraic-geometry.md), [LLM](./subjects/llm.md) | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | [Combinatorics](combinatorics.md), [Optimization Theory](optimization-theory.md), [LLM](llm.md) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | [Number Theory](number-theory.md), [Representation Theory](representation-theory.md), [LLM](llm.md) | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Equality in Fill's spectral gap problem](https://arxiv.org/abs/2604.03937)** | [Combinatorics](combinatorics.md), [LLM](llm.md) | arXiv 2026 |  |
