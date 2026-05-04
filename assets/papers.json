@@ -1895,17 +1895,21 @@
     },
     {
       "title": "Reinforcement Learning the Chromatic Symmetric Function",
-      "url": "https://arxiv.org/abs/2410.19189",
+      "url": "https://doi.org/10.4310/atmp.260413002529",
       "subjects": [
         "Graph Theory",
         "RL"
       ],
-      "venue": "arXiv",
-      "year": 2024,
+      "venue": "Advances in Theoretical and Mathematical Physics",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/berczig/PositivityConjectures"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2410.19189"
         }
       ]
     },
