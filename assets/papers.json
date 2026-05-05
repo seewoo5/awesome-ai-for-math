@@ -515,6 +515,18 @@
       "links": []
     },
     {
+      "title": "Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2604.21187",
+      "subjects": [
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "E6-local systems from cubic threefolds",
       "url": "https://arxiv.org/abs/2604.20970",
       "subjects": [
@@ -1891,6 +1903,17 @@
       ],
       "venue": "arXiv",
       "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Reinforced Generation of Combinatorial Structures: Ramsey Numbers",
+      "url": "https://arxiv.org/abs/2603.09172",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
       "links": []
     },
     {

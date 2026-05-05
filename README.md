@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 145 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 147 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,8 +14,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
-| **[Reinforced Generation of Combinatorial Structures: Ramsey Numbers](https://arxiv.org/abs/2603.09172)** | Combinatorics, LLM | arXiv 2026 | |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | Graph Theory, Group Theory, RL | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | Graph Theory, RL | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
@@ -49,6 +47,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | Differential Equations, Symbolic Computation, Transformer | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | Algebraic Geometry, RL | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | Differential Equations, PINN | arXiv 2025 |  |
+| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
 | **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | Combinatorics, Optimization Theory, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)** | Number Theory, Representation Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
@@ -143,6 +142,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)** | Benchmark, LLM | NeurIPS 2025 |  |
 | **[Recursive-algebraic solution of the closed string tachyon vacuum equation](https://arxiv.org/abs/2603.29926)** | Mathematical Physics, LLM | arXiv 2026 | [Code](https://github.com/mk2427/csft-tachyon-vacuum) [Chat Logs](https://github.com/mk2427/csft-tachyon-vacuum) |
 | **[Reinforced Generation of Combinatorial Structures: Hardness of Approximation](https://arxiv.org/abs/2509.18057)** | Computational Complexity, Combinatorics, LLM | arXiv 2025 |  |
+| **[Reinforced Generation of Combinatorial Structures: Ramsey Numbers](https://arxiv.org/abs/2603.09172)** | Combinatorics, LLM | arXiv 2026 | |
 | **[Reinforcement Learning the Chromatic Symmetric Function](https://doi.org/10.4310/atmp.260413002529)** | Graph Theory, RL | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/berczig/PositivityConjectures) [arXiv](https://arxiv.org/abs/2410.19189) |
 | **[Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof](https://arxiv.org/abs/2601.07421)** | Number Theory, LLM, ATP | arXiv 2026 |  |
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | Geometry, Mathematical Physics | Nature Reviews Physics 2024 |  |
