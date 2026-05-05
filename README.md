@@ -14,6 +14,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
+| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
+| **[Reinforced Generation of Combinatorial Structures: Ramsey Numbers](https://arxiv.org/abs/2603.09172)** | Combinatorics, LLM | arXiv 2026 | |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | Graph Theory, Group Theory, RL | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | Graph Theory, RL | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://arxiv.org/abs/2603.29970)** | Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) |
