@@ -135,7 +135,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | Optimization Theory, LLM | arXiv 2025 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 |  |
-| **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026
+| **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026 | |
 | **[Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/abs/2503.21934)** | Benchmark, LLM | arXiv 2025 |  |
 | **[ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics](https://arxiv.org/abs/2302.12433)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Putnam-AXIOM: A Functional and Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs](https://arxiv.org/abs/2508.08292)** | Benchmark, LLM | arXiv 2025 |  |
