@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 147 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 150 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -20,6 +20,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26647) |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | Knot Theory, Representation Theory | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | Combinatorics, LLM, ATP | arXiv 2026 |  |
+| **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM | arXiv 2026 |  |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26380) |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | Survey | Nature Reviews Physics 2025 |  |
@@ -124,6 +125,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | Number Theory, PCA | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
+| **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | RL, ATP | Nature 2025 |  |
 | **[On (not) learning the Möbius function](https://arxiv.org/abs/2604.23427)** | Number Theory | arXiv 2026 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | Geometry, Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
@@ -133,6 +135,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | Optimization Theory, LLM | arXiv 2025 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 |  |
+| **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026
 | **[Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/abs/2503.21934)** | Benchmark, LLM | arXiv 2025 |  |
 | **[ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics](https://arxiv.org/abs/2302.12433)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Putnam-AXIOM: A Functional and Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs](https://arxiv.org/abs/2508.08292)** | Benchmark, LLM | arXiv 2025 |  |
@@ -159,11 +162,8 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | Graph Theory, Optimization Theory | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
 | **[The Simplicity of Hodge Bundle](https://arxiv.org/abs/2603.19052)** | Algebraic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | Survey, LLM | arXiv 2026 |  |
+| **[Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools](https://arxiv.org/abs/2605.02193)** | Graph Theory, Transformer | arXiv 2026 | [Code](https://github.com/sheilman77/dominating_sets_PatternBoost) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
-| **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026
-| **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM | arXiv 2026 |  |
-| **[Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools](https://arxiv.org/abs/2605.02193)** | Graph Theory, Transformer | arXiv 2026 | [Code](https://github.com/sheilman77/dominating_sets_PatternBoost) |
 
 <!-- Table end -->

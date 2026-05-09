@@ -98,6 +98,18 @@
       "links": []
     },
     {
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "url": "https://arxiv.org/abs/2605.06651",
+      "subjects": [
+        "Group Theory",
+        "Representation Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory",
       "url": "https://arxiv.org/abs/2510.26380",
       "subjects": [
@@ -1647,6 +1659,22 @@
       "links": []
     },
     {
+      "title": "Non-uniqueness for a differential equation and a proof by ChatGPT",
+      "url": "https://arxiv.org/abs/2605.04810",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2605.04810"
+        }
+      ]
+    },
+    {
       "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
       "url": "https://www.nature.com/articles/s41586-025-09833-y",
       "subjects": [
@@ -2147,6 +2175,22 @@
       "venue": "arXiv",
       "year": 2026,
       "links": []
+    },
+    {
+      "title": "Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools",
+      "url": "https://arxiv.org/abs/2605.02193",
+      "subjects": [
+        "Graph Theory",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/sheilman77/dominating_sets_PatternBoost"
+        }
+      ]
     },
     {
       "title": "Unsupervised Discovery of Formulas for Mathematical Constants",
