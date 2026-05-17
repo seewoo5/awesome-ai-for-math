@@ -617,6 +617,17 @@
       "links": []
     },
     {
+      "title": "Every finite group admits a just finite presentation",
+      "url": "https://arxiv.org/abs/2605.10402",
+      "subjects": [
+        "Group Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic",
       "url": "https://arxiv.org/abs/2602.06553",
       "subjects": [
@@ -736,6 +747,22 @@
         {
           "label": "Code",
           "url": "https://borisalexeev.com/papers/Erdos707.lean"
+        }
+      ]
+    },
+    {
+      "title": "Formal Conjectures: An Open and Evolving Benchmark for Verified Discovery in Mathematics",
+      "url": "https://arxiv.org/abs/2605.13171",
+      "subjects": [
+        "Benchmark",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/formal-conjectures"
         }
       ]
     },
@@ -1876,6 +1903,21 @@
       ]
     },
     {
+      "title": "QED: An Open-Source Multi-Agent System for Generating Mathematical Proofs on Open Problems",
+      "url": "https://arxiv.org/abs/2604.24021",
+      "subjects": [
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/proofQED/QED"
+        }
+      ]
+    },
+    {
       "title": "R-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence",
       "url": "https://arxiv.org/abs/2603.19215",
       "subjects": [
@@ -2068,6 +2110,17 @@
       ],
       "venue": "arXiv",
       "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+      "url": "https://arxiv.org/abs/2605.09063",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
       "links": []
     },
     {
