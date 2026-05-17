@@ -2205,6 +2205,25 @@
       ]
     },
     {
+      "title": "Undecidability problems for semifree DG algebras",
+      "url": "https://arxiv.org/abs/2605.08122",
+      "subjects": [
+        "Algebra",
+        "Geometric Topology",
+        "Logic",
+        "Symplectic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby"
+        }
+      ]
+    },
+    {
       "title": "Unsupervised Discovery of Formulas for Mathematical Constants",
       "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html",
       "subjects": [
@@ -2252,6 +2271,7 @@
     "Discrete Geometry",
     "Discrete Mathematics",
     "Genetic Algorithm",
+    "Geometric Topology",
     "Geometry",
     "Graph Theory",
     "Group Theory",
@@ -2261,6 +2281,7 @@
     "LLM",
     "Linear Algebra",
     "Linear Regression",
+    "Logic",
     "Logistic Regression",
     "Mathematical Physics",
     "Matrix Multiplication",
@@ -2277,6 +2298,7 @@
     "Statistics",
     "Survey",
     "Symbolic Computation",
+    "Symplectic Geometry",
     "Transformer",
     "VAE"
   ],
