@@ -166,5 +166,10 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
+| **[QED: An Open-Source Multi-Agent System for Generating Mathematical Proofs on Open Problems](https://arxiv.org/abs/2604.24021)** | LLM | arXiv 2026 | [Code](https://github.com/proofQED/QED) |
+| **[Formal Conjectures: An Open and Evolving Benchmark for Verified Discovery in Mathematics](https://arxiv.org/abs/2605.13171)** | Benchmark, ATP | arXiv 2026 | [Code](https://github.com/google-deepmind/formal-conjectures) |
+| **[Every finite group admits a just finite presentation](https://arxiv.org/abs/2605.10402)** | Group Theory, LLM | arXiv 2026 | |
+| **[Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs](https://arxiv.org/abs/2605.09063)** | Benchmark, LLM | arXiv 2026 | |
+
 
 <!-- Table end -->
