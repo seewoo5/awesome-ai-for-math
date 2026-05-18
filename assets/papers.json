@@ -568,18 +568,22 @@
     },
     {
       "title": "Eigenweights for arithmetic Hirzebruch Proportionality",
-      "url": "https://arxiv.org/abs/2601.23245",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag143",
       "subjects": [
         "Number Theory",
         "Representation Theory",
         "LLM"
       ],
-      "venue": "arXiv",
+      "venue": "PNAS Nexus",
       "year": 2026,
       "links": [
         {
           "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2601.23245"
         }
       ]
     },
