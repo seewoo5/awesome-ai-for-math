@@ -18,6 +18,22 @@
       ]
     },
     {
+      "title": "A Machine Learning Approach to the Nirenberg Problem",
+      "url": "https://arxiv.org/abs/2602.12368",
+      "subjects": [
+        "Differential Geometry",
+        "PINN"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/xand-stapleton/nirenberg-neural-network"
+        }
+      ]
+    },
+    {
       "title": "A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning",
       "url": "https://doi.org/10.1007/978-3-031-78977-9_21",
       "subjects": [
@@ -269,6 +285,17 @@
           "url": "https://github.com/ThomasLanard/aubert-zelevinsky-duality"
         }
       ]
+    },
+    {
+      "title": "An example of a very non-movable effective divisor",
+      "url": "https://arxiv.org/abs/2605.20594",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "An ML approach to resolution of singularities",
@@ -2023,6 +2050,27 @@
       ]
     },
     {
+      "title": "Remarks on the disproof of the unit distance conjecture",
+      "url": "https://arxiv.org/abs/2605.20695",
+      "subjects": [
+        "Discrete Geometry",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Original Paper",
+          "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf"
+        },
+        {
+          "label": "CoT",
+          "url": "https://cdn.openai.com/pdf/1625eff6-5ac1-40d8-b1db-5d5cf925de8b/unit-distance-cot.pdf"
+        }
+      ]
+    },
+    {
       "title": "Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof",
       "url": "https://arxiv.org/abs/2601.07421",
       "subjects": [
@@ -2325,6 +2373,7 @@
     "Computational Complexity",
     "Decision Tree",
     "Differential Equations",
+    "Differential Geometry",
     "Discrete Geometry",
     "Discrete Mathematics",
     "Genetic Algorithm",
