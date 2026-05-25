@@ -55,17 +55,21 @@
     },
     {
       "title": "ABC implies that Ramanujan's tau function misses almost all primes",
-      "url": "https://arxiv.org/abs/2603.29970",
+      "url": "https://doi.org/10.1016/j.indag.2026.05.002",
       "subjects": [
         "Number Theory",
         "ATP"
       ],
-      "venue": "arXiv",
+      "venue": "Indagationes Mathematicae",
       "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/AxiomMath/ramanujan-tau-misses-primes"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2603.29970"
         }
       ]
     },
@@ -765,19 +769,23 @@
     },
     {
       "title": "Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof",
-      "url": "https://arxiv.org/abs/2510.19804",
+      "url": "https://doi.org/10.1073/pnas.2531760123",
       "subjects": [
         "Combinatorics",
         "Number Theory",
         "LLM",
         "ATP"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://borisalexeev.com/papers/Erdos707.lean"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2510.19804"
         }
       ]
     },
@@ -2268,17 +2276,21 @@
     },
     {
       "title": "The Simplicity of Hodge Bundle",
-      "url": "https://arxiv.org/abs/2603.19052",
+      "url": "https://doi.org/10.1073/pnas.2610183123",
       "subjects": [
         "Algebraic Geometry",
         "LLM"
       ],
-      "venue": "arXiv",
+      "venue": "Proceedings of the National Academy of Sciences",
       "year": 2026,
       "links": [
         {
           "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2603.19052"
         }
       ]
     },
