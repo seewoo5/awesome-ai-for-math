@@ -173,6 +173,9 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
+| **[Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics](https://arxiv.org/abs/2605.25271)** | Algebraic Geometry, LLM | arXiv 2026 | |
+| **[Certifying Arithmeticity for Two Degree-Six Symplectic Hypergeometric Monodromy Groups](https://arxiv.org/abs/2605.25935)** | Number Theory, LLM | arXiv 2026 | [Code](https://github.com/ditahd/Certificates) |
+| **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://arxiv.org/abs/2605.22763) | ATP, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) |
 
 
 <!-- Table end -->
