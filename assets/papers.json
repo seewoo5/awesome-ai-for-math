@@ -449,6 +449,22 @@
       ]
     },
     {
+      "title": "Certifying Arithmeticity for Two Degree-Six Symplectic Hypergeometric Monodromy Groups",
+      "url": "https://arxiv.org/abs/2605.25935",
+      "subjects": [
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/ditahd/Certificates"
+        }
+      ]
+    },
+    {
       "title": "Constructions in combinatorics via neural networks",
       "url": "https://arxiv.org/abs/2104.14516",
       "subjects": [
@@ -1858,6 +1874,17 @@
       ],
       "venue": "arXiv",
       "year": 2025,
+      "links": []
+    },
+    {
+      "title": "Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics",
+      "url": "https://arxiv.org/abs/2605.25271",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
       "links": []
     },
     {
