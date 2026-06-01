@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 161 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 162 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -60,6 +60,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery](https://arxiv.org/abs/2601.01400)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Even with AI, Bijection Discovery is Still Hard: The Opportunities and Challenges of OpenEvolve for Novel Bijection Construction](https://arxiv.org/abs/2511.20987)** | Combinatorics, LLM | arXiv 2025 |  |
 | **[Every finite group admits a just finite presentation](https://arxiv.org/abs/2605.10402)** | Group Theory, LLM | arXiv 2026 | |
+| **[Evolving Local Corrections for Global Constructions in Combinatorics](https://arxiv.org/abs/2603.06692)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) [Chat Logs](https://arxiv.org/abs/2512.14575) |
 | **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://arxiv.org/abs/2602.03716)** | Combinatorics, Algebra, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) |
@@ -176,6 +177,5 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Evolving Local Corrections for Global Constructions in Combinatorics](https://arxiv.org/abs/2603.06692)** | Combinatorics, LLM | arXiv 2026 |  |
 
 <!-- Table end -->
