@@ -411,6 +411,17 @@
       ]
     },
     {
+      "title": "Benchmarks in Leipzig",
+      "url": "https://arxiv.org/abs/2606.05818",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Can Transformers Do Enumerative Geometry?",
       "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf",
       "subjects": [
@@ -2253,6 +2264,24 @@
       "links": []
     },
     {
+      "title": "Stochastically evolving ellipsoids with symmetries",
+      "url": "https://arxiv.org/abs/2606.05105",
+      "subjects": [
+        "Metric Geometry",
+        "Number Theory",
+        "Probability",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf"
+        }
+      ]
+    },
+    {
       "title": "Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs",
       "url": "https://arxiv.org/abs/2601.23229",
       "subjects": [
@@ -2472,6 +2501,7 @@
     "Logistic Regression",
     "Mathematical Physics",
     "Matrix Multiplication",
+    "Metric Geometry",
     "Neural Network",
     "Number Theory",
     "Optimization Theory",
