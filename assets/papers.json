@@ -106,6 +106,22 @@
       ]
     },
     {
+      "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
+      "url": "https://arxiv.org/abs/2605.22763",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/alphaproof-nexus-results"
+        }
+      ]
+    },
+    {
       "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
       "url": "https://arxiv.org/abs/2603.08322",
       "subjects": [
