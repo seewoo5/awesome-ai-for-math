@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 162 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 164 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -41,6 +41,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | Survey | arXiv 2026 |  |
 | **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
+| **[Benchmarks in Leipzig](https://arxiv.org/abs/2606.05818)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | Algebraic Geometry, Interpretability, Transformer | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://doi.org/10.4310/atmp.260413005111)** | Graph Theory, Group Theory, RL | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/cayleypy/cayleypy) [arXiv](https://arxiv.org/abs/2502.18663) |
 | **[Certifying Arithmeticity for Two Degree-Six Symplectic Hypergeometric Monodromy Groups](https://arxiv.org/abs/2605.25935)** | Number Theory, LLM | arXiv 2026 | [Code](https://github.com/ditahd/Certificates) |
@@ -165,6 +166,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 |  |
 | **[Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs](https://arxiv.org/abs/2605.09063)** | Benchmark, LLM | arXiv 2026 | |
+| **[Stochastically evolving ellipsoids with symmetries](https://arxiv.org/abs/2606.05105)** | Metric Geometry, Number Theory, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf) |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | Computational Complexity, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://doi.org/10.4310/atmp.260412221625)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/davidlowryduda/mobius_case_study) [arXiv](https://arxiv.org/abs/2502.10335) |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
