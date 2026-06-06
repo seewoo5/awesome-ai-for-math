@@ -1231,6 +1231,22 @@
       "links": []
     },
     {
+      "title": "LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization",
+      "url": "https://arxiv.org/abs/2606.05400",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/YuanheZ/LeanMarathon"
+        }
+      ]
+    },
+    {
       "title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
       "url": "https://arxiv.org/abs/2606.03303",
       "subjects": [
@@ -2253,6 +2269,17 @@
       ]
     },
     {
+      "title": "Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization",
+      "url": "https://arxiv.org/abs/2606.05438",
+      "subjects": [
+        "Optimization Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Short proofs in combinatorics and number theory",
       "url": "https://arxiv.org/abs/2603.29961",
       "subjects": [
@@ -2303,7 +2330,7 @@
       "title": "Stochastically evolving ellipsoids with symmetries",
       "url": "https://arxiv.org/abs/2606.05105",
       "subjects": [
-        "Metric Geometry",
+        "Discrete Geometry",
         "Number Theory",
         "Probability",
         "LLM"
@@ -2537,7 +2564,6 @@
     "Logistic Regression",
     "Mathematical Physics",
     "Matrix Multiplication",
-    "Metric Geometry",
     "Neural Network",
     "Number Theory",
     "Optimization Theory",

@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 168 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 170 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -66,6 +66,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) [Chat Logs](https://arxiv.org/abs/2512.14575) |
 | **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://arxiv.org/abs/2602.03716)** | Combinatorics, Algebra, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) |
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | Benchmark, ATP | arXiv 2023 |  |
+| **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391) | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | Benchmark, LLM | arXiv 2026 | [Website](https://1stproof.org/) |
 | **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | Combinatorics, Transformer, Discrete Geometry, RL | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
 | **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |  |
@@ -94,6 +95,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Interpretable Machine Learning for Kronecker Coefficients](https://doi.org/10.4310/atmp.260413002916)** | Representation Theory, Neural Network, Symbolic Computation, PCA, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [arXiv](https://arxiv.org/abs/2502.11774) |
 | **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | Combinatorics | arXiv 2024 |  |
+| **[LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization](https://arxiv.org/abs/2606.05400)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/YuanheZ/LeanMarathon) |
 | **[LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](https://arxiv.org/abs/2606.03303)** | ATP, LLM | arXiv 2026 |  |
 | **[Learning Euler factors of elliptic curves](https://doi.org/10.4310/atmp.260412180132)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [arXiv](https://arxiv.org/abs/2502.10357) |
 | **[Learning Fast Monomial Orders for Gröbner Basis Computations](https://arxiv.org/abs/2602.02972)** | Algebraic Geometry, Symbolic Computation, RL | arXiv 2026 | [Code](https://github.com/codesubmission2026/code-submission) |
@@ -165,6 +167,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | Geometry, Mathematical Physics | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | Geometry, Bayesian Optimization, RL, Neural Network | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
 | **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | Combinatorics, Number Theory, LLM | arXiv 2026 |  |
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 |  |
@@ -182,9 +185,6 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
-| **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391) | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
-| **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
-| **[LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization](https://arxiv.org/abs/2606.05400)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/YuanheZ/LeanMarathon) |
 
 
 
