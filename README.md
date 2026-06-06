@@ -169,7 +169,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 |  |
 | **[Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs](https://arxiv.org/abs/2605.09063)** | Benchmark, LLM | arXiv 2026 | |
-| **[Stochastically evolving ellipsoids with symmetries](https://arxiv.org/abs/2606.05105)** | Metric Geometry, Number Theory, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf) |
+| **[Stochastically evolving ellipsoids with symmetries](https://arxiv.org/abs/2606.05105)** | Discrete Geometry, Number Theory, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf) |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | Computational Complexity, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://doi.org/10.4310/atmp.260412221625)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/davidlowryduda/mobius_case_study) [arXiv](https://arxiv.org/abs/2502.10335) |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
@@ -182,5 +182,10 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
+| **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391) | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
+| **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
+| **[LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization](https://arxiv.org/abs/2606.05400)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/YuanheZ/LeanMarathon) |
+
+
 
 <!-- Table end -->
