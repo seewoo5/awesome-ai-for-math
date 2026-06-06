@@ -778,6 +778,22 @@
       "links": []
     },
     {
+      "title": "Finding Kissing Numbers with Game-theoretic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2511.13391",
+      "subjects": [
+        "Discrete Geometry",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/CDM1619/PackingStar"
+        }
+      ]
+    },
+    {
       "title": "First Proof",
       "url": "https://arxiv.org/abs/2602.05192",
       "subjects": [
