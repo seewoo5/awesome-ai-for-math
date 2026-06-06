@@ -106,6 +106,22 @@
       ]
     },
     {
+      "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
+      "url": "https://arxiv.org/abs/2605.22763",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/google-deepmind/alphaproof-nexus-results"
+        }
+      ]
+    },
+    {
       "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
       "url": "https://arxiv.org/abs/2603.08322",
       "subjects": [
@@ -409,6 +425,17 @@
           "url": "https://github.com/RamanujanMachine/"
         }
       ]
+    },
+    {
+      "title": "Benchmarks in Leipzig",
+      "url": "https://arxiv.org/abs/2606.05818",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Can Transformers Do Enumerative Geometry?",
@@ -833,6 +860,26 @@
       ]
     },
     {
+      "title": "Formalizing Mathematics at Scale",
+      "url": "https://arxiv.org/abs/2605.29955",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code (AutoformBot)",
+          "url": "https://github.com/facebookresearch/autoform-bot"
+        },
+        {
+          "label": "Code (Atlas)",
+          "url": "https://github.com/facebookresearch/atlas-lean"
+        }
+      ]
+    },
+    {
       "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models",
       "url": "https://arxiv.org/abs/2505.02735",
       "subjects": [
@@ -1161,6 +1208,17 @@
       ],
       "venue": "arXiv",
       "year": 2024,
+      "links": []
+    },
+    {
+      "title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
+      "url": "https://arxiv.org/abs/2606.03303",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
       "links": []
     },
     {
@@ -2222,6 +2280,24 @@
       "links": []
     },
     {
+      "title": "Stochastically evolving ellipsoids with symmetries",
+      "url": "https://arxiv.org/abs/2606.05105",
+      "subjects": [
+        "Metric Geometry",
+        "Number Theory",
+        "Probability",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf"
+        }
+      ]
+    },
+    {
       "title": "Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs",
       "url": "https://arxiv.org/abs/2601.23229",
       "subjects": [
@@ -2441,6 +2517,7 @@
     "Logistic Regression",
     "Mathematical Physics",
     "Matrix Multiplication",
+    "Metric Geometry",
     "Neural Network",
     "Number Theory",
     "Optimization Theory",
