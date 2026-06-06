@@ -880,26 +880,6 @@
       ]
     },
     {
-      "title": "Formalizing Mathematics at Scale",
-      "url": "https://arxiv.org/abs/2605.29955",
-      "subjects": [
-        "ATP",
-        "LLM"
-      ],
-      "venue": "arXiv",
-      "year": 2026,
-      "links": [
-        {
-          "label": "Code (AutoformBot)",
-          "url": "https://github.com/facebookresearch/autoform-bot"
-        },
-        {
-          "label": "Code (Atlas)",
-          "url": "https://github.com/facebookresearch/atlas-lean"
-        }
-      ]
-    },
-    {
       "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models",
       "url": "https://arxiv.org/abs/2505.02735",
       "subjects": [
