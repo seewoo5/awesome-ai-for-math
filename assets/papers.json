@@ -1530,17 +1530,21 @@
     },
     {
       "title": "Machine learning for modular multiplication",
-      "url": "https://arxiv.org/abs/2402.19254",
+      "url": "https://doi.org/10.1007/978-3-032-11183-8_9",
       "subjects": [
         "Number Theory",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2024,
+      "venue": "Research Directions in Number Theory",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/meghabyte/mod-math/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2402.19254"
         }
       ]
     },
