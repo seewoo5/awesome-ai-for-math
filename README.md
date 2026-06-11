@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 170 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 173 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -33,18 +33,21 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | Matrix Multiplication, Analysis, Combinatorics, Discrete Geometry, LLM | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | Matrix Multiplication, RL | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger](https://arxiv.org/abs/2509.13231)** | Representation Theory, Neural Network | arXiv 2025 | [Code](https://github.com/ThomasLanard/aubert-zelevinsky-duality) |
+| **[An automated proof that R(B_8,B_10)=37](https://arxiv.org/abs/2606.05629)** | Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/BLL4/RamseyB8B10) |
 | **[An example of a very non-movable effective divisor](https://arxiv.org/abs/2605.20594)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | Algebraic Geometry, RL | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 |  |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | Number Theory, Algebraic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Artificial intelligence and machine learning generated conjectures with TxGraffiti](https://arxiv.org/abs/2407.02731)** | Graph Theory, Combinatorics | arXiv 2024 | [Code](https://github.com/RandyRDavila/TxGraffiti2) |
 | **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | Survey | arXiv 2026 |  |
+| **[Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery](https://arxiv.org/abs/2606.08728)** | Survey | arXiv 2026 | [Code](https://github.com/Starscream-11813/awesome-AI4Math) |
 | **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Benchmarks in Leipzig](https://arxiv.org/abs/2606.05818)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | Algebraic Geometry, Interpretability, Transformer | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://doi.org/10.4310/atmp.260413005111)** | Graph Theory, Group Theory, RL | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/cayleypy/cayleypy) [arXiv](https://arxiv.org/abs/2502.18663) |
 | **[Certifying Arithmeticity for Two Degree-Six Symplectic Hypergeometric Monodromy Groups](https://arxiv.org/abs/2605.25935)** | Number Theory, LLM | arXiv 2026 | [Code](https://github.com/ditahd/Certificates) |
+| **[ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics](https://arxiv.org/abs/2606.10479)** | Benchmark, Combinatorics, LLM | arXiv 2026 |  |
 | **[Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)** | Graph Theory, RL | arXiv 2021 | [Code](https://github.com/zawagner22/cross-entropy-for-combinatorics) |
 | **[Counterexample to majority optimality in NICD with erasures](https://arxiv.org/abs/2510.20013)** | Analysis, LLM | arXiv 2025 |  |
 | **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | Combinatorics, LLM | arXiv 2026 |  |

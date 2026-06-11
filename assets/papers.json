@@ -307,6 +307,23 @@
       ]
     },
     {
+      "title": "An automated proof that R(B_8,B_10)=37",
+      "url": "https://arxiv.org/abs/2606.05629",
+      "subjects": [
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/BLL4/RamseyB8B10"
+        }
+      ]
+    },
+    {
       "title": "An example of a very non-movable effective divisor",
       "url": "https://arxiv.org/abs/2605.20594",
       "subjects": [
@@ -386,6 +403,21 @@
       "venue": "arXiv",
       "year": 2026,
       "links": []
+    },
+    {
+      "title": "Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery",
+      "url": "https://arxiv.org/abs/2606.08728",
+      "subjects": [
+        "Survey"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Starscream-11813/awesome-AI4Math"
+        }
+      ]
     },
     {
       "title": "Automated Conjecture Resolution with Formal Verification",
@@ -490,6 +522,18 @@
           "url": "https://github.com/ditahd/Certificates"
         }
       ]
+    },
+    {
+      "title": "ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics",
+      "url": "https://arxiv.org/abs/2606.10479",
+      "subjects": [
+        "Benchmark",
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Constructions in combinatorics via neural networks",
