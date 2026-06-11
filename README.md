@@ -33,7 +33,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)** | Matrix Multiplication, Analysis, Combinatorics, Discrete Geometry, LLM | arXiv 2025 | [Unofficial Code](https://github.com/codelion/openevolve) |
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | Matrix Multiplication, RL | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger](https://arxiv.org/abs/2509.13231)** | Representation Theory, Neural Network | arXiv 2025 | [Code](https://github.com/ThomasLanard/aubert-zelevinsky-duality) |
-| **[An automated proof that R(B_8,B_10)=37](https://arxiv.org/abs/2606.05629)** | Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/BLL4/RamseyB8B10) |
+| **[An automated proof that R(B_8,B_10)=37](https://arxiv.org/abs/2606.05629)** | Combinatorics, LLM, ATP | arXiv 2026 |  |
 | **[An example of a very non-movable effective divisor](https://arxiv.org/abs/2605.20594)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | Algebraic Geometry, RL | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 |  |
