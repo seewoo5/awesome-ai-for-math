@@ -316,7 +316,12 @@
       ],
       "venue": "arXiv",
       "year": 2026,
-      "links": []
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/BLL4/RamseyB8B10"
+        }
+      ]
     },
     {
       "title": "An example of a very non-movable effective divisor",
