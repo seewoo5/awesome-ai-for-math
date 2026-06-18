@@ -71,6 +71,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391)** | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | Benchmark, LLM | arXiv 2026 | [Website](https://1stproof.org/) |
+| **[First Proof Second Batch](https://arxiv.org/abs/2606.18119)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | Combinatorics, Transformer, Discrete Geometry, RL | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
 | **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |  |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://doi.org/10.1073/pnas.2531760123)** | Combinatorics, Number Theory, LLM, ATP | Proceedings of the National Academy of Sciences 2026 | [Code](https://borisalexeev.com/papers/Erdos707.lean) [arXiv](https://arxiv.org/abs/2510.19804) |
@@ -110,6 +111,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | Linear Algebra, Symbolic Computation, Transformer | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
 | **[Lower bounds for multivariate independence polynomials and their generalisations](https://www.arxiv.org/abs/2602.02450)** | Combinatorics, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis](https://arxiv.org/abs/2606.13782)** | Benchmark, ATP, LLM | arXiv 2026 |  |
 | **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | Number Theory, Neural Network, Decision Tree | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
 | **[Machine learning assisted exploration for affine Deligne-Lusztig varieties](https://doi.org/10.1007/s42543-024-00086-8)** | Number Theory, Representation Theory | Peking Math J 2024 | [Code](https://github.com/Jinpf314/ML4ADLV/) |
 | **[Machine learning BPS spectra and the gap conjecture](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.046016)** | Mathematical Physics, PCA | Physical Review D 2024 |  |
