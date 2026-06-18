@@ -854,6 +854,17 @@
       ]
     },
     {
+      "title": "First Proof Second Batch",
+      "url": "https://arxiv.org/abs/2606.18119",
+      "subjects": [
+        "Benchmark",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Flow-based Extremal Mathematical Structure Discovery",
       "url": "https://www.arxiv.org/abs/2601.18005",
       "subjects": [
@@ -1477,6 +1488,18 @@
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
         }
       ]
+    },
+    {
+      "title": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
+      "url": "https://arxiv.org/abs/2606.13782",
+      "subjects": [
+        "Benchmark",
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves",
