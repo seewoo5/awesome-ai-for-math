@@ -71,6 +71,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391)** | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | Benchmark, LLM | arXiv 2026 | [Website](https://1stproof.org/) |
+| **[First Proof Second Batch](https://arxiv.org/abs/2606.18119)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Flow-based Extremal Mathematical Structure Discovery](https://www.arxiv.org/abs/2601.18005)** | Combinatorics, Transformer, Discrete Geometry, RL | arXiv 2026 | [Code](https://github.com/berczig/FlowBoost) |
 | **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |  |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://doi.org/10.1073/pnas.2531760123)** | Combinatorics, Number Theory, LLM, ATP | Proceedings of the National Academy of Sciences 2026 | [Code](https://borisalexeev.com/papers/Erdos707.lean) [arXiv](https://arxiv.org/abs/2510.19804) |
