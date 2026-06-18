@@ -1479,18 +1479,6 @@
       ]
     },
     {
-      "title": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
-      "url": "https://arxiv.org/abs/2606.13782",
-      "subjects": [
-        "Benchmark",
-        "ATP",
-        "LLM"
-      ],
-      "venue": "arXiv",
-      "year": 2026,
-      "links": []
-    },
-    {
       "title": "Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves",
       "url": "https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015",
       "subjects": [
