@@ -645,6 +645,18 @@
       "links": []
     },
     {
+      "title": "Does My Embedding Reflect That A = B? Evaluating Mathematical Equivalence in Embedding Models",
+      "url": "https://arxiv.org/abs/2606.23959",
+      "subjects": [
+        "Benchmark",
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery",
       "url": "https://arxiv.org/abs/2604.21187",
       "subjects": [
@@ -966,6 +978,18 @@
           "url": "https://spherelab.ai/FormalMATH/"
         }
       ]
+    },
+    {
+      "title": "Four-digit Kaprekar dynamics in odd bases",
+      "url": "https://arxiv.org/abs/2606.20439",
+      "subjects": [
+        "Number Theory",
+        "Combinatorics",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm",
@@ -2084,6 +2108,18 @@
       "links": []
     },
     {
+      "title": "Process-Verified Reinforcement Learning for Theorem Proving via Lean",
+      "url": "https://arxiv.org/abs/2606.20068",
+      "subjects": [
+        "ATP",
+        "LLM",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad",
       "url": "https://arxiv.org/abs/2503.21934",
       "subjects": [
@@ -2448,6 +2484,18 @@
       ]
     },
     {
+      "title": "Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems",
+      "url": "https://arxiv.org/abs/2606.23821",
+      "subjects": [
+        "Analysis",
+        "Numerical Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning",
       "url": "https://arxiv.org/abs/2603.15914",
       "subjects": [
@@ -2584,6 +2632,17 @@
       ]
     },
     {
+      "title": "Verifiable Auto-Formalization of Mathematics Using a Relaxed Natural Formal Language",
+      "url": "https://arxiv.org/abs/2606.24443",
+      "subjects": [
+        "ATP",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "What makes math problems hard for reinforcement learning: a case study",
       "url": "https://arxiv.org/abs/2408.15332",
       "subjects": [
@@ -2633,6 +2692,7 @@
     "Matrix Multiplication",
     "Neural Network",
     "Number Theory",
+    "Numerical Analysis",
     "Optimization Theory",
     "PCA",
     "PINN",
