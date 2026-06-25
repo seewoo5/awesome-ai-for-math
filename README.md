@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 175 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 180 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -56,6 +56,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | Differential Equations, Symbolic Computation, Transformer | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | Algebraic Geometry, RL | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | Differential Equations, PINN | arXiv 2025 |  |
+| **[Does My Embedding Reflect That A = B? Evaluating Mathematical Equivalence in Embedding Models](https://arxiv.org/abs/2606.23959)** | Benchmark, ATP, LLM | arXiv 2026 |  |
 | **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
 | **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | Combinatorics, Optimization Theory, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
@@ -78,6 +79,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Formal Conjectures: An Open and Evolving Benchmark for Verified Discovery in Mathematics](https://arxiv.org/abs/2605.13171)** | Benchmark, ATP | arXiv 2026 | [Code](https://github.com/google-deepmind/formal-conjectures) |
 | **[Formalizing Mathematics at Scale](https://arxiv.org/abs/2605.29955)** | ATP, LLM | arXiv 2026 | [Code (AutoformBot)](https://github.com/facebookresearch/autoform-bot) [Code (Atlas)](https://github.com/facebookresearch/atlas-lean) |
 | **[FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models](https://arxiv.org/abs/2505.02735)** | Benchmark, ATP, LLM | arXiv 2025 | [Website](https://spherelab.ai/FormalMATH/) |
+| **[Four-digit Kaprekar dynamics in odd bases](https://arxiv.org/abs/2606.20439)** | Number Theory, Combinatorics, ATP | arXiv 2026 |  |
 | **[From Black Box to Bijection: Interpreting Machine Learning to Build a Zeta Map Algorithm](https://www.arxiv.org/abs/2511.12421)** | Combinatorics, Transformer | arXiv 2025 |  |
 | **[From Euler to AI: Unifying Formulas for Mathematical Constants](https://arxiv.org/abs/2502.17533)** | Number Theory, LLM | arXiv 2025 | [Code](https://github.com/RamanujanMachine/euler2ai) |
 | **[FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI](https://arxiv.org/abs/2411.04872)** | Benchmark, LLM | arXiv 2024 | [Website](https://epoch.ai/frontiermath) |
@@ -154,6 +156,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics](https://arxiv.org/abs/2605.25271)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 |  |
 | **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026 | |
+| **[Process-Verified Reinforcement Learning for Theorem Proving via Lean](https://arxiv.org/abs/2606.20068)** | ATP, LLM, RL | arXiv 2026 |  |
 | **[Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/abs/2503.21934)** | Benchmark, LLM | arXiv 2025 |  |
 | **[ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics](https://arxiv.org/abs/2302.12433)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Putnam-AXIOM: A Functional and Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs](https://arxiv.org/abs/2508.08292)** | Benchmark, LLM | arXiv 2025 |  |
@@ -179,6 +182,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Stochastically evolving ellipsoids with symmetries](https://arxiv.org/abs/2606.05105)** | Discrete Geometry, Number Theory, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf) |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | Computational Complexity, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Studying number theory with deep learning: a case study with the Möbius and squarefree indicator functions](https://doi.org/10.4310/atmp.260412221625)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/davidlowryduda/mobius_case_study) [arXiv](https://arxiv.org/abs/2502.10335) |
+| **[Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems](https://arxiv.org/abs/2606.23821)** | Analysis, Numerical Analysis, LLM | arXiv 2026 |  |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | Algebra, LLM, CNN, ATP | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
@@ -188,6 +192,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools](https://arxiv.org/abs/2605.02193)** | Graph Theory, Transformer | arXiv 2026 | [Code](https://github.com/sheilman77/dominating_sets_PatternBoost) |
 | **[Undecidability problems for semifree DG algebras](https://arxiv.org/abs/2605.08122)** | Algebra, Geometric Topology, Logic, Symplectic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia/Kirby) |
 | **[Unsupervised Discovery of Formulas for Mathematical Constants](https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd8b5de90ebfd6df2b703d2346370cba-Abstract-Conference.html)** | Number Theory | NeurIPS 2024 | [Code](https://github.com/RamanujanMachine/Blind-Delta-Algorithm) |
+| **[Verifiable Auto-Formalization of Mathematics Using a Relaxed Natural Formal Language](https://arxiv.org/abs/2606.24443)** | ATP, LLM | arXiv 2026 |  |
 | **[What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332)** | Group Theory, RL, Transformer | arXiv 2024 | [Code](https://github.com/shehper/AC-Solver) |
 
 
