@@ -85,6 +85,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI](https://arxiv.org/abs/2411.04872)** | Benchmark, LLM | arXiv 2024 | [Website](https://epoch.ai/frontiermath) |
 | **[GAUSS: Benchmarking Structured Mathematical Skills for Large Language Models](https://arxiv.org/abs/2509.18122)** | Benchmark, LLM | arXiv 2025 | [Website](https://gaussmath.ai/) |
 | **[Generating conjectures on fundamental constants with the Ramanujan Machine](https://www.nature.com/articles/s41586-021-03229-4)** | Number Theory | Nature 2021 | [Code](https://github.com/RamanujanMachine/) |
+| **[Generating Special Triangulations with Transformers](https://arxiv.org/abs/2606.26660)** | Mathematical Physics, Algebraic Geometry, Transformer | arXiv 2026 |  |
 | **[Generative AI for brane configurations and coamoeba](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086013)** | Mathematical Physics, VAE | Physical Review D 2025 |  |
 | **[Generative Modeling for Mathematical Discovery](https://doi.org/10.4310/atmp.260412165352)** | Combinatorics, Number Theory, LLM | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/kitft/funsearch) [arXiv](https://arxiv.org/abs/2503.11061) |
 | **[Geometric Generality of Transformer-Based Gröbner Basis Computation](https://doi.org/10.1090/conm/835/16758)** | Algebraic Geometry, Transformer | Artificial Intelligence and Mathematics Research 2026 | [arXiv](https://arxiv.org/abs/2504.12465) |
