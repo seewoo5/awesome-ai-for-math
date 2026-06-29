@@ -1318,6 +1318,22 @@
       ]
     },
     {
+      "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+      "url": "https://arxiv.org/abs/2606.02484",
+      "subjects": [
+        "Numerical Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/frenzymath/iteris"
+        }
+      ]
+    },
+    {
       "title": "Lattice-Valued Bottleneck Duality",
       "url": "https://arxiv.org/abs/2410.00315",
       "subjects": [
@@ -1501,6 +1517,22 @@
       "venue": "arXiv",
       "year": 2026,
       "links": []
+    },
+    {
+      "title": "Lift-independence problem in the $P$-adic Simpson correspondence for curves",
+      "url": "https://arxiv.org/abs/2605.29947",
+      "subjects": [
+        "Algebraic Geometry",
+        "Number Theory"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code (Rethlas)",
+          "url": "https://github.com/frenzymath/Rethlas"
+        }
+      ]
     },
     {
       "title": "Linear algebra with transformers",
