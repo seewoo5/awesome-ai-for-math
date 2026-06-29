@@ -69,7 +69,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Evolving Local Corrections for Global Constructions in Combinatorics](https://arxiv.org/abs/2603.06692)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) [Chat Logs](https://arxiv.org/abs/2512.14575) |
-| **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://arxiv.org/abs/2602.03716)** | Combinatorics, Algebra, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) |
+| **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://doi.org/10.1016/j.jcta.2026.106237)** | Combinatorics, Algebra, Number Theory, ATP | Journal of Combinatorial Theory, Series A 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) [arXiv](https://arxiv.org/abs/2602.03716) |
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | Benchmark, ATP | arXiv 2023 |  |
 | **[Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391)** | Discrete Geometry, RL | arXiv 2025 | [Code](https://github.com/CDM1619/PackingStar) |
 | **[First Proof](https://arxiv.org/abs/2602.05192)** | Benchmark, LLM | arXiv 2026 | [Website](https://1stproof.org/) |
