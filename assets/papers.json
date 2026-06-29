@@ -816,19 +816,23 @@
     },
     {
       "title": "Fel's Conjecture on Syzygies of Numerical Semigroups",
-      "url": "https://arxiv.org/abs/2602.03716",
+      "url": "https://doi.org/10.1016/j.jcta.2026.106237",
       "subjects": [
         "Combinatorics",
         "Algebra",
         "Number Theory",
         "ATP"
       ],
-      "venue": "arXiv",
+      "venue": "Journal of Combinatorial Theory, Series A",
       "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/AxiomMath/fel-polynomial"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2602.03716"
         }
       ]
     },
