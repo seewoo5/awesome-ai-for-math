@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-for-Math Paper"
+  short_description: "Add paper links to the awesome-ai-for-math README"
+  default_prompt: "Use $awesome-ai-for-math-paper to add this paper link to the awesome-ai-for-math README."
