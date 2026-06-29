@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 181 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 182 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -23,6 +23,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://arxiv.org/abs/2605.22763)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | Combinatorics, LLM, ATP | arXiv 2026 |  |
 | **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM | arXiv 2026 |  |
+| **[AI for Mathematics: Progress, Challenges, and Prospects](https://arxiv.org/abs/2601.13209)** | Survey | arXiv 2026 |  |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26380) |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | Survey | Nature Reviews Physics 2025 |  |
