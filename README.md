@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 182 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 184 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -101,6 +101,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Int2Int: a framework for mathematics with transformers](https://doi.org/10.4310/atmp.260412100858)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/f-charton/Int2Int) [arXiv](https://arxiv.org/abs/2502.17513) |
 | **[Interpretable Machine Learning for Kronecker Coefficients](https://doi.org/10.4310/atmp.260413002916)** | Representation Theory, Neural Network, Symbolic Computation, PCA, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [arXiv](https://arxiv.org/abs/2502.11774) |
 | **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Iteris: Agentic Research Loops for Computational Mathematics](https://arxiv.org/abs/2606.02484)** | Numerical Analysis, LLM | arXiv 2026 | [Code](https://github.com/frenzymath/iteris) |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | Combinatorics | arXiv 2024 |  |
 | **[LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization](https://arxiv.org/abs/2606.05400)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/YuanheZ/LeanMarathon) |
 | **[LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](https://arxiv.org/abs/2606.03303)** | ATP, LLM | arXiv 2026 |  |
@@ -113,6 +114,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Learning to compute Gröbner Basis](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3a1de90699eec7d7f42c91d81f94af16-Abstract-Conference.html)** | Algebraic Geometry, Transformer | NeurIPS 2024 | [Code](https://github.com/HiroshiKERA/transformer-groebner) |
 | **[Learning Topological Invariance](https://arxiv.org/abs/2504.12390)** | Knot Theory, Neural Network, Transformer | arXiv 2025 |  |
 | **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | Benchmark, LLM | arXiv 2026 |  |
+| **[Lift-independence problem in the $P$-adic Simpson correspondence for curves](https://arxiv.org/abs/2605.29947)** | Algebraic Geometry, Number Theory | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas) |
 | **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | Linear Algebra, Symbolic Computation, Transformer | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
 | **[Lower bounds for multivariate independence polynomials and their generalisations](https://www.arxiv.org/abs/2602.02450)** | Combinatorics, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis](https://arxiv.org/abs/2606.13782)** | Benchmark, ATP, LLM | arXiv 2026 |  |
