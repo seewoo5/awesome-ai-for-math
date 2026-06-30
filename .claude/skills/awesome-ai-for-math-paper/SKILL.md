@@ -24,6 +24,7 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
    - Subject(s): prefer existing README tags. Use mathematical domain tags first, then method tags such as `LLM`, `ATP`, `RL`, `Transformer`, `Neural Network`, or `Benchmark`.
    - Venue & Year: use `arXiv YYYY` unless a published venue is confirmed.
    - Links & Resources: include official resources discovered from the paper page, abstract, paper PDF, repository search, author pages, or clearly related existing project repos.
+   - Add an `[arXiv]` link to the last column only when the title links to a different published version (journal or conference) and the arXiv link would not duplicate it. If the title already links to the arXiv page, do not repeat an `[arXiv]` link in the last column.
 
 4. Search for associated resources.
    - Check the paper page and PDF for URLs such as GitHub, GitLab, project pages, datasets, notebooks, Lean artifacts, or chat logs.
