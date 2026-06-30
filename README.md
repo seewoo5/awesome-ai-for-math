@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 184 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 185 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -93,6 +93,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Global Lyapunov functions: a long-standing open problem in mathematics, with symbolic transformers](https://proceedings.neurips.cc/paper_files/paper/2024/file/aa280e73c4e23e765fde232571116d3b-Paper-Conference.pdf)** | Differential Equations, Transformer | NeurIPS 2024 | [Code](https://github.com/facebookresearch/Lyapunov) |
 | **[Gödel Test: Can Large Language Models Solve Easy Conjectures?](https://arxiv.org/abs/2509.18383)** | Discrete Mathematics, LLM | arXiv 2025 |  |
 | **[HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics](https://arxiv.org/abs/2410.09988)** | Benchmark, LLM | arXiv 2024 | [Code](https://github.com/sarahmart/HARDMath) |
+| **[Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra](https://arxiv.org/abs/2606.22922)** | Commutative Algebra, Combinatorics, RL, Neural Network | ICML 2026 | [Code](https://github.com/Math-AI-Caltech/alghirsch-hrl) |
 | **[Hilbert series, machine learning, and applications to physics](https://www.sciencedirect.com/science/article/pii/S0370269322001009)** | Algebraic Geometry, Mathematical Physics, Neural Network | Physics Letters B 2024 | [Code](https://github.com/edhirst/HilbertSeriesML) |
 | **[Humanity's Last Exam](https://doi.org/10.1038/s41586-025-09962-4)** | Benchmark, LLM | Nature 2026 | [Website](https://lastexam.ai) [arXiv](https://arxiv.org/abs/2501.14249) |
 | **[Illuminating new and known relations between knot invariants](https://doi.org/10.1088/2632-2153/ad95d9)** | Knot Theory, Neural Network | Machine Learning: Science and Technology 2024 | [Code](https://github.com/JessRachel97/Knot_searcher_experiments) [arXiv](https://arxiv.org/abs/2211.01404) |
