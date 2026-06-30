@@ -1183,6 +1183,24 @@
       ]
     },
     {
+      "title": "Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra",
+      "url": "https://arxiv.org/abs/2606.22922",
+      "subjects": [
+        "Commutative Algebra",
+        "Combinatorics",
+        "RL",
+        "Neural Network"
+      ],
+      "venue": "ICML",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Math-AI-Caltech/alghirsch-hrl"
+        }
+      ]
+    },
+    {
       "title": "Hilbert series, machine learning, and applications to physics",
       "url": "https://www.sciencedirect.com/science/article/pii/S0370269322001009",
       "subjects": [
@@ -2727,6 +2745,7 @@
     "Benchmark",
     "CNN",
     "Combinatorics",
+    "Commutative Algebra",
     "Computational Complexity",
     "Decision Tree",
     "Differential Equations",
