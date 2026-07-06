@@ -1235,6 +1235,23 @@
       ]
     },
     {
+      "title": "How Twist Class Redundancy Drives the Prediction of Traces of Frobenius of Elliptic Curves",
+      "url": "https://arxiv.org/abs/2605.14288",
+      "subjects": [
+        "Number Theory",
+        "Benchmark",
+        "Transformer"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://doi.org/10.5281/zenodo.20129317"
+        }
+      ]
+    },
+    {
       "title": "Humanity's Last Exam",
       "url": "https://doi.org/10.1038/s41586-025-09962-4",
       "subjects": [
