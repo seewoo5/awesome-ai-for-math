@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 185 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 186 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -78,6 +78,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities](https://arxiv.org/abs/2604.11922)** | Analysis | arXiv 2026 |  |
 | **[Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](https://doi.org/10.1073/pnas.2531760123)** | Combinatorics, Number Theory, LLM, ATP | Proceedings of the National Academy of Sciences 2026 | [Code](https://borisalexeev.com/papers/Erdos707.lean) [arXiv](https://arxiv.org/abs/2510.19804) |
 | **[Formal Conjectures: An Open and Evolving Benchmark for Verified Discovery in Mathematics](https://arxiv.org/abs/2605.13171)** | Benchmark, ATP | arXiv 2026 | [Code](https://github.com/google-deepmind/formal-conjectures) |
+| **[Formalized $q$-series: The Rogers-Ramanujan Identities and Beyond](https://arxiv.org/abs/2607.01544)** | Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/RogersRamanujan) |
 | **[Formalizing Mathematics at Scale](https://arxiv.org/abs/2605.29955)** | ATP, LLM | arXiv 2026 | [Code (AutoformBot)](https://github.com/facebookresearch/autoform-bot) [Code (Atlas)](https://github.com/facebookresearch/atlas-lean) |
 | **[FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models](https://arxiv.org/abs/2505.02735)** | Benchmark, ATP, LLM | arXiv 2025 | [Website](https://spherelab.ai/FormalMATH/) |
 | **[Four-digit Kaprekar dynamics in odd bases](https://arxiv.org/abs/2606.20439)** | Number Theory, Combinatorics, ATP | arXiv 2026 |  |
