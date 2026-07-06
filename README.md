@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 186 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 187 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -97,6 +97,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra](https://arxiv.org/abs/2606.22922)** | Commutative Algebra, Combinatorics, RL, Neural Network | ICML 2026 | [Code](https://github.com/Math-AI-Caltech/alghirsch-hrl) |
 | **[Hilbert series, machine learning, and applications to physics](https://www.sciencedirect.com/science/article/pii/S0370269322001009)** | Algebraic Geometry, Mathematical Physics, Neural Network | Physics Letters B 2024 | [Code](https://github.com/edhirst/HilbertSeriesML) |
 | **[Humanity's Last Exam](https://doi.org/10.1038/s41586-025-09962-4)** | Benchmark, LLM | Nature 2026 | [Website](https://lastexam.ai) [arXiv](https://arxiv.org/abs/2501.14249) |
+| **[How Twist Class Redundancy Drives the Prediction of Traces of Frobenius of Elliptic Curves](https://arxiv.org/abs/2605.14288)** | Number Theory, Benchmark, Transformer | arXiv 2026 | [Dataset](https://doi.org/10.5281/zenodo.20129317) |
 | **[Illuminating new and known relations between knot invariants](https://doi.org/10.1088/2632-2153/ad95d9)** | Knot Theory, Neural Network | Machine Learning: Science and Technology 2024 | [Code](https://github.com/JessRachel97/Knot_searcher_experiments) [arXiv](https://arxiv.org/abs/2211.01404) |
 | **[IMProofBench: Benchmarking AI on Research-Level Mathematical Proof Generation](https://arxiv.org/abs/2509.26076)** | Benchmark, LLM | arXiv 2025 | [Website](https://improofbench.math.ethz.ch/) |
 | **[In between myth and reality: AI for math -- a case study in category theory](https://arxiv.org/abs/2504.13360)** | Survey, LLM | arXiv 2025 |  |
