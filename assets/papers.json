@@ -957,6 +957,23 @@
       ]
     },
     {
+      "title": "Formalized $q$-series: The Rogers-Ramanujan Identities and Beyond",
+      "url": "https://arxiv.org/abs/2607.01544",
+      "subjects": [
+        "Number Theory",
+        "Combinatorics",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/RogersRamanujan"
+        }
+      ]
+    },
+    {
       "title": "Formalizing Mathematics at Scale",
       "url": "https://arxiv.org/abs/2605.29955",
       "subjects": [
