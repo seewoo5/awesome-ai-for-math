@@ -1905,19 +1905,23 @@
     },
     {
       "title": "Machines Learn Number Fields, But How? The Case of Galois Groups",
-      "url": "https://arxiv.org/abs/2508.06670",
+      "url": "https://doi.org/10.1007/s40687-026-00620-3",
       "subjects": [
         "Number Theory",
         "Logistic Regression",
         "Decision Tree",
         "Interpretability"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "Research in the Mathematical Sciences",
+      "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/seewoo5/ML-NF"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2508.06670"
         }
       ]
     },
