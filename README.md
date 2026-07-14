@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 187 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 188 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -156,6 +156,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[On (not) learning the Möbius function](https://arxiv.org/abs/2604.23427)** | Number Theory | arXiv 2026 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | Geometry, Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
 | **[On the Quartic Invariant of Odd Degree Binary Forms](https://arxiv.org/abs/2603.24330)** | Algebraic Geometry, Number Theory, LLM, ATP | arXiv 2026 | [Code](https://github.com/ashvin-swaminathan/quartic-invariant) |
+| **[On two counterexamples in the geometry of numbers](https://arxiv.org/abs/2607.11695)** | Discrete Geometry, Number Theory, LLM | arXiv 2026 |  |
 | **[Optimal bounds for an Erdős problem on matching integers to distinct multiples](https://arxiv.org/abs/2603.28636)** | Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/Woett/Lean-files/blob/main/ErdosProblem650.lean) |
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | Algebraic Geometry, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
