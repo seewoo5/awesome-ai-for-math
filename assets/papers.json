@@ -247,17 +247,21 @@
     },
     {
       "title": "Almost all primes are partially regular",
-      "url": "https://arxiv.org/abs/2602.05090",
+      "url": "https://doi.org/10.1007/s00013-026-02261-y",
       "subjects": [
         "Number Theory",
         "ATP"
       ],
-      "venue": "arXiv",
+      "venue": "Archiv der Mathematik",
       "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/AxiomMath/partial-regularity"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2602.05090"
         }
       ]
     },
