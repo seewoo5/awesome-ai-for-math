@@ -14,7 +14,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
-| **[A dual linear programming bound for sphere packing in dimension 36](https://arxiv.org/abs/2607.11319)** | Discrete Geometry, Number Theory, LLM | arXiv 2026 |  |
+| **[A dual linear programming bound for sphere packing in dimension 36](https://arxiv.org/abs/2607.11319)** | Discrete Geometry, Number Theory, LLM | arXiv 2026 | [Code](https://arxiv.org/src/2607.11319/anc) |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | Graph Theory, Group Theory, RL | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Machine Learning Approach to the Nirenberg Problem](https://arxiv.org/abs/2602.12368)** | Differential Geometry, PINN | arXiv 2026 | [Code](https://github.com/xand-stapleton/nirenberg-neural-network) |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | Graph Theory, RL | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
