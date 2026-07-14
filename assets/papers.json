@@ -1,6 +1,23 @@
 {
   "papers": [
     {
+      "title": "A dual linear programming bound for sphere packing in dimension 36",
+      "url": "https://arxiv.org/abs/2607.11319",
+      "subjects": [
+        "Discrete Geometry",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://arxiv.org/src/2607.11319/anc"
+        }
+      ]
+    },
+    {
       "title": "A Machine Learning Approach That Beats Large Rubik's Cubes",
       "url": "https://arxiv.org/abs/2502.13266",
       "subjects": [
@@ -2126,6 +2143,18 @@
           "url": "https://github.com/ashvin-swaminathan/quartic-invariant"
         }
       ]
+    },
+    {
+      "title": "On two counterexamples in the geometry of numbers",
+      "url": "https://arxiv.org/abs/2607.11695",
+      "subjects": [
+        "Discrete Geometry",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Optimal bounds for an Erdős problem on matching integers to distinct multiples",
