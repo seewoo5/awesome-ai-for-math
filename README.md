@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 189 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 190 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -46,6 +46,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Benchmarks in Leipzig](https://arxiv.org/abs/2606.05818)** | Benchmark, LLM | arXiv 2026 |  |
+| **[Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks](https://arxiv.org/abs/2607.13159)** | Combinatorics, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/HigherDyson) |
 | **[Can Transformers Do Enumerative Geometry?](https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)** | Algebraic Geometry, Interpretability, Transformer | ICLR 2025 | [Code](https://github.com/Baran-phys/DynamicFormer) |
 | **[CayleyPy RL: Pathfinding and Reinforcement Learning on Cayley Graphs](https://doi.org/10.4310/atmp.260413005111)** | Graph Theory, Group Theory, RL | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/cayleypy/cayleypy) [arXiv](https://arxiv.org/abs/2502.18663) |
 | **[Certifying Arithmeticity for Two Degree-Six Symplectic Hypergeometric Monodromy Groups](https://arxiv.org/abs/2605.25935)** | Number Theory, LLM | arXiv 2026 | [Code](https://github.com/ditahd/Certificates) |
