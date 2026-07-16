@@ -501,6 +501,23 @@
       "links": []
     },
     {
+      "title": "Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks",
+      "url": "https://arxiv.org/abs/2607.13159",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/HigherDyson"
+        }
+      ]
+    },
+    {
       "title": "Can Transformers Do Enumerative Geometry?",
       "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf",
       "subjects": [
