@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 191 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 192 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -155,6 +155,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
 | **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
+| **[Off-diagonal Ramsey numbers](https://arxiv.org/abs/2605.28793)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | RL, ATP | Nature 2025 |  |
 | **[On (not) learning the Möbius function](https://arxiv.org/abs/2604.23427)** | Number Theory | arXiv 2026 |  |
 | **[On the paucity of lattice triangles](https://arxiv.org/abs/2603.23928)** | Geometry, Number Theory, Combinatorics, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/lattice-triangle) |
@@ -188,7 +189,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
 | **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | Combinatorics, Number Theory, LLM | arXiv 2026 |  |
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
-| **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 |  |
+| **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 | [Chat Log (Upper Bound)](https://chatgpt.com/share/6922876a-7988-8007-9c62-5f71772af6aa) [Chat Log (Lower Bound)](https://chatgpt.com/share/69227dd1-a00c-8007-8072-26b6e97a0820) |
 | **[Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs](https://arxiv.org/abs/2605.09063)** | Benchmark, LLM | arXiv 2026 | |
 | **[Stochastically evolving ellipsoids with symmetries](https://arxiv.org/abs/2606.05105)** | Discrete Geometry, Number Theory, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2606.05105v2/anc/chatlog.pdf) |
 | **[Strongly Polynomial Time Complexity of Policy Iteration for L-inf Robust MDPs](https://arxiv.org/abs/2601.23229)** | Computational Complexity, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
