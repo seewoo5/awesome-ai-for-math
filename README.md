@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 190 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 191 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -17,6 +17,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[A dual linear programming bound for sphere packing in dimension 36](https://arxiv.org/abs/2607.11319)** | Discrete Geometry, Number Theory, LLM | arXiv 2026 | [Code](https://arxiv.org/src/2607.11319/anc) |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | Graph Theory, Group Theory, RL | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Machine Learning Approach to the Nirenberg Problem](https://arxiv.org/abs/2602.12368)** | Differential Geometry, PINN | arXiv 2026 | [Code](https://github.com/xand-stapleton/nirenberg-neural-network) |
+| **[A Separable Banach Space with a Schauder Basis Which Is Not a Lipschitz Retract of Its Bidual](https://arxiv.org/abs/2607.12935)** | Analysis, LLM | arXiv 2026 |  |
 | **[A Systematization of the Wagner Framework: Graph Theory Conjectures and Reinforcement Learning](https://doi.org/10.1007/978-3-031-78977-9_21)** | Graph Theory, RL | Discovery Science 2025 | [Code](https://github.com/CuriosAI/graph_conjectures) [arXiv](https://arxiv.org/abs/2406.12667) |
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://doi.org/10.1016/j.indag.2026.05.002)** | Number Theory, ATP | Indagationes Mathematicae 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) [arXiv](https://arxiv.org/abs/2603.29970) |
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26647) |
