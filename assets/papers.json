@@ -2116,6 +2116,17 @@
       ]
     },
     {
+      "title": "Off-diagonal Ramsey numbers",
+      "url": "https://arxiv.org/abs/2605.28793",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
       "url": "https://www.nature.com/articles/s41586-025-09833-y",
       "subjects": [
@@ -2591,7 +2602,16 @@
       ],
       "venue": "arXiv",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "Chat Log (Upper Bound)",
+          "url": "https://chatgpt.com/share/6922876a-7988-8007-9c62-5f71772af6aa"
+        },
+        {
+          "label": "Chat Log (Lower Bound)",
+          "url": "https://chatgpt.com/share/69227dd1-a00c-8007-8072-26b6e97a0820"
+        }
+      ]
     },
     {
       "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
