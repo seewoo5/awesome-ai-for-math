@@ -501,6 +501,23 @@
       ]
     },
     {
+      "title": "Autonomous disproofs of the sum-product conjecture over $\\mathbb R$ with GPT-5.5 Pro",
+      "url": "https://arxiv.org/abs/2607.20525",
+      "subjects": [
+        "Combinatorics",
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/yichenhuang/sum-product"
+        }
+      ]
+    },
+    {
       "title": "Benchmarks in Leipzig",
       "url": "https://arxiv.org/abs/2606.05818",
       "subjects": [
