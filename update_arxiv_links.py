@@ -8,10 +8,12 @@ For each README row whose title links to an arXiv preprint, we attempt to
 find the official peer-reviewed DOI via two authoritative sources, in order:
 
   1. arXiv API  — some authors add the published DOI to their arXiv submission
-                  after acceptance; this is the most direct source.
+                  after acceptance; the DOI is verified against CrossRef before
+                  it is accepted.
   2. CrossRef   — the DOI registration agency used by virtually all major
                   journals; searched by paper title, accepted only when the
-                  returned title is sufficiently similar to ours (≥ TITLE_THRESHOLD).
+                  returned title is sufficiently similar to ours (≥ TITLE_THRESHOLD)
+                  and at least one author surname agrees.
 
 If a DOI is found, the following columns are updated:
   - Title:   the arXiv link is replaced with https://doi.org/{DOI}
@@ -37,6 +39,7 @@ import sys
 import shutil
 import time
 import difflib
+import unicodedata
 import xml.etree.ElementTree as ET
 import requests
 
@@ -83,12 +86,12 @@ def query_arxiv(arxiv_id: str) -> dict | None:
     """
     Fetch metadata for a single paper from the arXiv Atom API.
 
-    Returns a dict {'title': str, 'doi': str | None}, or None on network /
-    parse error. The title has internal whitespace normalised (arXiv XML often
-    contains newlines inside the title element). The doi field is the
-    journal-ref DOI submitted by the authors after publication, or None if they
-    have not added one. It is NOT filtered for preprint prefixes here because
-    authors would not normally set their own DOI to an arXiv or preprint DOI.
+    Returns a dict {'title': str, 'doi': str | None, 'authors': list[str]}, or
+    None on network / parse error. The title has internal whitespace normalised
+    (arXiv XML often contains newlines inside the title element). The doi field
+    is the journal-ref DOI submitted by the authors after publication, or None
+    if they have not added one. It is still verified against CrossRef metadata
+    before use.
     """
     try:
         r = requests.get(ARXIV_API, params={"id_list": arxiv_id}, timeout=15)
@@ -105,11 +108,17 @@ def query_arxiv(arxiv_id: str) -> dict | None:
     entry = entries[0]
     title_el = entry.find("atom:title", ARXIV_NS)
     doi_el   = entry.find("arxiv:doi",  ARXIV_NS)
+    author_els = entry.findall("atom:author/atom:name", ARXIV_NS)
 
     return {
         # Collapse whitespace: arXiv XML titles may contain literal newlines.
         "title": " ".join(title_el.text.split()) if title_el is not None else "",
         "doi":   doi_el.text.strip()              if doi_el   is not None else None,
+        "authors": [
+            " ".join(author_el.text.split())
+            for author_el in author_els
+            if author_el.text
+        ],
     }
 
 
@@ -120,6 +129,48 @@ def query_arxiv(arxiv_id: str) -> dict | None:
 def title_similarity(a: str, b: str) -> float:
     """Return case-insensitive SequenceMatcher ratio between two title strings."""
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+
+def author_surname(author: str) -> str:
+    """
+    Return a comparison key for an author surname.
+
+    arXiv exposes full names while CrossRef has a dedicated family-name field.
+    Comparing their final normalised token handles accents (for example,
+    "Bradač" versus "Bradac") and multi-word family names conservatively enough
+    for use alongside the existing title-similarity threshold.
+    """
+    ascii_name = unicodedata.normalize("NFKD", author).encode("ascii", "ignore").decode()
+    tokens = re.findall(r"[a-z0-9]+", ascii_name.lower())
+    return tokens[-1] if tokens else ""
+
+
+def authors_overlap(arxiv_authors: list[str], crossref_authors: list[str]) -> bool:
+    """Return whether the two metadata records share an author surname."""
+    arxiv_surnames = {author_surname(author) for author in arxiv_authors}
+    crossref_surnames = {author_surname(author) for author in crossref_authors}
+    arxiv_surnames.discard("")
+    crossref_surnames.discard("")
+    return bool(arxiv_surnames & crossref_surnames)
+
+
+def metadata_matches(
+    arxiv_title: str,
+    arxiv_authors: list[str],
+    crossref_item: dict,
+) -> bool:
+    """
+    Return whether CrossRef metadata confidently describes the arXiv paper.
+
+    Title similarity alone is not sufficient for short, generic titles:
+    "Off-diagonal Ramsey numbers" and the unrelated "Off-diagonal book Ramsey
+    numbers" score 0.915, above TITLE_THRESHOLD. Requiring an author match
+    rejects that false positive and other similarly named papers.
+    """
+    return (
+        title_similarity(arxiv_title, crossref_item.get("title", "")) >= TITLE_THRESHOLD
+        and authors_overlap(arxiv_authors, crossref_item.get("authors", []))
+    )
 
 
 def extract_venue_from_item(item: dict) -> str:
@@ -150,15 +201,31 @@ def extract_venue_from_item(item: dict) -> str:
     return f"{venue_name} {year}".strip()
 
 
-def query_crossref_by_title(title: str) -> dict | None:
+def extract_crossref_metadata(item: dict) -> dict:
+    """Extract the DOI, title, author surnames, and venue from a CrossRef item."""
+    titles = item.get("title", [])
+    authors = [
+        author.get("family", "")
+        for author in item.get("author", [])
+        if author.get("family")
+    ]
+    return {
+        "doi": item.get("DOI", ""),
+        "title": titles[0] if titles else "",
+        "authors": authors,
+        "venue": extract_venue_from_item(item),
+    }
+
+
+def query_crossref_by_title(title: str, authors: list[str]) -> dict | None:
     """
     Search CrossRef for a paper by title.
 
-    Fetches the top 3 scored results and returns a dict
-    {'doi': str, 'venue': str} for the first result whose title similarity
-    exceeds TITLE_THRESHOLD. Results whose DOI belongs to a known preprint
-    server (PREPRINT_DOI_PREFIXES) are skipped before the similarity check,
-    since CrossRef sometimes indexes preprints alongside journal articles.
+    Fetches the top 3 scored results and returns metadata for the first result
+    whose title similarity exceeds TITLE_THRESHOLD and whose authors overlap
+    the arXiv authors. Results whose DOI belongs to a known preprint server
+    (PREPRINT_DOI_PREFIXES) are skipped before the metadata checks, since
+    CrossRef sometimes indexes preprints alongside journal articles.
 
     Returns None if no sufficiently similar peer-reviewed match is found.
     The 'venue' value may be an empty string if CrossRef has no container-title.
@@ -169,7 +236,7 @@ def query_crossref_by_title(title: str) -> dict | None:
             params={
                 "query.title": title,
                 "rows": 3,
-                "select": "DOI,title,container-title,published",
+                "select": "DOI,title,author,container-title,published",
             },
             timeout=15,
         )
@@ -180,14 +247,14 @@ def query_crossref_by_title(title: str) -> dict | None:
         return None
 
     for item in items:
-        cr_titles = item.get("title", [])
-        if not cr_titles:
+        metadata = extract_crossref_metadata(item)
+        if not metadata["title"]:
             continue
-        doi = item.get("DOI", "")
+        doi = metadata["doi"]
         if any(doi.startswith(p) for p in PREPRINT_DOI_PREFIXES):
             continue  # skip preprint server entries
-        if title_similarity(title, cr_titles[0]) >= TITLE_THRESHOLD:
-            return {"doi": doi, "venue": extract_venue_from_item(item)}
+        if metadata_matches(title, authors, metadata):
+            return metadata
 
     return None
 
@@ -196,15 +263,15 @@ def query_crossref_by_doi(doi: str) -> dict | None:
     """
     Fetch venue metadata from CrossRef for a known DOI.
 
-    Used when the DOI was already found via the arXiv API and we only need the
-    venue name and year. Returns {'venue': str} or None on error.
-    The 'venue' value may be an empty string if CrossRef has no container-title.
+    Used when a DOI was found via the arXiv API. Its title and authors are
+    returned along with the venue so the caller can verify that the DOI belongs
+    to the same paper. Returns None on error.
     """
     try:
         r = requests.get(f"{CROSSREF_API}/{doi}", timeout=15)
         r.raise_for_status()
         item = r.json().get("message", {})
-        return {"venue": extract_venue_from_item(item)}
+        return extract_crossref_metadata(item)
     except Exception as e:
         print(f"\n  [crossref doi error] {e}")
         return None
@@ -291,17 +358,24 @@ def update_readme(input_path: str = README_PATH, output_path: str = README_PATH)
         time.sleep(ARXIV_DELAY)
         paper_title = meta["title"] if meta else ""
 
+        authors = meta.get("authors", []) if meta else []
+
         if meta and meta["doi"]:
-            doi = meta["doi"]
-            print("arXiv→DOI  ", end="", flush=True)
-            # DOI found via arXiv; fetch venue from CrossRef by DOI.
-            cr_meta = query_crossref_by_doi(doi)
+            # DOI found via arXiv; verify its title and authors against CrossRef
+            # before trusting it, then reuse the CrossRef venue metadata.
+            arxiv_doi = meta["doi"]
+            cr_meta = query_crossref_by_doi(arxiv_doi)
             time.sleep(CROSSREF_DELAY)
-            if cr_meta:
+            if cr_meta and metadata_matches(paper_title, authors, cr_meta):
+                doi = arxiv_doi
                 venue_str = cr_meta["venue"]
-        elif paper_title:
-            # Step 2: fall back to CrossRef title search.
-            cr_meta = query_crossref_by_title(paper_title)
+                print("arXiv→DOI  ", end="", flush=True)
+            else:
+                print("arXiv DOI metadata mismatch  ", end="", flush=True)
+
+        if not doi and paper_title:
+            # Step 2: fall back to CrossRef title-and-author search.
+            cr_meta = query_crossref_by_title(paper_title, authors)
             time.sleep(CROSSREF_DELAY)
             if cr_meta:
                 doi = cr_meta["doi"]
