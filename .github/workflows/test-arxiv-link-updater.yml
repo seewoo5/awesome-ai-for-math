@@ -1,0 +1,37 @@
+name: Test arXiv link updater
+
+on:
+  pull_request:
+    paths:
+      - update_arxiv_links.py
+      - tests/test_update_arxiv_links.py
+      - .github/workflows/test-arxiv-link-updater.yml
+  push:
+    branches:
+      - main
+    paths:
+      - update_arxiv_links.py
+      - tests/test_update_arxiv_links.py
+      - .github/workflows/test-arxiv-link-updater.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
