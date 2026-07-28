@@ -710,6 +710,24 @@
       ]
     },
     {
+      "title": "Digesting the proof of the sharp thin-shell inequality",
+      "url": "https://arxiv.org/abs/2607.23307",
+      "subjects": [
+        "Geometry",
+        "Analysis",
+        "Probability",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/src/2607.23307v1/anc/chatgpt.pdf"
+        }
+      ]
+    },
+    {
       "title": "Discovery of Unstable Singularities",
       "url": "https://arxiv.org/abs/2509.14185",
       "subjects": [
@@ -2584,6 +2602,24 @@
       "venue": "arXiv",
       "year": 2026,
       "links": []
+    },
+    {
+      "title": "Sharp small-deviation inequalities for sums of independent nonnegative random variables",
+      "url": "https://arxiv.org/abs/2607.23980",
+      "subjects": [
+        "Probability",
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/pengzhang91/Feige"
+        }
+      ]
     },
     {
       "title": "Short proofs in combinatorics and number theory",
