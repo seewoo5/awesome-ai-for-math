@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 193 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 196 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -60,6 +60,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | Differential Equations, Symbolic Computation, Transformer | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | Algebraic Geometry, RL | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
+| **[Digesting the proof of the sharp thin-shell inequality](https://arxiv.org/abs/2607.23307)** | Geometry, Analysis, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2607.23307v1/anc/chatgpt.pdf) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | Differential Equations, PINN | arXiv 2025 |  |
 | **[Does My Embedding Reflect That A = B? Evaluating Mathematical Equivalence in Embedding Models](https://arxiv.org/abs/2606.23959)** | Benchmark, ATP, LLM | arXiv 2026 |  |
 | **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
@@ -188,6 +189,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | Geometry, Bayesian Optimization, RL, Neural Network | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
+| **[Sharp small-deviation inequalities for sums of independent nonnegative random variables](https://arxiv.org/abs/2607.23980)** | Probability, Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/pengzhang91/Feige) |
 | **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | Combinatorics, Number Theory, LLM | arXiv 2026 |  |
 | **[Short proofs in combinatorics, probability and number theory II](https://arxiv.org/abs/2604.06609)** | Combinatorics, Probability, Number Theory, LLM | arXiv 2026 |  |
 | **[Solving a Research Problem in Mathematical Statistics with AI Assistance](https://arxiv.org/abs/2511.18828)** | Statistics, LLM | arXiv 2025 | [Chat Log (Upper Bound)](https://chatgpt.com/share/6922876a-7988-8007-9c62-5f71772af6aa) [Chat Log (Lower Bound)](https://chatgpt.com/share/69227dd1-a00c-8007-8072-26b6e97a0820) |
