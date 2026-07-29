@@ -2451,6 +2451,26 @@
       "links": []
     },
     {
+      "title": "Recursions for Mock Theta Functions",
+      "url": "https://arxiv.org/abs/2606.18110",
+      "subjects": [
+        "Number Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Skills and Chat Logs",
+          "url": "https://martin.raum-brothers.eu/data/software/ai-assisted-mock3-recursions.tar.gz"
+        },
+        {
+          "label": "Chat Logs (DeepSeek)",
+          "url": "https://martin.raum-brothers.eu/data/software/ai-assisted-mock3-recursions_deepseek.tar.gz"
+        }
+      ]
+    },
+    {
       "title": "Recursive-algebraic solution of the closed string tachyon vacuum equation",
       "url": "https://arxiv.org/abs/2603.29926",
       "subjects": [
