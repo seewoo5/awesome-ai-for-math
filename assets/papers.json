@@ -856,6 +856,23 @@
       "links": []
     },
     {
+      "title": "Every string has probabilistic automatic complexity at most three",
+      "url": "https://arxiv.org/abs/2607.26275",
+      "subjects": [
+        "Automata Theory",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/bjoernkjoshanssen/pfa"
+        }
+      ]
+    },
+    {
       "title": "Evolving Local Corrections for Global Constructions in Combinatorics",
       "url": "https://arxiv.org/abs/2603.06692",
       "subjects": [
@@ -1401,6 +1418,28 @@
       "venue": "arXiv",
       "year": 2025,
       "links": []
+    },
+    {
+      "title": "Inclusions between p-bounded crystalline loci in dimension two",
+      "url": "https://arxiv.org/abs/2607.26305",
+      "subjects": [
+        "Algebraic Geometry",
+        "Number Theory",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Artifacts",
+          "url": "https://github.com/davidsavitt/KLSposet-artifacts"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/davidsavitt/KLSposet"
+        }
+      ]
     },
     {
       "title": "Int2Int: a framework for mathematics with transformers",
@@ -2555,6 +2594,22 @@
       ]
     },
     {
+      "title": "Removing the Torsion-free Hypothesis in a Positivity Theorem on Deligne-Mumford Stacks",
+      "url": "https://arxiv.org/abs/2607.26989",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code (Danus)",
+          "url": "https://github.com/frenzymath/Danus"
+        }
+      ]
+    },
+    {
       "title": "Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof",
       "url": "https://arxiv.org/abs/2601.07421",
       "subjects": [
@@ -2866,6 +2921,22 @@
       ]
     },
     {
+      "title": "Twelve common flex lines in a general pencil of cubics",
+      "url": "https://arxiv.org/abs/2607.26396",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code (Danus)",
+          "url": "https://github.com/frenzymath/Danus"
+        }
+      ]
+    },
+    {
       "title": "Undecidability problems for semifree DG algebras",
       "url": "https://arxiv.org/abs/2605.08122",
       "subjects": [
@@ -2933,6 +3004,7 @@
     "Algebra",
     "Algebraic Geometry",
     "Analysis",
+    "Automata Theory",
     "Bayesian Optimization",
     "Benchmark",
     "CNN",
