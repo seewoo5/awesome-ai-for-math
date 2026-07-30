@@ -71,7 +71,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery](https://arxiv.org/abs/2601.01400)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Even with AI, Bijection Discovery is Still Hard: The Opportunities and Challenges of OpenEvolve for Novel Bijection Construction](https://arxiv.org/abs/2511.20987)** | Combinatorics, LLM | arXiv 2025 |  |
 | **[Every finite group admits a just finite presentation](https://arxiv.org/abs/2605.10402)** | Group Theory, LLM | arXiv 2026 | |
-| **[Every string has probabilistic automatic complexity at most three](https://arxiv.org/abs/2607.26275)** | Logic, LLM, ATP | arXiv 2026 | [Code](https://github.com/bjoernkjoshanssen/pfa) |
+| **[Every string has probabilistic automatic complexity at most three](https://arxiv.org/abs/2607.26275)** | Automata Theory, LLM, ATP | arXiv 2026 | [Code](https://github.com/bjoernkjoshanssen/pfa) |
 | **[Evolving Local Corrections for Global Constructions in Combinatorics](https://arxiv.org/abs/2603.06692)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) [Chat Logs](https://arxiv.org/abs/2512.14575) |
