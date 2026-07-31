@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 200 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 204 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -58,6 +58,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Counting partial Hadamard matrices in the cubic regime](https://arxiv.org/abs/2603.30013)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Data-scientific study of Kronecker coefficients](https://www.tandfonline.com/doi/abs/10.1080/10586458.2025.2490576)** | Representation Theory, PCA | Experimental Mathematics 2023 |  |
 | **[Dead ends in square-free digit walks](https://arxiv.org/abs/2602.05095)** | Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/dead-ends) |
+| **[Decision trees, Frobenius traces, and Weierstrass coefficients of elliptic curves](https://arxiv.org/abs/2607.24251)** | Number Theory, Decision Tree, Transformer, Interpretability, LLM | arXiv 2026 | [Code](https://github.com/seewoo5/ML-Weierstrass) |
 | **[Deep Learning for Symbolic Mathematics](https://openreview.net/forum?id=S1eZYeHFDS)** | Differential Equations, Symbolic Computation, Transformer | ICLR 2020 | [Code](https://github.com/facebookresearch/SymbolicMathematics) |
 | **[Deep Reinforcement Learning for Fano Hypersurfaces](https://arxiv.org/abs/2603.15437)** | Algebraic Geometry, RL | arXiv 2026 | [Code](https://github.com/marctruter/deep_fano_hypersurface) |
 | **[Digesting the proof of the sharp thin-shell inequality](https://arxiv.org/abs/2607.23307)** | Geometry, Analysis, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2607.23307v1/anc/chatgpt.pdf) |
@@ -74,6 +75,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Every string has probabilistic automatic complexity at most three](https://arxiv.org/abs/2607.26275)** | Automata Theory, LLM, ATP | arXiv 2026 | [Code](https://github.com/bjoernkjoshanssen/pfa) |
 | **[Evolving Local Corrections for Global Constructions in Combinatorics](https://arxiv.org/abs/2603.06692)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic](https://arxiv.org/abs/2602.06553)** | Algebraic Geometry, LLM | arXiv 2026 |  |
+| **[Extremal Chowla sets and their linear analogues: A human-AI mathematical investigation using Co-Scientist](https://arxiv.org/abs/2607.24847)** | Number Theory, Group Theory, LLM | arXiv 2026 |  |
 | **[Extremal descendant integrals on moduli spaces of curves: An inequality discovered and proved in collaboration with AI](https://arxiv.org/abs/2512.14575)** | Algebraic Geometry, ATP, LLM | arXiv 2025 | [Code](https://github.com/schmittj/balanced-vectors-blueprint) [Chat Logs](https://arxiv.org/abs/2512.14575) |
 | **[Fel's Conjecture on Syzygies of Numerical Semigroups](https://doi.org/10.1016/j.jcta.2026.106237)** | Combinatorics, Algebra, Number Theory, ATP | Journal of Combinatorial Theory, Series A 2026 | [Code](https://github.com/AxiomMath/fel-polynomial) [arXiv](https://arxiv.org/abs/2602.03716) |
 | **[FIMO: A Challenge Formal Dataset for Automated Theorem Proving](https://arxiv.org/abs/2309.04295)** | Benchmark, ATP | arXiv 2023 |  |
@@ -192,6 +194,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Rigor with Machine Learning from Field Theory to the Poincaré Conjecture](https://www.nature.com/articles/s42254-024-00709-0)** | Geometry, Mathematical Physics | Nature Reviews Physics 2024 |  |
 | **[Searching for ribbons with machine learning](https://iopscience.iop.org/article/10.1088/2632-2153/ade362/meta)** | Geometry, Bayesian Optimization, RL, Neural Network | Machine Learning Science and Technology 2025 | [Code](https://github.com/ruehlef/ribbon) |
 | **[Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems](https://arxiv.org/abs/2601.22401)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Settling the Optimal Exponent Relating Sumsets and Difference Sets](https://arxiv.org/abs/2607.27199)** | Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/linhaowei1/sum-diff-proof) |
 | **[Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization](https://arxiv.org/abs/2606.05438)** | Optimization Theory, LLM | arXiv 2026 | |
 | **[Sharp small-deviation inequalities for sums of independent nonnegative random variables](https://arxiv.org/abs/2607.23980)** | Probability, Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/pengzhang91/Feige) |
 | **[Short proofs in combinatorics and number theory](https://arxiv.org/abs/2603.29961)** | Combinatorics, Number Theory, LLM | arXiv 2026 |  |
@@ -204,6 +207,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems](https://arxiv.org/abs/2606.23821)** | Analysis, Numerical Analysis, LLM | arXiv 2026 |  |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | Algebra, LLM, CNN, ATP | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
+| **[The Maxwell Conjecture is False](https://arxiv.org/abs/2607.27197)** | Mathematical Physics, LLM | arXiv 2026 |  |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | Graph Theory, Optimization Theory | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
 | **[The Simplicity of Hodge Bundle](https://doi.org/10.1073/pnas.2610183123)** | Algebraic Geometry, LLM | Proceedings of the National Academy of Sciences 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) [arXiv](https://arxiv.org/abs/2603.19052) |
