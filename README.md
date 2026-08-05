@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 200 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 204 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -14,6 +14,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 
 | Title | Subject(s) | Venue & Year | Links & Resources |
 | :--- | :--- | :--- | :--- |
+| **[A counterexample to Han's conjecture](https://arxiv.org/abs/2608.00177)** | Algebra, Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[A dual linear programming bound for sphere packing in dimension 36](https://arxiv.org/abs/2607.11319)** | Discrete Geometry, Number Theory, LLM | arXiv 2026 | [Code](https://arxiv.org/src/2607.11319/anc) |
 | **[A Machine Learning Approach That Beats Large Rubik's Cubes](https://arxiv.org/abs/2502.13266)** | Graph Theory, Group Theory, RL | arXiv 2025 | [Code](https://github.com/cayleypy/cayleypy) |
 | **[A Machine Learning Approach to the Nirenberg Problem](https://arxiv.org/abs/2602.12368)** | Differential Geometry, PINN | arXiv 2026 | [Code](https://github.com/xand-stapleton/nirenberg-neural-network) |
@@ -112,6 +113,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Interpretable Machine Learning for Kronecker Coefficients](https://doi.org/10.4310/atmp.260413002916)** | Representation Theory, Neural Network, Symbolic Computation, PCA, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [arXiv](https://arxiv.org/abs/2502.11774) |
 | **[Irrationality of rapidly converging series: a problem of Erdős and Graham](https://arxiv.org/abs/2601.21442)** | Number Theory, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Iteris: Agentic Research Loops for Computational Mathematics](https://arxiv.org/abs/2606.02484)** | Numerical Analysis, LLM | arXiv 2026 | [Code](https://github.com/frenzymath/iteris) |
+| **[k-Coloring is Faster than Computing the Chromatic Number](https://arxiv.org/abs/2607.25973)** | Graph Theory, Computational Complexity, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2607.25973) |
 | **[Lattice-Valued Bottleneck Duality](https://arxiv.org/abs/2410.00315)** | Combinatorics | arXiv 2024 |  |
 | **[LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization](https://arxiv.org/abs/2606.05400)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/YuanheZ/LeanMarathon) |
 | **[LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](https://arxiv.org/abs/2606.03303)** | ATP, LLM | arXiv 2026 |  |
@@ -126,6 +128,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Lift-independence problem in the $P$-adic Simpson correspondence for curves](https://arxiv.org/abs/2605.29947)** | Algebraic Geometry, Number Theory | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas) |
 | **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | Linear Algebra, Symbolic Computation, Transformer | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
+| **[Local cohomology modules with nonclosed support](https://arxiv.org/abs/2607.28096)** | Commutative Algebra, Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Lower bounds for multivariate independence polynomials and their generalisations](https://www.arxiv.org/abs/2602.02450)** | Combinatorics, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis](https://arxiv.org/abs/2606.13782)** | Benchmark, ATP, LLM | arXiv 2026 |  |
 | **[Machine Learning Approaches to the Shafarevich-Tate Group of Elliptic Curves](https://www.worldscientific.com/doi/abs/10.1142/S2810939225400015)** | Number Theory, Neural Network, Decision Tree | IJDSMS 2024 | [Code](https://github.com/barinderbanwait/ml_rnt) |
@@ -206,6 +209,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | Algebra, LLM, CNN, ATP | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | Graph Theory, Optimization Theory | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
+| **[The period-index conjecture is false](https://arxiv.org/abs/2608.03684)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[The Simplicity of Hodge Bundle](https://doi.org/10.1073/pnas.2610183123)** | Algebraic Geometry, LLM | Proceedings of the National Academy of Sciences 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) [arXiv](https://arxiv.org/abs/2603.19052) |
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | Survey, LLM | arXiv 2026 |  |
 | **[Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools](https://arxiv.org/abs/2605.02193)** | Graph Theory, Transformer | arXiv 2026 | [Code](https://github.com/sheilman77/dominating_sets_PatternBoost) |
