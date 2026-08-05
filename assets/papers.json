@@ -677,6 +677,25 @@
       ]
     },
     {
+      "title": "Decision trees, Frobenius traces, and Weierstrass coefficients of elliptic curves",
+      "url": "https://arxiv.org/abs/2607.24251",
+      "subjects": [
+        "Number Theory",
+        "Decision Tree",
+        "Transformer",
+        "Interpretability",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/seewoo5/ML-Weierstrass"
+        }
+      ]
+    },
+    {
       "title": "Deep Learning for Symbolic Mathematics",
       "url": "https://openreview.net/forum?id=S1eZYeHFDS",
       "subjects": [
@@ -888,6 +907,18 @@
       "url": "https://arxiv.org/abs/2602.06553",
       "subjects": [
         "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Extremal Chowla sets and their linear analogues: A human-AI mathematical investigation using Co-Scientist",
+      "url": "https://arxiv.org/abs/2607.24847",
+      "subjects": [
+        "Number Theory",
+        "Group Theory",
         "LLM"
       ],
       "venue": "arXiv",
@@ -1482,17 +1513,21 @@
     },
     {
       "title": "Irrationality of rapidly converging series: a problem of Erdős and Graham",
-      "url": "https://arxiv.org/abs/2601.21442",
+      "url": "https://doi.org/10.1112/blms.70457",
       "subjects": [
         "Number Theory",
         "LLM"
       ],
-      "venue": "arXiv",
+      "venue": "Bulletin of the London Mathematical Society",
       "year": 2026,
       "links": [
         {
           "label": "Chat Logs",
           "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2601.21442"
         }
       ]
     },
@@ -2668,6 +2703,23 @@
       ]
     },
     {
+      "title": "Settling the Optimal Exponent Relating Sumsets and Difference Sets",
+      "url": "https://arxiv.org/abs/2607.27199",
+      "subjects": [
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/linhaowei1/sum-diff-proof"
+        }
+      ]
+    },
+    {
       "title": "Sharp First-Order Lower Bounds for Higher-Order Smooth Nonconvex Optimization",
       "url": "https://arxiv.org/abs/2606.05438",
       "subjects": [
@@ -2845,6 +2897,17 @@
           "url": "https://github.com/teorth/equational_theories"
         }
       ]
+    },
+    {
+      "title": "The Maxwell Conjecture is False",
+      "url": "https://arxiv.org/abs/2607.27197",
+      "subjects": [
+        "Mathematical Physics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "The motivic class of the space of genus 0 maps to the flag variety",
