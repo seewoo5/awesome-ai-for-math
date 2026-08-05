@@ -1,6 +1,18 @@
 {
   "papers": [
     {
+      "title": "A counterexample to Han's conjecture",
+      "url": "https://arxiv.org/abs/2608.00177",
+      "subjects": [
+        "Algebra",
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "A dual linear programming bound for sphere packing in dimension 36",
       "url": "https://arxiv.org/abs/2607.11319",
       "subjects": [
@@ -1548,6 +1560,23 @@
       ]
     },
     {
+      "title": "k-Coloring is Faster than Computing the Chromatic Number",
+      "url": "https://arxiv.org/abs/2607.25973",
+      "subjects": [
+        "Graph Theory",
+        "Computational Complexity",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Chat Logs",
+          "url": "https://arxiv.org/abs/2607.25973"
+        }
+      ]
+    },
+    {
       "title": "Lattice-Valued Bottleneck Duality",
       "url": "https://arxiv.org/abs/2410.00315",
       "subjects": [
@@ -1764,6 +1793,18 @@
           "url": "https://github.com/facebookresearch/LAWT"
         }
       ]
+    },
+    {
+      "title": "Local cohomology modules with nonclosed support",
+      "url": "https://arxiv.org/abs/2607.28096",
+      "subjects": [
+        "Commutative Algebra",
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "Lower bounds for multivariate independence polynomials and their generalisations",
@@ -2935,6 +2976,17 @@
           "url": "https://github.com/RandyRDavila/The-Optimist"
         }
       ]
+    },
+    {
+      "title": "The period-index conjecture is false",
+      "url": "https://arxiv.org/abs/2608.03684",
+      "subjects": [
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "The Simplicity of Hodge Bundle",
