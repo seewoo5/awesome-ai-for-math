@@ -1795,6 +1795,22 @@
       ]
     },
     {
+      "title": "Linear dependence of time-frequency shifts of a Schwartz function",
+      "url": "https://arxiv.org/abs/2608.05044",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://arxiv.org/src/2608.05044v1/anc/hrt_fixed_12_point_arb_1d_audit.py"
+        }
+      ]
+    },
+    {
       "title": "Local cohomology modules with nonclosed support",
       "url": "https://arxiv.org/abs/2607.28096",
       "subjects": [
@@ -2209,6 +2225,24 @@
       "venue": "ICLR",
       "year": 2022,
       "links": []
+    },
+    {
+      "title": "Modularity of Point Counts for the Curves $X^a=Y^b$: New Rogers--Ramanujan Identities",
+      "url": "https://arxiv.org/abs/2608.05480",
+      "subjects": [
+        "Number Theory",
+        "Combinatorics",
+        "Representation Theory",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/RR_a3"
+        }
+      ]
     },
     {
       "title": "Murmurations of Elliptic Curves",
