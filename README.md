@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 208 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 210 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -130,6 +130,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[LemmaBench: A Live, Research-Level Benchmark to Evaluate LLM Capabilities in Mathematics](https://arxiv.org/abs/2602.24173)** | Benchmark, LLM | arXiv 2026 |  |
 | **[Lift-independence problem in the $P$-adic Simpson correspondence for curves](https://arxiv.org/abs/2605.29947)** | Algebraic Geometry, Number Theory | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas) |
 | **[Linear algebra with transformers](https://openreview.net/forum?id=Hp4g7FAXXG)** | Linear Algebra, Symbolic Computation, Transformer | TMLR 2022 | [Code](https://github.com/facebookresearch/LAWT) |
+| **[Linear dependence of time-frequency shifts of a Schwartz function](https://arxiv.org/abs/2608.05044)** | Analysis, LLM | arXiv 2026 | [Code](https://arxiv.org/src/2608.05044v1/anc/hrt_fixed_12_point_arb_1d_audit.py) |
 | **[Local cohomology modules with nonclosed support](https://arxiv.org/abs/2607.28096)** | Commutative Algebra, Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Lower bounds for multivariate independence polynomials and their generalisations](https://www.arxiv.org/abs/2602.02450)** | Combinatorics, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis](https://arxiv.org/abs/2606.13782)** | Benchmark, ATP, LLM | arXiv 2026 |  |
@@ -160,6 +161,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Mathematical exploration and discovery at scale](https://arxiv.org/abs/2511.02864)** | Combinatorics, Analysis, Number Theory, Discrete Geometry, LLM | arXiv 2025 | [Code](https://github.com/google-deepmind/alphaevolve_repository_of_problems) |
 | **[Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524)** | Survey | arXiv 2026 |  |
 | **[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110)** | Benchmark, ATP | ICLR 2022 |  |
+| **[Modularity of Point Counts for the Curves $X^a=Y^b$: New Rogers--Ramanujan Identities](https://arxiv.org/abs/2608.05480)** | Number Theory, Combinatorics, Representation Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/RR_a3) |
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | Number Theory, PCA | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
