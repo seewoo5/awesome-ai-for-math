@@ -35,3 +35,18 @@ class MetadataMatchingTests(unittest.TestCase):
                 matching_paper,
             )
         )
+
+
+class VenueExtractionTests(unittest.TestCase):
+    def test_normalizes_neurips_container_title(self):
+        item = {
+            "container-title": [
+                "Advances in Neural Information Processing Systems 38"
+            ],
+            "published": {"date-parts": [[2025]]},
+        }
+
+        self.assertEqual(
+            update_arxiv_links.extract_venue_from_item(item),
+            "NeurIPS 2025",
+        )
