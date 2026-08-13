@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 210 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 211 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -165,6 +165,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | Number Theory, PCA | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
+| **[No compromise in the liquid drop model](https://arxiv.org/abs/2608.11517)** | Differential Geometry, Mathematical Physics, Analysis, LLM | arXiv 2026 |  |
 | **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
 | **[Off-diagonal Ramsey numbers](https://arxiv.org/abs/2605.28793)** | Combinatorics, LLM | arXiv 2026 |  |
 | **[Olympiad-level formal mathematical reasoning with reinforcement learning](https://www.nature.com/articles/s41586-025-09833-y)** | RL, ATP | Nature 2025 |  |
