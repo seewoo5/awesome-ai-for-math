@@ -77,6 +77,12 @@ ARXIV_DELAY = 3.0
 # Delay after CrossRef calls. CrossRef is more permissive but we stay polite.
 CROSSREF_DELAY = 1.0
 
+# Preferred short names for venues whose CrossRef container titles differ from
+# the naming convention used in the README.
+VENUE_ALIASES = {
+    "advances in neural information processing systems": "NeurIPS",
+}
+
 
 # ---------------------------------------------------------------------------
 # Step 1: arXiv API
@@ -192,6 +198,7 @@ def extract_venue_from_item(item: dict) -> str:
     venue_name = titles[-1] if titles else ""
     # Strip trailing volume/issue number (a bare integer at the end of the name).
     venue_name = re.sub(r"\s+\d+$", "", venue_name).strip()
+    venue_name = VENUE_ALIASES.get(venue_name.casefold(), venue_name)
 
     year = ""
     date_parts = item.get("published", {}).get("date-parts", [[]])
