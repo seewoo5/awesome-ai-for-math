@@ -31,18 +31,22 @@
     },
     {
       "title": "A Machine Learning Approach That Beats Large Rubik's Cubes",
-      "url": "https://arxiv.org/abs/2502.13266",
+      "url": "https://doi.org/10.52202/085713-5741",
       "subjects": [
         "Graph Theory",
         "Group Theory",
         "RL"
       ],
-      "venue": "arXiv",
+      "venue": "NeurIPS",
       "year": 2025,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/cayleypy/cayleypy"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.13266"
         }
       ]
     },
@@ -1179,17 +1183,21 @@
     },
     {
       "title": "From Euler to AI: Unifying Formulas for Mathematical Constants",
-      "url": "https://arxiv.org/abs/2502.17533",
+      "url": "https://doi.org/10.52202/085713-4132",
       "subjects": [
         "Number Theory",
         "LLM"
       ],
-      "venue": "arXiv",
+      "venue": "NeurIPS",
       "year": 2025,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/RamanujanMachine/euler2ai"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2502.17533"
         }
       ]
     },
@@ -2590,14 +2598,19 @@
     },
     {
       "title": "RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics",
-      "url": "https://arxiv.org/abs/2505.12575",
+      "url": "https://doi.org/10.52202/085713-2679",
       "subjects": [
         "Benchmark",
         "LLM"
       ],
       "venue": "NeurIPS",
       "year": 2025,
-      "links": []
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12575"
+        }
+      ]
     },
     {
       "title": "Recursions for Mock Theta Functions",
@@ -3132,18 +3145,22 @@
     },
     {
       "title": "What makes math problems hard for reinforcement learning: a case study",
-      "url": "https://arxiv.org/abs/2408.15332",
+      "url": "https://doi.org/10.52202/085713-5348",
       "subjects": [
         "Group Theory",
         "RL",
         "Transformer"
       ],
-      "venue": "arXiv",
-      "year": 2024,
+      "venue": "NeurIPS",
+      "year": 2025,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/shehper/AC-Solver"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2408.15332"
         }
       ]
     }
