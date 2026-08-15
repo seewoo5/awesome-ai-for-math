@@ -2292,6 +2292,23 @@
       "links": []
     },
     {
+      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
+      "url": "https://arxiv.org/abs/2608.11158",
+      "subjects": [
+        "Computational Complexity",
+        "Optimization Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/trishullab/grothendieck-bounds"
+        }
+      ]
+    },
+    {
       "title": "No compromise in the liquid drop model",
       "url": "https://arxiv.org/abs/2608.11517",
       "subjects": [
@@ -2996,6 +3013,24 @@
         {
           "label": "Code",
           "url": "https://github.com/teorth/equational_theories"
+        }
+      ]
+    },
+    {
+      "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$",
+      "url": "https://arxiv.org/abs/2608.08538",
+      "subjects": [
+        "Number Theory",
+        "Group Theory",
+        "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/shaowuz/m23isgalois"
         }
       ]
     },
