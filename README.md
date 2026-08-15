@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 211 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 213 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -165,6 +165,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Murmurations of Elliptic Curves](https://www.tandfonline.com/doi/abs/10.1080/10586458.2024.2382361)** | Number Theory, PCA | Experimental Mathematics 2024 | [Quanta](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) |
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
+| **[New Lower and Upper Bounds for the Grothendieck Constant](https://arxiv.org/abs/2608.11158)** | Computational Complexity, Optimization Theory, LLM | arXiv 2026 | [Code](https://github.com/trishullab/grothendieck-bounds) |
 | **[No compromise in the liquid drop model](https://arxiv.org/abs/2608.11517)** | Differential Geometry, Mathematical Physics, Analysis, LLM | arXiv 2026 |  |
 | **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
 | **[Off-diagonal Ramsey numbers](https://arxiv.org/abs/2605.28793)** | Combinatorics, LLM | arXiv 2026 |  |
@@ -213,6 +214,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems](https://arxiv.org/abs/2606.23821)** | Analysis, Numerical Analysis, LLM | arXiv 2026 |  |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | Algebra, LLM, CNN, ATP | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
+| **[The Mathieu group $M_{23}$ is a Galois group over $\mathbb{Q}$](https://arxiv.org/abs/2608.08538)** | Number Theory, Group Theory, Algebraic Geometry, LLM | arXiv 2026 | [Code](https://github.com/shaowuz/m23isgalois) |
 | **[The Maxwell Conjecture is False](https://arxiv.org/abs/2607.27197)** | Mathematical Physics, LLM | arXiv 2026 |  |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | Graph Theory, Optimization Theory | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
