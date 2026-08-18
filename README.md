@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 213 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 217 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -31,6 +31,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | Survey | Nature Reviews Physics 2025 |  |
 | **[Aletheia tackles FirstProof autonomously](https://arxiv.org/abs/2602.21201)** | LLM, Benchmark | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
+| **[Algebraic geometric framework of Rogers--Ramanujan identities](https://arxiv.org/abs/2608.15219)** | Number Theory, Combinatorics, Representation Theory, Algebraic Geometry, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/HJOa3Small) |
 | **[Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning](https://arxiv.org/abs/2504.05108)** | Combinatorics, LLM, RL | arXiv 2025 | [Code](https://github.com/CLAIRE-Labo/EvoTune) |
 | **[Algorithm-assisted discovery of an intrinsic order among mathematical constants](https://www.pnas.org/doi/10.1073/pnas.2321440121)** | Number Theory | PNAS 2024 | [Code](https://github.com/RamanujanMachine/) |
 | **[Almost all primes are partially regular](https://doi.org/10.1007/s00013-026-02261-y)** | Number Theory, ATP | Archiv der Mathematik 2026 | [Code](https://github.com/AxiomMath/partial-regularity) [arXiv](https://arxiv.org/abs/2602.05090) |
@@ -109,6 +110,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Humanity's Last Exam](https://doi.org/10.1038/s41586-025-09962-4)** | Benchmark, LLM | Nature 2026 | [Website](https://lastexam.ai) [arXiv](https://arxiv.org/abs/2501.14249) |
 | **[Illuminating new and known relations between knot invariants](https://doi.org/10.1088/2632-2153/ad95d9)** | Knot Theory, Neural Network | Machine Learning: Science and Technology 2024 | [Code](https://github.com/JessRachel97/Knot_searcher_experiments) [arXiv](https://arxiv.org/abs/2211.01404) |
 | **[IMProofBench: Benchmarking AI on Research-Level Mathematical Proof Generation](https://arxiv.org/abs/2509.26076)** | Benchmark, LLM | arXiv 2025 | [Website](https://improofbench.math.ethz.ch/) |
+| **[Improving the matrix multiplication exponent with modern optimization and AlphaEvolve](https://arxiv.org/abs/2608.16884)** | Matrix Multiplication, Computational Complexity, Optimization Theory, LLM | arXiv 2026 |  |
 | **[In between myth and reality: AI for math -- a case study in category theory](https://arxiv.org/abs/2504.13360)** | Survey, LLM | arXiv 2025 |  |
 | **[Inclusions between p-bounded crystalline loci in dimension two](https://arxiv.org/abs/2607.26305)** | Algebraic Geometry, Number Theory, LLM, ATP | arXiv 2026 | [Artifacts](https://github.com/davidsavitt/KLSposet-artifacts) [Code](https://github.com/davidsavitt/KLSposet) |
 | **[Int2Int: a framework for mathematics with transformers](https://doi.org/10.4310/atmp.260412100858)** | Number Theory, Transformer | Advances in Theoretical and Mathematical Physics 2026 | [Code](https://github.com/f-charton/Int2Int) [arXiv](https://arxiv.org/abs/2502.17513) |
@@ -178,6 +180,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Parity of k-differentials in genus zero and one](https://arxiv.org/abs/2602.03722)** | Algebraic Geometry, Number Theory, ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/parity-differential) |
 | **[PatternBoost: Constructions in Mathematics with a Little Help from AI](https://arxiv.org/abs/2411.00566)** | Discrete Geometry, Combinatorics, Transformer, RL | arXiv 2024 | [Code](https://github.com/zawagner22/transformers_math_experiments) |
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | Optimization Theory, LLM | arXiv 2025 |  |
+| **[Positive quasimodular forms and the sign uncertainty principle](https://arxiv.org/abs/2608.15415)** | Number Theory, Analysis, LLM, ATP | arXiv 2026 | [Code](https://github.com/seewoo5/posqmf) |
 | **[Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics](https://arxiv.org/abs/2605.25271)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 |  |
 | **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026 | |
@@ -214,6 +217,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems](https://arxiv.org/abs/2606.23821)** | Analysis, Numerical Analysis, LLM | arXiv 2026 |  |
 | **[The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning](https://arxiv.org/abs/2603.15914)** | LLM | arXiv 2026 |  |
 | **[The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)** | Algebra, LLM, CNN, ATP | arXiv 2025 | [Code](https://github.com/teorth/equational_theories) |
+| **[The Hayman--Wu constant is $\pi^2$](https://arxiv.org/abs/2608.12844)** | Analysis, LLM | arXiv 2026 |  |
 | **[The Mathieu group $M_{23}$ is a Galois group over $\mathbb{Q}$](https://arxiv.org/abs/2608.08538)** | Number Theory, Group Theory, Algebraic Geometry, LLM | arXiv 2026 | [Code](https://github.com/shaowuz/m23isgalois) |
 | **[The Maxwell Conjecture is False](https://arxiv.org/abs/2607.27197)** | Mathematical Physics, LLM | arXiv 2026 |  |
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
