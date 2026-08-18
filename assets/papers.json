@@ -258,6 +258,25 @@
       ]
     },
     {
+      "title": "Algebraic geometric framework of Rogers--Ramanujan identities",
+      "url": "https://arxiv.org/abs/2608.15219",
+      "subjects": [
+        "Number Theory",
+        "Combinatorics",
+        "Representation Theory",
+        "Algebraic Geometry",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/AxiomMath/HJOa3Small"
+        }
+      ]
+    },
+    {
       "title": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
       "url": "https://arxiv.org/abs/2504.05108",
       "subjects": [
@@ -1460,6 +1479,19 @@
       ]
     },
     {
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "url": "https://arxiv.org/abs/2608.16884",
+      "subjects": [
+        "Matrix Multiplication",
+        "Computational Complexity",
+        "Optimization Theory",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
       "title": "In between myth and reality: AI for math -- a case study in category theory",
       "url": "https://arxiv.org/abs/2504.13360",
       "subjects": [
@@ -2481,6 +2513,24 @@
       "links": []
     },
     {
+      "title": "Positive quasimodular forms and the sign uncertainty principle",
+      "url": "https://arxiv.org/abs/2608.15415",
+      "subjects": [
+        "Number Theory",
+        "Analysis",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/seewoo5/posqmf"
+        }
+      ]
+    },
+    {
       "title": "Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics",
       "url": "https://arxiv.org/abs/2605.25271",
       "subjects": [
@@ -3015,6 +3065,17 @@
           "url": "https://github.com/teorth/equational_theories"
         }
       ]
+    },
+    {
+      "title": "The Hayman--Wu constant is $\\pi^2$",
+      "url": "https://arxiv.org/abs/2608.12844",
+      "subjects": [
+        "Analysis",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
     },
     {
       "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$",
