@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 218 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 219 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -224,6 +224,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[The Optimist: Towards Fully Automated Graph Theory Research](https://arxiv.org/abs/2411.09158)** | Graph Theory, Optimization Theory | arXiv 2024 | [Code](https://github.com/RandyRDavila/The-Optimist) |
 | **[The period-index conjecture is false](https://arxiv.org/abs/2608.03684)** | Algebraic Geometry, LLM | arXiv 2026 |  |
+| **[The Problem Is the Problem: Towards Scalable Mathematical Discovery](https://arxiv.org/abs/2608.16977)** | Combinatorics, LLM | arXiv 2026 | [Code](https://github.com/zeyu-zheng/FAR) |
 | **[The Simplicity of Hodge Bundle](https://doi.org/10.1073/pnas.2610183123)** | Algebraic Geometry, LLM | Proceedings of the National Academy of Sciences 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) [arXiv](https://arxiv.org/abs/2603.19052) |
 | **[Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)** | Survey, LLM | arXiv 2026 |  |
 | **[Trees and Graphs with Non Log-concave Dominating Set Sequence via AI Tools](https://arxiv.org/abs/2605.02193)** | Graph Theory, Transformer | arXiv 2026 | [Code](https://github.com/sheilman77/dominating_sets_PatternBoost) |
