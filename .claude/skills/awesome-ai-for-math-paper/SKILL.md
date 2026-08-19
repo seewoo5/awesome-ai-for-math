@@ -47,13 +47,14 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
 
 7. Commit and publish when requested.
    - Stage explicit files.
-   - Include a Claude co-author trailer in commit messages:
+   - Include a Claude co-author trailer in commit messages, naming the model that is actually running the session (never a hardcoded older version):
 
 ```text
-Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Co-authored-by: Claude <MODEL NAME> <noreply@anthropic.com>
 ```
 
-   - For multi-line commit messages, use `git commit -m "Summary" -m "Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>"`.
+   - Take `<MODEL NAME>` from the active session's model, exactly as the environment reports it (for example `Opus 5 (1M context)`). If the harness specifies its own trailer format, that format wins.
+   - For multi-line commit messages, use `git commit -m "Summary" -m "Co-authored-by: Claude <MODEL NAME> <noreply@anthropic.com>"`.
    - Push the branch and update or create the draft PR.
    - Keep PR title/body aligned with the final set of paper additions and validation.
 
