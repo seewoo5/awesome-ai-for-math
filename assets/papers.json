@@ -401,6 +401,25 @@
       ]
     },
     {
+      "title": "An equidistribution conjecture for quotient-closed and submodule-closed subcategories",
+      "url": "https://arxiv.org/abs/2608.18024",
+      "subjects": [
+        "Representation Theory",
+        "Algebra",
+        "Combinatorics",
+        "LLM",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/haruhisa-enomoto/quotient-submodule-equidistribution"
+        }
+      ]
+    },
+    {
       "title": "An example of a very non-movable effective divisor",
       "url": "https://arxiv.org/abs/2605.20594",
       "subjects": [
