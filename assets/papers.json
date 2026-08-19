@@ -3164,6 +3164,22 @@
       "links": []
     },
     {
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2608.16977",
+      "subjects": [
+        "Combinatorics",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/zeyu-zheng/FAR"
+        }
+      ]
+    },
+    {
       "title": "The Simplicity of Hodge Bundle",
       "url": "https://doi.org/10.1073/pnas.2610183123",
       "subjects": [
