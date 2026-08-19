@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 217 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 218 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -39,6 +39,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[AlphaTensor: Discovering faster matrix multiplication algorithms](https://www.nature.com/articles/s41586-022-05172-4)** | Matrix Multiplication, RL | Nature 2022 | [Code](https://github.com/google-deepmind/alphatensor) [Blog](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/) |
 | **[An algorithm for Aubert-Zelevinsky duality à la Mœglin-Waldspurger](https://arxiv.org/abs/2509.13231)** | Representation Theory, Neural Network | arXiv 2025 | [Code](https://github.com/ThomasLanard/aubert-zelevinsky-duality) |
 | **[An automated proof that R(B_8,B_10)=37](https://arxiv.org/abs/2606.05629)** | Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/BLL4/RamseyB8B10) |
+| **[An equidistribution conjecture for quotient-closed and submodule-closed subcategories](https://arxiv.org/abs/2608.18024)** | Representation Theory, Algebra, Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/haruhisa-enomoto/quotient-submodule-equidistribution) |
 | **[An example of a very non-movable effective divisor](https://arxiv.org/abs/2605.20594)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | Algebraic Geometry, RL | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 |  |
