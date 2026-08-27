@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 219 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 223 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -26,6 +26,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://arxiv.org/abs/2605.22763)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | Combinatorics, LLM, ATP | arXiv 2026 |  |
 | **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM | arXiv 2026 |  |
+| **[AI Finds A Way](https://arxiv.org/abs/2608.23875)** | Survey, RL, LLM | arXiv 2026 | [Anecdotes](https://github.com/aadharna/aifw) |
 | **[AI for Mathematics: Progress, Challenges, and Prospects](https://arxiv.org/abs/2601.13209)** | Survey | arXiv 2026 |  |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26380) |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
@@ -41,6 +42,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[An automated proof that R(B_8,B_10)=37](https://arxiv.org/abs/2606.05629)** | Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/BLL4/RamseyB8B10) |
 | **[An equidistribution conjecture for quotient-closed and submodule-closed subcategories](https://arxiv.org/abs/2608.18024)** | Representation Theory, Algebra, Combinatorics, LLM, ATP | arXiv 2026 | [Code](https://github.com/haruhisa-enomoto/quotient-submodule-equidistribution) |
 | **[An example of a very non-movable effective divisor](https://arxiv.org/abs/2605.20594)** | Algebraic Geometry, LLM | arXiv 2026 | |
+| **[An explicit refined Gan--Gross--Prasad identity for Fourier--Jacobi periods of degree 2 Siegel cusp forms](https://arxiv.org/abs/2608.26007)** | Number Theory, LLM | arXiv 2026 |  |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | Algebraic Geometry, RL | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
 | **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 |  |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | Number Theory, Algebraic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
@@ -169,6 +171,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Neural network approximations for Calabi-Yau metrics](https://link.springer.com/article/10.1007/JHEP08(2022)105)** | Mathematical Physics, Neural Network | JHEP 2022 |  |
 | **[New Calabi–Yau manifolds from genetic algorithms](https://www.sciencedirect.com/science/article/pii/S0370269324000625)** | Algebraic Geometry, Mathematical Physics, Genetic Algorithm | Physics Letters B 2024 |  |
 | **[New Lower and Upper Bounds for the Grothendieck Constant](https://arxiv.org/abs/2608.11158)** | Computational Complexity, Optimization Theory, LLM | arXiv 2026 | [Code](https://github.com/trishullab/grothendieck-bounds) |
+| **[New Records for the Hadamard Maximal Determinant Problem in Dimensions 51, 107, and 115](https://arxiv.org/abs/2608.22518)** | Combinatorics, RL | arXiv 2026 | [Code](https://github.com/Math-AI-Caltech/hadamard-maxdet) |
 | **[No compromise in the liquid drop model](https://arxiv.org/abs/2608.11517)** | Differential Geometry, Mathematical Physics, Analysis, LLM | arXiv 2026 |  |
 | **[Non-uniqueness for a differential equation and a proof by ChatGPT](https://arxiv.org/abs/2605.04810)** | Analysis, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/abs/2605.04810) |
 | **[Off-diagonal Ramsey numbers](https://arxiv.org/abs/2605.28793)** | Combinatorics, LLM | arXiv 2026 |  |
@@ -183,6 +186,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Point Convergence of Nesterov's Accelerated Gradient Method: An AI-Assisted Proof](https://arxiv.org/abs/2510.23513)** | Optimization Theory, LLM | arXiv 2025 |  |
 | **[Positive quasimodular forms and the sign uncertainty principle](https://arxiv.org/abs/2608.15415)** | Number Theory, Analysis, LLM, ATP | arXiv 2026 | [Code](https://github.com/seewoo5/posqmf) |
 | **[Positivity in classical enumerative geometry: a case study in synchronized AI-assisted mathematics](https://arxiv.org/abs/2605.25271)** | Algebraic Geometry, LLM | arXiv 2026 | |
+| **[Power-saving bounds for Thue--Mahler and Mordell equations](https://arxiv.org/abs/2608.23559)** | Number Theory, LLM | arXiv 2026 |  |
 | **[Predicting root numbers with neural networks](https://www.worldscientific.com/doi/abs/10.1142/S2810939224400057)** | Number Theory, RNN, CNN | IJDSMS 2024 |  |
 | **[Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond](https://arxiv.org/abs/2605.00301)** | Number Theory, LLM, ATP | arXiv 2026 | |
 | **[Process-Verified Reinforcement Learning for Theorem Proving via Lean](https://arxiv.org/abs/2606.20068)** | ATP, LLM, RL | arXiv 2026 |  |
