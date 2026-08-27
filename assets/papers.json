@@ -190,6 +190,23 @@
       "links": []
     },
     {
+      "title": "AI Finds A Way",
+      "url": "https://arxiv.org/abs/2608.23875",
+      "subjects": [
+        "Survey",
+        "RL",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Anecdotes",
+          "url": "https://github.com/aadharna/aifw"
+        }
+      ]
+    },
+    {
       "title": "AI for Mathematics: Progress, Challenges, and Prospects",
       "url": "https://arxiv.org/abs/2601.13209",
       "subjects": [
@@ -424,6 +441,17 @@
       "url": "https://arxiv.org/abs/2605.20594",
       "subjects": [
         "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "An explicit refined Gan--Gross--Prasad identity for Fourier--Jacobi periods of degree 2 Siegel cusp forms",
+      "url": "https://arxiv.org/abs/2608.26007",
+      "subjects": [
+        "Number Theory",
         "LLM"
       ],
       "venue": "arXiv",
@@ -2360,6 +2388,22 @@
       ]
     },
     {
+      "title": "New Records for the Hadamard Maximal Determinant Problem in Dimensions 51, 107, and 115",
+      "url": "https://arxiv.org/abs/2608.22518",
+      "subjects": [
+        "Combinatorics",
+        "RL"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Math-AI-Caltech/hadamard-maxdet"
+        }
+      ]
+    },
+    {
       "title": "No compromise in the liquid drop model",
       "url": "https://arxiv.org/abs/2608.11517",
       "subjects": [
@@ -2554,6 +2598,17 @@
       "url": "https://arxiv.org/abs/2605.25271",
       "subjects": [
         "Algebraic Geometry",
+        "LLM"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Power-saving bounds for Thue--Mahler and Mordell equations",
+      "url": "https://arxiv.org/abs/2608.23559",
+      "subjects": [
+        "Number Theory",
         "LLM"
       ],
       "venue": "arXiv",
