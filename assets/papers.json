@@ -2228,6 +2228,24 @@
       ]
     },
     {
+      "title": "Mapping Uncharted Symmetries: Machine Discovery in Combinatorics",
+      "url": "https://arxiv.org/abs/2605.19063",
+      "subjects": [
+        "Combinatorics",
+        "Representation Theory",
+        "Neural Network",
+        "ATP"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/LorenzoLuccioli/qtLearning"
+        }
+      ]
+    },
+    {
       "title": "Mathematical Capabilities of ChatGPT",
       "url": "https://doi.org/10.52202/075280-1205",
       "subjects": [
