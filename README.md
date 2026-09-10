@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 223 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 224 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md) for contribution.
 
@@ -160,6 +160,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Machine-learning dessins d'enfants: explorations via modular and Seiberg–Witten curves](https://iopscience.iop.org/article/10.1088/1751-8121/abbc4f/meta?casa_token=cZ63RVRdvnsAAAAA:xnYl-Q3AxTTiLmSVpagIJDplLlUaR5it-7OUQOgn4PFXZ_PzvWQAjkYqL3nAd4XuY1HznxsH7XN4D-ZEkrXNvRYBxc5a)** | Algebraic Geometry, Mathematical Physics | Journal of Physics A 2021 |  |
 | **[Machine-learning Sato-Tate conjecture](https://www.sciencedirect.com/science/article/pii/S0747717121000729)** | Number Theory | Journal of Symbolic Computation 2022 |  |
 | **[Machines Learn Number Fields, But How? The Case of Galois Groups](https://doi.org/10.1007/s40687-026-00620-3)** | Number Theory, Logistic Regression, Decision Tree, Interpretability | Research in the Mathematical Sciences 2026 | [Code](https://github.com/seewoo5/ML-NF) [arXiv](https://arxiv.org/abs/2508.06670) |
+| **[Mapping Uncharted Symmetries: Machine Discovery in Combinatorics](https://arxiv.org/abs/2605.19063)** | Combinatorics, Representation Theory, Neural Network, ATP | arXiv 2026 | [Code](https://github.com/LorenzoLuccioli/qtLearning) |
 | **[Mathematical Capabilities of ChatGPT](https://doi.org/10.52202/075280-1205)** | Benchmark, LLM | NeurIPS 2023 | [Code](https://github.com/friederrr/GHOSTS) [arXiv](https://arxiv.org/abs/2301.13867) |
 | **[Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6)** | Combinatorics, LLM | Nature 2024 | [Code](https://github.com/google-deepmind/funsearch) |
 | **[Mathematical discovery in the age of artificial intelligence](https://www.nature.com/articles/s41567-025-03042-0)** | Survey | Nature Physics 2025 |  |
