@@ -23,11 +23,11 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[ABC implies that Ramanujan's tau function misses almost all primes](https://doi.org/10.1016/j.indag.2026.05.002)** | Number Theory, ATP | Indagationes Mathematicae 2026 | [Code](https://github.com/AxiomMath/ramanujan-tau-misses-primes) [arXiv](https://arxiv.org/abs/2603.29970) |
 | **[Accelerating mathematical research with language models: A case study of an interaction with GPT-5-Pro on a convex analysis problem](https://arxiv.org/abs/2510.26647)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26647) |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | Knot Theory, Representation Theory | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
-| **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://arxiv.org/abs/2605.22763)** | ATP, LLM | arXiv 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) |
+| **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://doi.org/10.1126/science.aej2213)** | ATP, LLM | Science 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) [arXiv](https://arxiv.org/abs/2605.22763) |
 | **[Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design](https://arxiv.org/abs/2603.08322)** | Combinatorics, LLM, ATP | arXiv 2026 |  |
 | **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM | arXiv 2026 |  |
 | **[AI Finds A Way](https://arxiv.org/abs/2608.23875)** | Survey, RL, LLM | arXiv 2026 | [Anecdotes](https://github.com/aadharna/aifw) |
-| **[AI for Mathematics: Progress, Challenges, and Prospects](https://arxiv.org/abs/2601.13209)** | Survey | arXiv 2026 |  |
+| **[AI for Mathematics: Progress, Challenges, and Prospects](https://doi.org/10.70777/si.v3i3.18747)** | Survey | SuperIntelligence - Robotics - Safety &amp; Alignment 2026 | [arXiv](https://arxiv.org/abs/2601.13209) |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26380) |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
 | **[AI-driven research in pure mathematics and theoretical physics](https://www.nature.com/articles/s42254-024-00740-1)** | Survey | Nature Reviews Physics 2025 |  |
@@ -44,12 +44,12 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[An example of a very non-movable effective divisor](https://arxiv.org/abs/2605.20594)** | Algebraic Geometry, LLM | arXiv 2026 | |
 | **[An explicit refined Gan--Gross--Prasad identity for Fourier--Jacobi periods of degree 2 Siegel cusp forms](https://arxiv.org/abs/2608.26007)** | Number Theory, LLM | arXiv 2026 |  |
 | **[An ML approach to resolution of singularities](https://proceedings.mlr.press/v221/berczi23a)** | Algebraic Geometry, RL | TAG-ML 2023 | [Code](https://github.com/honglu2875/hironaka) |
-| **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM | arXiv 2025 |  |
+| **[Aristotle: IMO-level Automated Theorem Proving](https://doi.org/10.70777/si.v3i3.18745)** | ATP, LLM | SuperIntelligence - Robotics - Safety &amp; Alignment 2026 | [arXiv](https://arxiv.org/abs/2510.01346) |
 | **[Arithmetic volumes of moduli stacks of Shtukas](https://arxiv.org/abs/2601.18557)** | Number Theory, Algebraic Geometry, LLM | arXiv 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) |
 | **[Artificial intelligence and machine learning generated conjectures with TxGraffiti](https://arxiv.org/abs/2407.02731)** | Graph Theory, Combinatorics | arXiv 2024 | [Code](https://github.com/RandyRDavila/TxGraffiti2) |
 | **[Artificial Intelligence and the Structure of Mathematics](https://arxiv.org/abs/2604.06107)** | Survey | arXiv 2026 |  |
 | **[Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery](https://arxiv.org/abs/2606.08728)** | Survey | arXiv 2026 | [Code](https://github.com/Starscream-11813/awesome-AI4Math) |
-| **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM, ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
+| **[Automated Conjecture Resolution with Formal Verification](https://doi.org/10.70777/si.v3i3.18746)** | LLM, ATP | SuperIntelligence - Robotics - Safety &amp; Alignment 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) [arXiv](https://arxiv.org/abs/2604.03789) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Autonomous disproofs of the sum-product conjecture over $\mathbb R$ with GPT-5.5 Pro](https://arxiv.org/abs/2607.20525)** | Combinatorics, Number Theory, LLM | arXiv 2026 | [Code](https://github.com/yichenhuang/sum-product) |
 | **[Benchmarks in Leipzig](https://arxiv.org/abs/2606.05818)** | Benchmark, LLM | arXiv 2026 |  |
@@ -69,7 +69,7 @@ See [`CONTRIBUTING.md`](https://github.com/seewoo5/awesome-ai-for-math/blob/main
 | **[Digesting the proof of the sharp thin-shell inequality](https://arxiv.org/abs/2607.23307)** | Geometry, Analysis, Probability, LLM | arXiv 2026 | [Chat Logs](https://arxiv.org/src/2607.23307v1/anc/chatgpt.pdf) |
 | **[Discovery of Unstable Singularities](https://arxiv.org/abs/2509.14185)** | Differential Equations, PINN | arXiv 2025 |  |
 | **[Does My Embedding Reflect That A = B? Evaluating Mathematical Equivalence in Embedding Models](https://arxiv.org/abs/2606.23959)** | Benchmark, ATP, LLM | arXiv 2026 |  |
-| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM, ATP | arXiv 2026 | |
+| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://doi.org/10.1007/978-3-032-38214-6_18)** | Combinatorics, LLM, ATP | Intelligent Computer Mathematics 2026 | [arXiv](https://arxiv.org/abs/2604.21187) |
 | **[E6-local systems from cubic threefolds](https://arxiv.org/abs/2604.20970)** | Algebraic Geometry, LLM | arXiv 2026 |  |
 | **[Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072)** | Combinatorics, Optimization Theory, LLM | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2511.16072) |
 | **[Eigenweights for arithmetic Hirzebruch Proportionality](https://doi.org/10.1093/pnasnexus/pgag143)** | Number Theory, Representation Theory, LLM | PNAS Nexus 2026 | [Chat Logs](https://github.com/google-deepmind/superhuman/tree/main/aletheia) [arXiv](https://arxiv.org/abs/2601.23245) |
