@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Update arXiv paper links in README.md to their official published versions.
+Update arXiv paper links in papers.md to their official published versions.
 
 Strategy
 --------
-For each README row whose title links to an arXiv preprint, we attempt to
+For each paper row whose title links to an arXiv preprint, we attempt to
 find the official peer-reviewed DOI via two authoritative sources, in order:
 
   1. arXiv API  — some authors add the published DOI to their arXiv submission
@@ -30,8 +30,8 @@ explicitly rejected, since they do not represent peer-reviewed publication.
 
 Usage
 -----
-  python update_arxiv_links.py                  # updates README.md in-place
-  python update_arxiv_links.py README_test.md   # safe preview: writes to a copy
+  python update_arxiv_links.py                  # updates papers.md in-place
+  python update_arxiv_links.py papers_test.md   # safe preview: writes to a copy
 """
 
 import re
@@ -43,7 +43,7 @@ import unicodedata
 import xml.etree.ElementTree as ET
 import requests
 
-README_PATH = "README.md"
+PAPERS_PATH = "papers.md"
 
 # Matches the full arXiv abstract URL and captures the paper ID (YYMM.NNNNN).
 ARXIV_URL_RE = re.compile(r"https://arxiv\.org/abs/(\d{4}\.\d+)")
@@ -285,7 +285,7 @@ def query_crossref_by_doi(doi: str) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
-# README parsing & updating
+# Paper-table parsing & updating
 # ---------------------------------------------------------------------------
 
 def parse_row(line: str) -> list[str] | None:
@@ -307,9 +307,9 @@ def parse_row(line: str) -> list[str] | None:
     return cells
 
 
-def update_readme(input_path: str = README_PATH, output_path: str = README_PATH):
+def update_readme(input_path: str = PAPERS_PATH, output_path: str = PAPERS_PATH):
     """
-    Read the README at input_path, update arXiv paper rows where a published
+    Read the paper table at input_path, update arXiv paper rows where a published
     DOI can be found, and write the result to output_path.
 
     For each updated row, three columns may change:
@@ -425,7 +425,7 @@ def update_readme(input_path: str = README_PATH, output_path: str = README_PATH)
 if __name__ == "__main__":
     if len(sys.argv) == 2:
         output = sys.argv[1]
-        shutil.copy(README_PATH, output)
+        shutil.copy(PAPERS_PATH, output)
         print(f"Working on copy: {output}\n")
         update_readme(output, output)
     else:

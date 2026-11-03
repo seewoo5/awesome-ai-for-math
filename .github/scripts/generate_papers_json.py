@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parse the README.md table and generate assets/papers.json for the interactive table.
+Parse the papers.md table and generate assets/papers.json for the interactive table.
 """
 
 import json
@@ -9,7 +9,7 @@ from pathlib import Path
 
 from table_utils import parse_subjects
 
-README_PATH = Path("README.md")
+PAPERS_PATH = Path("papers.md")
 OUTPUT_PATH = Path("assets/papers.json")
 
 TABLE_START_MARKER = "<!-- Table start -->"
@@ -17,7 +17,7 @@ TABLE_END_MARKER = "<!-- Table end -->"
 
 
 def parse_readme():
-    content = README_PATH.read_text(encoding="utf-8")
+    content = PAPERS_PATH.read_text(encoding="utf-8")
 
     start = content.index(TABLE_START_MARKER) + len(TABLE_START_MARKER)
     end = content.index(TABLE_END_MARKER)

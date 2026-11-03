@@ -1,7 +1,8 @@
 import re
 
 # File paths and markers (using your exact strings)
-README_PATH = 'README.md'
+PAPERS_PATH = 'papers.md'  # the paper table lives here
+README_PATH = 'README.md'  # only the paper count in the intro is updated
 TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
 TITLE_LINK_RE = re.compile(r"\*\*\[(.*?)\]\((.*?)\)\*\*")
@@ -33,10 +34,10 @@ def get_sort_key(row):
 
 
 try:
-    with open(README_PATH, 'r', encoding='utf-8') as f:
+    with open(PAPERS_PATH, 'r', encoding='utf-8') as f:
         content = f.read()
 except FileNotFoundError:
-    print(f"Error: {README_PATH} not found.")
+    print(f"Error: {PAPERS_PATH} not found.")
     exit(1)
 
 # Find the table block within the markers
@@ -77,31 +78,29 @@ new_content_between_markers = content_between_markers.replace(
     sorted_table_core
 )
 
-# 7. Rebuild the entire README file (with the sorted table)
+# 7. Rebuild the entire papers file (with the sorted table)
 new_content = (
     content[:start_index + len(TABLE_START_MARKER)] +
     new_content_between_markers +
     content[end_index:]
 )
 
-# 8. Update the paper count in the README intro line.
-#    The README contains an integer in the phrase below; replace it with the computed count.
-#    Example target text: "A curated list of 123 awesome papers ..." (number may use commas, e.g., 1,234)
+with open(PAPERS_PATH, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+print("✅ Paper table sorted successfully while preserving spacing.")
 
-# Total count
+# 8. Update the paper count in the README intro line
+#    ("A curated list of 123 awesome papers ...").
+with open(README_PATH, 'r', encoding='utf-8') as f:
+    readme = f.read()
 paper_count_pattern = re.compile(
     r'(A curated list of\s+)(?:\d+)(\s+awesome papers)',
     re.IGNORECASE,
 )
-new_content, subs_made = paper_count_pattern.subn(rf"\g<1>{num_papers}\g<2>", new_content, count=1)
-
+readme, subs_made = paper_count_pattern.subn(rf"\g<1>{num_papers}\g<2>", readme, count=1)
 if subs_made == 0:
     print("ℹ️ Info: No 'A curated list of XXX awesome papers' line found to update.")
 else:
+    with open(README_PATH, 'w', encoding='utf-8') as f:
+        f.write(readme)
     print(f"✅ Updated paper count to {num_papers}.")
-
-# Write the corrected content back to the file
-with open(README_PATH, 'w', encoding='utf-8') as f:
-    f.write(new_content)
-
-print("✅ README table sorted successfully while preserving spacing.")

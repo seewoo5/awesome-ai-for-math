@@ -1,6 +1,6 @@
 ---
 name: awesome-ai-for-math-paper
-description: Add paper links to the awesome-ai-for-math repository README. Use when the user gives an arXiv, DOI, proceedings, journal, or paper URL and asks to add it to awesome-ai-for-math, update the README paper table, classify topics, find associated resources such as GitHub repositories, update an existing paper-add PR, or commit the change with a Codex co-author trailer.
+description: Add paper links to the awesome-ai-for-math paper table (papers.md). Use when the user gives an arXiv, DOI, proceedings, journal, or paper URL and asks to add it to awesome-ai-for-math, update the paper table, classify topics, find associated resources such as GitHub repositories, update an existing paper-add PR, or commit the change with a Codex co-author trailer.
 ---
 
 # Awesome AI For Math Paper
@@ -11,7 +11,8 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
 
 1. Inspect state first.
    - Run `git status -sb`.
-   - Read the relevant README rows around the alphabetical insertion point.
+   - The paper table lives in `papers.md` (between `<!-- Table start -->` and `<!-- Table end -->`), not in `README.md`.
+   - Read the relevant `papers.md` rows around the alphabetical insertion point.
    - If a PR branch is already active for paper additions, continue on it. If starting from `main`, create a `codex/...` branch before committing.
 
 2. Fetch paper metadata from primary sources.
@@ -19,9 +20,9 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
    - Extract title, submission year, abstract, arXiv subjects, comments, and visible resource links.
    - Do not rely only on the user-provided title.
 
-3. Choose README fields.
+3. Choose the row fields.
    - Title: exact paper title as rendered by the source, linked to the paper URL.
-   - Subject(s): prefer existing README tags. Use mathematical domain tags first, then method tags such as `LLM`, `ATP`, `RL`, `Transformer`, `Neural Network`, or `Benchmark`.
+   - Subject(s): prefer existing tags in `papers.md`. Use mathematical domain tags first, then method tags such as `LLM (major)`, `LLM (minor)`, `LLM (tool)`, `ATP`, `RL`, `Transformer`, `Neural Network`, or `Benchmark`.
    - Venue & Year: use `arXiv YYYY` unless a published venue is confirmed.
    - Links & Resources: include official resources discovered from the paper page, abstract, paper PDF, repository search, author pages, or clearly related existing project repos.
    - Add an `[arXiv]` link to the last column only when the title links to a different published version (journal or conference) and the arXiv link would not duplicate it. If the title already links to the arXiv page, do not repeat an `[arXiv]` link in the last column.
@@ -31,18 +32,19 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
    - Search the web for the exact title plus `GitHub`, `code`, and named systems from the abstract.
    - Verify candidate repositories exist before adding them.
    - If a paper has a dedicated repo, prefer it over a shared system repo. Example: use `[Code](https://github.com/frenzymath/iteris)` for Iteris rather than the shared Rethlas repo.
-   - If a known shared project has an existing README label style and no more-specific repo is confirmed, reuse it. Example: use `[Code (Rethlas)](https://github.com/frenzymath/Rethlas)` for Rethlas-based papers.
+   - If a known shared project has an existing label style in `papers.md` and no more-specific repo is confirmed, reuse it. Example: use `[Code (Rethlas)](https://github.com/frenzymath/Rethlas)` for Rethlas-based papers.
    - Use `Code` only for actual executable code or formal artifacts. Use `Chat Logs` for transcripts or prompt/response records.
 
-5. Edit README only unless the user asks for generated/site data updates.
-   - Bump the paper count in the intro.
+5. Edit `papers.md` only unless the user asks for generated/site data updates.
    - Insert the row alphabetically by title.
+   - Run `python3 .github/scripts/update_readme.py` to re-sort the table and update the paper count in the `README.md` intro (CI also does this on merge).
    - Keep markdown table formatting consistent.
-   - Do not edit `assets/papers.json` or charts when the user says README-only.
+   - Do not edit `assets/papers.json` or the README statistics table unless asked; CI regenerates them on merge.
 
 6. Validate.
-   - Run `rg -c '^\\| \\*\\*\\[' README.md` and confirm the count matches the intro.
-   - Run `git diff -- README.md` and inspect the exact row(s).
+   - Run `rg -c '^\\| \\*\\*\\[' papers.md` and confirm the count matches the `README.md` intro.
+   - Run `python3 .github/scripts/check_duplicates.py`.
+   - Run `git diff -- papers.md README.md` and inspect the exact row(s).
    - Confirm `git status -sb` shows only intended files.
 
 7. Commit and publish when requested.
@@ -59,7 +61,13 @@ Co-authored-by: Codex <codex@openai.com>
 
 ## Classification Guidance
 
-- Use `Numerical Analysis, LLM` for LLM-assisted computational mathematics papers centered on numerical methods.
+- Use `Numerical Analysis` plus the appropriate LLM tag for LLM-assisted computational mathematics papers centered on numerical methods.
 - Use `Algebraic Geometry, Number Theory` for p-adic/nonabelian Hodge or arithmetic geometry papers unless the paper explicitly emphasizes formal proof or LLM methodology.
 - Add `ATP` only when the paper uses automated/formal theorem proving or proof assistant artifacts.
-- Add `LLM` when the abstract or resources describe language models, agentic AI systems, AI-generated proof drafts, or AI-assisted research workflow.
+- Pick the LLM tag from what the paper itself says about AI use (abstract, introduction, "Use of AI" statement, acknowledgments, remarks crediting a model):
+  - `LLM (major)`: the core results (main theorem, counterexample, construction, improved bound) were essentially produced by AI autonomously, and the authors mainly posed the problem, verified, and wrote it up. This includes AI-system papers (AlphaEvolve, FunSearch, Aletheia, ...) whose headline contributions are new research results found autonomously.
+  - `LLM (minor)`: humans drove the research, but AI proved nontrivial lemmas or intermediate steps, or supplied key ideas, constructions, or code for part of the argument.
+  - `LLM (tool)`: papers about LLMs for mathematics with no AI-attributed new result, such as benchmarks, surveys, and prover or autoformalization systems evaluated on benchmarks.
+  - If an LLM-based system wrote formal (Lean/Isabelle) proofs of the paper's results, also tag `LLM (minor)` with `ATP`, even when the informal mathematics is human (use `LLM (major)` if the AI also produced the core results).
+  - For AI formal provers (AxiomProver, AxiomCode, Aristotle, Gauss, ...), read the paper's prover appendix: if the prover was given only the statements and produced the proof, or the proofs were generated in human-AI collaboration, use `LLM (major)` + `ATP`; if it only autoformalized or certified a proof the humans had already written, use `LLM (minor)` + `ATP`.
+- Do not add papers that used AI only for proofreading, grammar, translation, literature search, or finding minor errors.

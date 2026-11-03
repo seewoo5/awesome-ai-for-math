@@ -6,14 +6,66 @@
 <title>awesome-ai-for-math</title>
 <style>
   :root {
+    color-scheme: light;
     --bg: #ffffff;
     --fg: #24292f;
+    --fg-muted: #57606a;
     --border: #d0d7de;
     --accent: #0969da;
     --tag-bg: #ddf4ff;
     --tag-fg: #0969da;
+    --tag-hover: #b6e3ff;
     --hover: #f6f8fa;
     --header-bg: #f6f8fa;
+    --th-hover: #eaeef2;
+    --chart-grid: #eaeef2;
+    --chart-axis: #d0d7de;
+    --series-rest: #2a78d6;
+    --series-hl: #eb6834;
+    --tooltip-bg: #ffffff;
+    --tooltip-shadow: 0 4px 16px rgba(31, 35, 40, 0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --fg-muted: #9198a1;
+      --border: #3d444d;
+      --accent: #4493f8;
+      --tag-bg: #121d2f;
+      --tag-fg: #4493f8;
+      --tag-hover: #1b3358;
+      --hover: #151b23;
+      --header-bg: #151b23;
+      --th-hover: #212830;
+      --chart-grid: #21262d;
+      --chart-axis: #3d444d;
+      --series-rest: #3987e5;
+      --series-hl: #d95926;
+      --tooltip-bg: #151b23;
+      --tooltip-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --fg-muted: #9198a1;
+    --border: #3d444d;
+    --accent: #4493f8;
+    --tag-bg: #121d2f;
+    --tag-fg: #4493f8;
+    --tag-hover: #1b3358;
+    --hover: #151b23;
+    --header-bg: #151b23;
+    --th-hover: #212830;
+    --chart-grid: #21262d;
+    --chart-axis: #3d444d;
+    --series-rest: #3987e5;
+    --series-hl: #d95926;
+    --tooltip-bg: #151b23;
+    --tooltip-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -31,9 +83,8 @@
   /* Header */
   .header { margin-bottom: 1.5rem; }
   .header h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
-  .header p { color: #57606a; margin-bottom: 0.5rem; }
-  .header-links { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; }
-  .chart-img { max-width: 100%; height: auto; margin-bottom: 1rem; border-radius: 6px; }
+  .header p { color: var(--fg-muted); margin-bottom: 0.5rem; }
+  .header-links { display: flex; gap: 1rem; align-items: center; }
 
   /* Controls */
   .controls {
@@ -43,15 +94,66 @@
   }
   .controls select, .controls input {
     padding: 0.4rem 0.6rem; border: 1px solid var(--border); border-radius: 6px;
-    font-size: 0.875rem; background: var(--bg);
+    font-size: 0.875rem; background: var(--bg); color: var(--fg);
   }
   .controls input { flex: 1; min-width: 180px; }
   .controls button {
     padding: 0.4rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
-    background: var(--bg); cursor: pointer; font-size: 0.875rem;
+    background: var(--bg); color: var(--fg); cursor: pointer; font-size: 0.875rem;
   }
   .controls button:hover { background: var(--hover); }
-  .count { font-size: 0.875rem; color: #57606a; margin-left: auto; white-space: nowrap; }
+  .count { font-size: 0.875rem; color: var(--fg-muted); margin-left: auto; white-space: nowrap; }
+
+  /* Chart */
+  .chart-card {
+    border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1rem 0.75rem;
+    margin-bottom: 1rem; background: var(--bg);
+  }
+  .chart-head {
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: flex-start;
+    justify-content: space-between; margin-bottom: 0.5rem;
+  }
+  .chart-head h2 { font-size: 1rem; font-weight: 600; }
+  .chart-sub { font-size: 0.8125rem; color: var(--fg-muted); }
+  .chart-controls { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .seg button {
+    padding: 0.25rem 0.65rem; border: 0; background: var(--bg); color: var(--fg-muted);
+    font-size: 0.8125rem; cursor: pointer;
+  }
+  .seg button + button { border-left: 1px solid var(--border); }
+  .seg button:hover { background: var(--hover); }
+  .seg button[aria-pressed="true"] { background: var(--header-bg); color: var(--fg); font-weight: 600; }
+  .legend { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; font-size: 0.8125rem; color: var(--fg-muted); margin-bottom: 0.25rem; }
+  .legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+  .chart { position: relative; width: 100%; }
+  .chart svg { display: block; width: 100%; overflow: visible; }
+  .chart .col { transition: opacity 120ms ease; }
+  .chart .hit { fill: transparent; cursor: pointer; outline: none; }
+  .chart .hit:focus-visible { stroke: var(--accent); stroke-width: 2; }
+  .chart .col.hover .seg-fill { filter: brightness(1.12); }
+  .chart text { fill: var(--fg-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .chart text.cap { fill: var(--fg); font-weight: 600; }
+  .tooltip {
+    position: absolute; pointer-events: none; z-index: 2; min-width: 150px;
+    background: var(--tooltip-bg); border: 1px solid var(--border); border-radius: 6px;
+    box-shadow: var(--tooltip-shadow); padding: 0.45rem 0.6rem; font-size: 0.8125rem;
+    opacity: 0; transition: opacity 80ms ease;
+  }
+  .tooltip.show { opacity: 1; }
+  .tooltip .tt-year { color: var(--fg-muted); margin-bottom: 0.15rem; }
+  .tooltip .tt-row { display: flex; align-items: center; gap: 0.45rem; white-space: nowrap; }
+  .tooltip .tt-row b { font-variant-numeric: tabular-nums; min-width: 2.2em; }
+  .tooltip .tt-key { display: inline-block; width: 12px; height: 2px; border-radius: 1px; }
+  .tooltip .tt-row .tt-label { color: var(--fg-muted); }
+  .chart-foot { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .chart-hint { font-size: 0.75rem; color: var(--fg-muted); }
+  details.chart-data { font-size: 0.8125rem; color: var(--fg-muted); }
+  details.chart-data summary { cursor: pointer; }
+  details.chart-data table { width: auto; margin-top: 0.4rem; font-size: 0.8125rem; }
+  details.chart-data th, details.chart-data td { padding: 0.2rem 0.6rem; text-align: right; position: static; cursor: default; }
+  details.chart-data th:first-child, details.chart-data td:first-child { text-align: left; }
 
   /* Table */
   table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
@@ -60,7 +162,7 @@
     background: var(--header-bg); font-weight: 600; position: sticky; top: 0;
     cursor: pointer; user-select: none; white-space: nowrap;
   }
-  th:hover { background: #eaeef2; }
+  th:hover { background: var(--th-hover); }
   th .sort-arrow { font-size: 0.7rem; margin-left: 0.25rem; opacity: 0.4; }
   th.sorted .sort-arrow { opacity: 1; }
   tr:hover td { background: var(--hover); }
@@ -71,7 +173,7 @@
     background: var(--tag-bg); color: var(--tag-fg); border-radius: 1rem;
     font-size: 0.75rem; cursor: pointer; white-space: nowrap;
   }
-  .tag:hover { background: #b6e3ff; text-decoration: none; }
+  .tag:hover { background: var(--tag-hover); text-decoration: none; }
 
   /* Links */
   .resource-link {
@@ -80,10 +182,12 @@
 
   /* Responsive */
   @media (max-width: 768px) {
-    body { padding: 1rem 0.5rem; }
-    .controls { flex-direction: column; }
+    body { padding: 1rem; }
+    .controls { flex-direction: column; align-items: stretch; }
     .controls input { min-width: 100%; }
     .count { margin-left: 0; }
+    .chart-card { padding: 0.75rem 0.75rem 0.5rem; }
+    .table-wrap { overflow-x: auto; }
     table { font-size: 0.8rem; }
     th, td { padding: 0.35rem 0.5rem; }
   }
@@ -98,18 +202,57 @@
     <a href="https://github.com/seewoo5/awesome-ai-for-math">GitHub Repository</a>
     <a href="https://github.com/seewoo5/awesome-ai-for-math/blob/main/CONTRIBUTING.md">Contributing</a>
   </div>
-  <img class="chart-img" src="assets/papers_by_year.png" alt="Papers by Year">
-  <img class="chart-img" src="assets/llm_papers_by_year.png" alt="LLM Papers by Year">
 </div>
 
 <div class="controls">
-  <select id="subject-filter"><option value="">All Subjects</option></select>
-  <select id="year-filter"><option value="">All Years</option></select>
-  <input id="search-box" type="text" placeholder="Search title, subject, or venue...">
+  <select id="subject-filter" aria-label="Filter by subject">
+    <optgroup label="Overview" id="overview-group">
+      <option value="">All papers</option>
+      <option value="__llm">LLM papers (any level)</option>
+      <option value="__nonllm">Non-LLM papers</option>
+    </optgroup>
+    <optgroup label="Subjects" id="subject-group"></optgroup>
+  </select>
+  <select id="year-filter" aria-label="Filter by year"><option value="">All Years</option></select>
+  <input id="search-box" type="text" placeholder="Search title, subject, or venue..." aria-label="Search">
   <button id="clear-btn">Clear</button>
   <span class="count" id="count-display">Loading...</span>
 </div>
 
+<section class="chart-card" aria-labelledby="chart-title">
+  <div class="chart-head">
+    <div>
+      <h2 id="chart-title">Papers by year</h2>
+      <div class="chart-sub" id="chart-sub"></div>
+    </div>
+    <div class="chart-controls">
+      <div class="seg" role="group" aria-label="Papers counted in the chart">
+        <button type="button" data-llm="off" aria-pressed="true">Without LLM</button>
+        <button type="button" data-llm="on" aria-pressed="false">Include LLM</button>
+      </div>
+      <div class="seg" role="group" aria-label="Highlight papers with">
+        <button type="button" data-hl="code" aria-pressed="true">Open-sourced code</button>
+        <button type="button" data-hl="chat" aria-pressed="false">Chat logs</button>
+      </div>
+    </div>
+  </div>
+  <div class="legend" id="chart-legend"></div>
+  <div class="chart" id="chart">
+    <div class="tooltip" id="chart-tooltip" role="status" aria-live="polite"></div>
+  </div>
+  <div class="chart-foot">
+    <span class="chart-hint">Click a column to filter the table by year.</span>
+    <details class="chart-data">
+      <summary>Data table</summary>
+      <table>
+        <thead><tr><th>Year</th><th>Papers</th><th id="chart-data-hl">Open-sourced</th></tr></thead>
+        <tbody id="chart-data-body"></tbody>
+      </table>
+    </details>
+  </div>
+</section>
+
+<div class="table-wrap">
 <table>
   <thead>
     <tr>
@@ -122,21 +265,41 @@
   </thead>
   <tbody id="table-body"></tbody>
 </table>
+</div>
 
 <script>
 (function () {
   var papers = [];
   var subjects = [];
   var years = [];
+  var chartYears = [];
   var sortCol = "title";
   var sortAsc = true;
+  var highlight = "code";
+  var includeLlm = false;   // the chart shows non-LLM work by default
+
+  var SVG_NS = "http://www.w3.org/2000/svg";
+  var HIGHLIGHTS = {
+    code: { on: "Open-sourced", off: "Not open-sourced", column: "Open-sourced" },
+    chat: { on: "With chat logs", off: "Without chat logs", column: "With chat logs" }
+  };
 
   var subjectFilter = document.getElementById("subject-filter");
+  var subjectGroup = document.getElementById("subject-group");
   var yearFilter = document.getElementById("year-filter");
   var searchBox = document.getElementById("search-box");
   var clearBtn = document.getElementById("clear-btn");
   var countDisplay = document.getElementById("count-display");
   var tableBody = document.getElementById("table-body");
+  var chartEl = document.getElementById("chart");
+  var tooltip = document.getElementById("chart-tooltip");
+  var chartTitle = document.getElementById("chart-title");
+  var chartSub = document.getElementById("chart-sub");
+  var chartLegend = document.getElementById("chart-legend");
+  var chartDataBody = document.getElementById("chart-data-body");
+  var chartDataHl = document.getElementById("chart-data-hl");
+  var segButtons = document.querySelectorAll(".seg button[data-hl]");
+  var llmButtons = document.querySelectorAll(".seg button[data-llm]");
 
   function escapeHtml(str) {
     var div = document.createElement("div");
@@ -144,12 +307,40 @@
     return div.innerHTML;
   }
 
+  function isLlmSubject(s) {
+    return s === "LLM" || s.indexOf("LLM (") === 0;
+  }
+
+  function isLlmPaper(p) {
+    return p.subjects.some(isLlmSubject);
+  }
+
+  // Same rules as .github/scripts/generate_stats_table.py
+  function hasCode(p) {
+    return p.links.some(function (l) { return /\bcode\b/i.test(l.label); });
+  }
+
+  function hasChatLogs(p) {
+    return p.links.some(function (l) { return /\bchat logs?\b|\bCoT\b/i.test(l.label); });
+  }
+
+  function defaultHighlight(subj) {
+    return (subj === "__llm" || isLlmSubject(subj)) ? "chat" : "code";
+  }
+
+  function subjectLabel(subj) {
+    if (subj === "") return "All papers";
+    if (subj === "__llm") return "LLM papers";
+    if (subj === "__nonllm") return "Non-LLM papers";
+    return subj + " papers";
+  }
+
   function populateFilters() {
     subjects.forEach(function (s) {
       var opt = document.createElement("option");
       opt.value = s;
       opt.textContent = s;
-      subjectFilter.appendChild(opt);
+      subjectGroup.appendChild(opt);
     });
     years.forEach(function (y) {
       var opt = document.createElement("option");
@@ -157,6 +348,22 @@
       opt.textContent = y;
       yearFilter.appendChild(opt);
     });
+    var minY = Math.min.apply(null, years);
+    var maxY = Math.max.apply(null, years);
+    for (var y = minY; y <= maxY; y++) chartYears.push(y);
+  }
+
+  function matchesSubject(p, subj) {
+    if (!subj) return true;
+    if (subj === "__llm") return isLlmPaper(p);
+    if (subj === "__nonllm") return !isLlmPaper(p);
+    return p.subjects.indexOf(subj) !== -1;
+  }
+
+  function matchesSearch(p, q) {
+    if (!q) return true;
+    var haystack = (p.title + " " + p.subjects.join(" ") + " " + p.venue).toLowerCase();
+    return haystack.indexOf(q) !== -1;
   }
 
   function filterAndRender() {
@@ -164,14 +371,12 @@
     var yr = yearFilter.value;
     var q = searchBox.value.toLowerCase();
 
-    var filtered = papers.filter(function (p) {
-      if (subj && p.subjects.indexOf(subj) === -1) return false;
-      if (yr && String(p.year) !== yr) return false;
-      if (q) {
-        var haystack = (p.title + " " + p.subjects.join(" ") + " " + p.venue).toLowerCase();
-        if (haystack.indexOf(q) === -1) return false;
-      }
-      return true;
+    // The chart is scoped by subject and search; the year filter only emphasizes a column.
+    var scoped = papers.filter(function (p) {
+      return matchesSubject(p, subj) && matchesSearch(p, q);
+    });
+    var filtered = scoped.filter(function (p) {
+      return !yr || String(p.year) === yr;
     });
 
     filtered.sort(function (a, b) {
@@ -186,6 +391,7 @@
     });
 
     renderTable(filtered);
+    renderChart(includeLlm ? scoped : scoped.filter(function (p) { return !isLlmPaper(p); }));
     countDisplay.textContent = "Showing " + filtered.length + " of " + papers.length + " papers";
   }
 
@@ -211,6 +417,241 @@
     tableBody.innerHTML = html;
   }
 
+  // ---- Chart ------------------------------------------------------------
+
+  function svg(tag, attrs, parent) {
+    var el = document.createElementNS(SVG_NS, tag);
+    for (var k in attrs) el.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(el);
+    return el;
+  }
+
+  function niceStep(max) {
+    var raw = Math.max(1, max) / 4;
+    var mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    var steps = [1, 2, 5, 10];
+    for (var i = 0; i < steps.length; i++) {
+      if (steps[i] * mag >= raw) return Math.max(1, steps[i] * mag);
+    }
+    return 10 * mag;
+  }
+
+  // Column with a 4px rounded data-end and a square baseline end.
+  function colPath(x, yTop, w, h, rounded) {
+    var r = rounded ? Math.min(4, h, w / 2) : 0;
+    var yb = yTop + h;
+    if (r <= 0) return "M" + x + "," + yb + "V" + yTop + "H" + (x + w) + "V" + yb + "Z";
+    return "M" + x + "," + yb
+      + "V" + (yTop + r)
+      + "A" + r + "," + r + " 0 0 1 " + (x + r) + "," + yTop
+      + "H" + (x + w - r)
+      + "A" + r + "," + r + " 0 0 1 " + (x + w) + "," + (yTop + r)
+      + "V" + yb + "Z";
+  }
+
+  function countByYear(list) {
+    var stats = {};
+    chartYears.forEach(function (y) { stats[y] = { total: 0, hl: 0 }; });
+    var test = highlight === "chat" ? hasChatLogs : hasCode;
+    list.forEach(function (p) {
+      if (!stats[p.year]) return;
+      stats[p.year].total += 1;
+      if (test(p)) stats[p.year].hl += 1;
+    });
+    return stats;
+  }
+
+  function renderLegend() {
+    var names = HIGHLIGHTS[highlight];
+    chartLegend.textContent = "";
+    [["--series-hl", names.on], ["--series-rest", names.off]].forEach(function (item) {
+      var span = document.createElement("span");
+      var sw = document.createElement("i");
+      sw.style.background = "var(" + item[0] + ")";
+      span.appendChild(sw);
+      span.appendChild(document.createTextNode(item[1]));
+      chartLegend.appendChild(span);
+    });
+    for (var j = 0; j < llmButtons.length; j++) {
+    llmButtons[j].addEventListener("click", function (e) {
+      includeLlm = e.currentTarget.getAttribute("data-llm") === "on";
+      filterAndRender();
+    });
+  }
+
+  for (var i = 0; i < segButtons.length; i++) {
+      segButtons[i].setAttribute("aria-pressed", segButtons[i].getAttribute("data-hl") === highlight ? "true" : "false");
+    }
+  }
+
+  function renderChart(list) {
+    var names = HIGHLIGHTS[highlight];
+    var stats = countByYear(list);
+    var subj = subjectFilter.value;
+    var q = searchBox.value.trim();
+    var total = 0, hlTotal = 0;
+    chartYears.forEach(function (y) { total += stats[y].total; hlTotal += stats[y].hl; });
+
+    var label = subjectLabel(subj);
+    if (!includeLlm && subj !== "__nonllm") label = subj === "" ? "Non-LLM papers" : label + " without LLM";
+    chartTitle.textContent = label + " by year" + (q ? " · matching “" + q + "”" : "");
+    for (var b = 0; b < llmButtons.length; b++) {
+      llmButtons[b].setAttribute("aria-pressed", (llmButtons[b].getAttribute("data-llm") === "on") === includeLlm ? "true" : "false");
+    }
+    chartSub.textContent = total + " paper" + (total === 1 ? "" : "s") + " · "
+      + hlTotal + " " + names.on.toLowerCase()
+      + (total ? " (" + Math.round(100 * hlTotal / total) + "%)" : "");
+    renderLegend();
+
+    // Data table view
+    chartDataHl.textContent = names.column;
+    chartDataBody.textContent = "";
+    chartYears.slice().reverse().forEach(function (y) {
+      var tr = document.createElement("tr");
+      [String(y), String(stats[y].total), String(stats[y].hl)].forEach(function (v) {
+        var td = document.createElement("td");
+        td.textContent = v;
+        tr.appendChild(td);
+      });
+      chartDataBody.appendChild(tr);
+    });
+
+    // Geometry
+    var old = chartEl.querySelector("svg");
+    if (old) old.remove();
+    var width = Math.max(280, chartEl.clientWidth);
+    var plotH = width < 600 ? 180 : 230;
+    var m = { top: 20, right: 4, bottom: 26, left: 34 };
+    var height = m.top + plotH + m.bottom;
+    var plotW = width - m.left - m.right;
+    var band = plotW / chartYears.length;
+    var barW = Math.max(6, Math.min(24, band - 10));
+    var maxTotal = 0;
+    chartYears.forEach(function (y) { maxTotal = Math.max(maxTotal, stats[y].total); });
+    var step = niceStep(maxTotal);
+    var yMax = Math.max(step, Math.ceil(maxTotal / step) * step);
+    function yPos(v) { return m.top + plotH - (v / yMax) * plotH; }
+
+    var root = svg("svg", {
+      viewBox: "0 0 " + width + " " + height, height: height,
+      role: "img", "aria-label": chartTitle.textContent + ": " + chartSub.textContent
+    }, null);
+
+    // Gridlines and y ticks
+    for (var t = 0; t <= yMax; t += step) {
+      var gy = Math.round(yPos(t)) + 0.5;
+      svg("line", {
+        x1: m.left, x2: width - m.right, y1: gy, y2: gy,
+        stroke: t === 0 ? "var(--chart-axis)" : "var(--chart-grid)", "stroke-width": 1
+      }, root);
+      var tl = svg("text", { x: m.left - 8, y: gy + 4, "text-anchor": "end" }, root);
+      tl.textContent = t.toLocaleString();
+    }
+
+    var shortYears = band < 36;
+    var yr = yearFilter.value;
+    chartYears.forEach(function (y, i) {
+      var s = stats[y];
+      var cx = m.left + band * i + band / 2;
+      var x = cx - barW / 2;
+      var g = svg("g", { "class": "col" }, root);
+      if (yr && String(y) !== yr) g.style.opacity = "0.3";
+
+      var base = m.top + plotH;
+      var hlH = (s.hl / yMax) * plotH;
+      var totH = (s.total / yMax) * plotH;
+      var restH = totH - hlH;
+      var gap = s.hl > 0 && restH > 0 ? 2 : 0;
+      if (s.hl > 0) {
+        svg("path", {
+          "class": "seg-fill", d: colPath(x, base - hlH, barW, hlH, restH <= 0),
+          fill: "var(--series-hl)"
+        }, g);
+      }
+      if (restH > 0) {
+        var h = Math.max(1, restH - gap);
+        svg("path", {
+          "class": "seg-fill", d: colPath(x, base - totH, barW, h, true),
+          fill: "var(--series-rest)"
+        }, g);
+      }
+      if (s.total > 0) {
+        var cap = svg("text", { "class": "cap", x: cx, y: base - totH - 6, "text-anchor": "middle" }, g);
+        cap.textContent = s.total;
+      }
+      var xl = svg("text", { x: cx, y: base + 17, "text-anchor": "middle" }, root);
+      xl.textContent = shortYears ? "’" + String(y).slice(2) : String(y);
+
+      // Hit target: the whole band, taller than the mark.
+      var hit = svg("rect", {
+        "class": "hit", x: m.left + band * i, y: m.top - 16, width: band, height: plotH + 16,
+        tabindex: s.total > 0 ? 0 : -1, role: "button",
+        "aria-label": y + ": " + s.total + " papers, " + s.hl + " " + names.on.toLowerCase()
+      }, g);
+      function show() { g.classList.add("hover"); showTooltip(y, s, cx, base - totH); }
+      function hide() { g.classList.remove("hover"); tooltip.classList.remove("show"); }
+      hit.addEventListener("pointerenter", show);
+      hit.addEventListener("pointerleave", hide);
+      hit.addEventListener("focus", show);
+      hit.addEventListener("blur", hide);
+      function toggleYear() {
+        if (!s.total || years.indexOf(y) === -1) return;
+        yearFilter.value = yearFilter.value === String(y) ? "" : String(y);
+        filterAndRender();
+      }
+      hit.addEventListener("click", toggleYear);
+      hit.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleYear(); }
+      });
+    });
+
+    chartEl.insertBefore(root, tooltip);
+  }
+
+  function showTooltip(year, s, cx, topY) {
+    var names = HIGHLIGHTS[highlight];
+    tooltip.textContent = "";
+    var head = document.createElement("div");
+    head.className = "tt-year";
+    head.textContent = String(year);
+    tooltip.appendChild(head);
+    var rows = [
+      [null, s.total, "papers"],
+      ["--series-hl", s.hl, names.on.toLowerCase() + (s.total ? " (" + Math.round(100 * s.hl / s.total) + "%)" : "")],
+      ["--series-rest", s.total - s.hl, names.off.toLowerCase()]
+    ];
+    rows.forEach(function (r) {
+      var row = document.createElement("div");
+      row.className = "tt-row";
+      var key = document.createElement("span");
+      key.className = "tt-key";
+      if (r[0]) key.style.background = "var(" + r[0] + ")";
+      row.appendChild(key);
+      var b = document.createElement("b");
+      b.textContent = r[1];
+      row.appendChild(b);
+      var label = document.createElement("span");
+      label.className = "tt-label";
+      label.textContent = r[2];
+      row.appendChild(label);
+      tooltip.appendChild(row);
+    });
+    tooltip.classList.add("show");
+    var w = tooltip.offsetWidth, h = tooltip.offsetHeight;
+    var cw = chartEl.clientWidth;
+    var left, top;
+    if (topY - h - 10 >= 0) {
+      left = Math.min(Math.max(0, cx - w / 2), cw - w);
+      top = topY - h - 10;
+    } else {
+      // No room above a tall column: sit beside it instead of covering it.
+      left = cx + 20 + w <= cw ? cx + 20 : Math.max(0, cx - 20 - w);
+      top = Math.max(0, topY);
+    }
+    tooltip.style.left = left + "px";
+    tooltip.style.top = top + "px";
+  }
+
   function updateSortArrows() {
     var ths = document.querySelectorAll("th[data-col]");
     for (var i = 0; i < ths.length; i++) {
@@ -227,8 +668,15 @@
     }
   }
 
+  function onSubjectChange() {
+    highlight = defaultHighlight(subjectFilter.value);
+    var s = subjectFilter.value;
+    includeLlm = s === "__llm" || isLlmSubject(s);   // LLM filters need LLM papers in the chart
+    filterAndRender();
+  }
+
   // Event listeners
-  subjectFilter.addEventListener("change", filterAndRender);
+  subjectFilter.addEventListener("change", onSubjectChange);
   yearFilter.addEventListener("change", filterAndRender);
   searchBox.addEventListener("input", filterAndRender);
   clearBtn.addEventListener("click", function () {
@@ -237,9 +685,18 @@
     searchBox.value = "";
     sortCol = "title";
     sortAsc = true;
+    highlight = "code";
+    includeLlm = false;
     updateSortArrows();
     filterAndRender();
   });
+
+  for (var i = 0; i < segButtons.length; i++) {
+    segButtons[i].addEventListener("click", function (e) {
+      highlight = e.currentTarget.getAttribute("data-hl");
+      filterAndRender();
+    });
+  }
 
   document.querySelectorAll("th[data-col]").forEach(function (th) {
     th.addEventListener("click", function () {
@@ -260,8 +717,14 @@
     if (e.target.classList.contains("tag")) {
       e.preventDefault();
       subjectFilter.value = e.target.getAttribute("data-subject");
-      filterAndRender();
+      onSubjectChange();
     }
+  });
+
+  var resizeTimer = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(filterAndRender, 100);
   });
 
   // Load data
