@@ -21,7 +21,7 @@ Use this workflow for the `awesome-ai-for-math` repository unless the user gives
 
 3. Choose README fields.
    - Title: exact paper title as rendered by the source, linked to the paper URL.
-   - Subject(s): prefer existing README tags. Use mathematical domain tags first, then method tags such as `LLM`, `ATP`, `RL`, `Transformer`, `Neural Network`, or `Benchmark`.
+   - Subject(s): prefer existing README tags. Use mathematical domain tags first, then method tags such as `LLM (major)`, `LLM (minor)`, `LLM (tool)`, `ATP`, `RL`, `Transformer`, `Neural Network`, or `Benchmark`.
    - Venue & Year: use `arXiv YYYY` unless a published venue is confirmed.
    - Links & Resources: include official resources discovered from the paper page, abstract, paper PDF, repository search, author pages, or clearly related existing project repos.
    - Add an `[arXiv]` link to the last column only when the title links to a different published version (journal or conference) and the arXiv link would not duplicate it. If the title already links to the arXiv page, do not repeat an `[arXiv]` link in the last column.
@@ -60,7 +60,13 @@ Co-authored-by: Claude <MODEL NAME> <noreply@anthropic.com>
 
 ## Classification Guidance
 
-- Use `Numerical Analysis, LLM` for LLM-assisted computational mathematics papers centered on numerical methods.
+- Use `Numerical Analysis` plus the appropriate LLM tag for LLM-assisted computational mathematics papers centered on numerical methods.
 - Use `Algebraic Geometry, Number Theory` for p-adic/nonabelian Hodge or arithmetic geometry papers unless the paper explicitly emphasizes formal proof or LLM methodology.
 - Add `ATP` only when the paper uses automated/formal theorem proving or proof assistant artifacts.
-- Add `LLM` when the abstract or resources describe language models, agentic AI systems, AI-generated proof drafts, or AI-assisted research workflow.
+- Pick the LLM tag from what the paper itself says about AI use (abstract, introduction, "Use of AI" statement, acknowledgments, remarks crediting a model):
+  - `LLM (major)`: the core results (main theorem, counterexample, construction, improved bound) were essentially produced by AI autonomously, and the authors mainly posed the problem, verified, and wrote it up. This includes AI-system papers (AlphaEvolve, FunSearch, Aletheia, ...) whose headline contributions are new research results found autonomously.
+  - `LLM (minor)`: humans drove the research, but AI proved nontrivial lemmas or intermediate steps, or supplied key ideas, constructions, or code for part of the argument.
+  - `LLM (tool)`: papers about LLMs for mathematics with no AI-attributed new result, such as benchmarks, surveys, and prover or autoformalization systems evaluated on benchmarks.
+  - If an LLM-based system wrote formal (Lean/Isabelle) proofs of the paper's results, also tag `LLM (minor)` with `ATP`, even when the informal mathematics is human (use `LLM (major)` if the AI also produced the core results).
+  - For AI formal provers (AxiomProver, AxiomCode, Aristotle, Gauss, ...), read the paper's prover appendix: if the prover was given only the statements and produced the proof, or the proofs were generated in human-AI collaboration, use `LLM (major)` + `ATP`; if it only autoformalized or certified a proof the humans had already written, use `LLM (minor)` + `ATP`.
+- Do not add papers that used AI only for proofreading, grammar, translation, literature search, or finding minor errors.

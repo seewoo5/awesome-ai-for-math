@@ -76,6 +76,11 @@ def row_has_subject(row, subject):
     return any(s.lower() == target for s in parse_subjects_from_row(row))
 
 
+def row_is_llm(row):
+    """True for any LLM tag variant: `LLM`, `LLM (minor)`, `LLM (major)`."""
+    return any(s == 'LLM' or s.startswith('LLM (') for s in parse_subjects_from_row(row))
+
+
 def extract_year_counts(data_rows, row_filter=None, subcount_label='[Code]'):
     """Extract per-year counts and sub-counts for rows matching a filter."""
     if row_filter is None:
@@ -112,6 +117,9 @@ def cell_has_resource_label(cell, label):
     target = label.strip().lower()
     if target == 'code':
         return any(re.search(r'\bcode\b', lab) for lab in labels)
+    if target == 'chat logs':
+        # Also counts "Chat Log (Upper Bound)", "Skills and Chat Logs", and chain-of-thought ("CoT") transcripts.
+        return any(re.search(r'\bchat logs?\b|\bcot\b', lab) for lab in labels)
     return any(lab == target or lab.startswith(f'{target} ') or lab.startswith(f'{target}(') for lab in labels)
 
 
@@ -198,7 +206,7 @@ def main():
     # Generate LLM-only chart
     llm_year_counts, llm_chat_log_counts = extract_year_counts(
         data_rows,
-        row_filter=lambda row: row_has_subject(row, 'LLM'),
+        row_filter=row_is_llm,
         subcount_label='[Chat Logs]',
     )
     print(f"LLM paper year counts: {llm_year_counts}")
