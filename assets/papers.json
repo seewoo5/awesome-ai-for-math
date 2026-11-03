@@ -4529,17 +4529,21 @@
     },
     {
       "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
-      "url": "https://arxiv.org/abs/2605.22763",
+      "url": "https://doi.org/10.1126/science.aej2213",
       "subjects": [
         "ATP",
         "LLM (major)"
       ],
-      "venue": "arXiv",
+      "venue": "Science",
       "year": 2026,
       "links": [
         {
           "label": "Code",
           "url": "https://github.com/google-deepmind/alphaproof-nexus-results"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2605.22763"
         }
       ]
     },
@@ -4710,14 +4714,19 @@
     },
     {
       "title": "AI for Mathematics: Progress, Challenges, and Prospects",
-      "url": "https://arxiv.org/abs/2601.13209",
+      "url": "https://doi.org/10.70777/si.v3i3.18747",
       "subjects": [
         "Survey",
         "LLM (tool)"
       ],
-      "venue": "arXiv",
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
       "year": 2026,
-      "links": []
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2601.13209"
+        }
+      ]
     },
     {
       "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory",
@@ -6467,14 +6476,19 @@
     },
     {
       "title": "Aristotle: IMO-level Automated Theorem Proving",
-      "url": "https://arxiv.org/abs/2510.01346",
+      "url": "https://doi.org/10.70777/si.v3i3.18745",
       "subjects": [
         "ATP",
         "LLM (tool)"
       ],
-      "venue": "arXiv",
-      "year": 2025,
-      "links": []
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2510.01346"
+        }
+      ]
     },
     {
       "title": "Arithmetic Poisson summation formulas",
@@ -6911,12 +6925,12 @@
     },
     {
       "title": "Automated Conjecture Resolution with Formal Verification",
-      "url": "https://arxiv.org/abs/2604.03789",
+      "url": "https://doi.org/10.70777/si.v3i3.18746",
       "subjects": [
         "LLM (major)",
         "ATP"
       ],
-      "venue": "arXiv",
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
       "year": 2026,
       "links": [
         {
@@ -6930,6 +6944,10 @@
         {
           "label": "Code (Lean)",
           "url": "https://github.com/frenzymath/Anderson-Conjecture"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2604.03789"
         }
       ]
     },
@@ -12314,15 +12332,20 @@
     },
     {
       "title": "Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery",
-      "url": "https://arxiv.org/abs/2604.21187",
+      "url": "https://doi.org/10.1007/978-3-032-38214-6_18",
       "subjects": [
         "Combinatorics",
         "LLM (major)",
         "ATP"
       ],
-      "venue": "arXiv",
+      "venue": "CICM",
       "year": 2026,
-      "links": []
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2604.21187"
+        }
+      ]
     },
     {
       "title": "Dual companions and improved regularity of Lagrange multipliers in optimal control",
@@ -15157,18 +15180,22 @@
     },
     {
       "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models",
-      "url": "https://arxiv.org/abs/2505.02735",
+      "url": "https://doi.org/10.18653/2026.findings-emnlp.579",
       "subjects": [
         "Benchmark",
         "ATP",
         "LLM (tool)"
       ],
-      "venue": "arXiv",
-      "year": 2025,
+      "venue": "EMNLP Findings",
+      "year": 2026,
       "links": [
         {
           "label": "Website",
           "url": "https://spherelab.ai/FormalMATH/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2505.02735"
         }
       ]
     },

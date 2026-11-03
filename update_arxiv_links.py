@@ -34,6 +34,7 @@ Usage
   python update_arxiv_links.py papers_test.md   # safe preview: writes to a copy
 """
 
+import html
 import re
 import sys
 import shutil
@@ -81,6 +82,8 @@ CROSSREF_DELAY = 1.0
 # the naming convention used in the README.
 VENUE_ALIASES = {
     "advances in neural information processing systems": "NeurIPS",
+    "intelligent computer mathematics": "CICM",
+    "findings of the association for computational linguistics: emnlp": "EMNLP Findings",
 }
 
 
@@ -197,6 +200,8 @@ def extract_venue_from_item(item: dict) -> str:
     # element is always the most specific (the actual venue), so we use that.
     venue_name = titles[-1] if titles else ""
     # Strip trailing volume/issue number (a bare integer at the end of the name).
+    # CrossRef titles may contain HTML entities (e.g. "&amp;").
+    venue_name = html.unescape(venue_name)
     venue_name = re.sub(r"\s+\d+$", "", venue_name).strip()
     venue_name = VENUE_ALIASES.get(venue_name.casefold(), venue_name)
 

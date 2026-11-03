@@ -356,7 +356,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Adelic Asphericity and One-Relator Pro-\(p\) Groups](https://arxiv.org/abs/2610.26288)** | Group Theory, Topology, LLM (minor) | arXiv 2026 |  |
 | **[Advancing Geometry with AI: Multi-agent Generation of Polytopes](https://arxiv.org/abs/2502.05199)** | Discrete Geometry, Combinatorics, RL, Neural Network, Transformer | arXiv 2025 |  |
 | **[Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)** | Knot Theory, Representation Theory | Nature 2021 | [Code](https://github.com/google-deepmind/mathematics_conjectures) |
-| **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://arxiv.org/abs/2605.22763)** | ATP, LLM (major) | arXiv 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) |
+| **[Advancing Mathematics Research with AI-Driven Formal Proof Search](https://doi.org/10.1126/science.aej2213)** | ATP, LLM (major) | Science 2026 | [Code](https://github.com/google-deepmind/alphaproof-nexus-results) [arXiv](https://arxiv.org/abs/2605.22763) |
 | **[Advancing mathematics research with generative AI](https://arxiv.org/abs/2511.07420)** | Group Theory, Survey, LLM (tool) | arXiv 2025 |  |
 | **[Affine and cyclotomic Brauer categorification via $\imath$-Kac--Moody $2$-categories: the integral type $\operatorname{AIII}$ case](https://arxiv.org/abs/2610.32589)** | Representation Theory, Category Theory, LLM (minor) | arXiv 2026 |  |
 | **[Affine Copies of Three-Point Patterns in Sets of Integers](https://arxiv.org/abs/2609.02308)** | Number Theory, Combinatorics, LLM (major) | arXiv 2026 |  |
@@ -370,7 +370,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651)** | Group Theory, Representation Theory, LLM (major) | arXiv 2026 |  |
 | **[AI Discovery in Combinatorics: From Problems to Solutions and Back to Bigger Problems](https://arxiv.org/abs/2610.16555)** | Combinatorics, Benchmark, LLM (tool) | arXiv 2026 | [Code](https://github.com/SwagCai/qtBench) |
 | **[AI Finds A Way](https://arxiv.org/abs/2608.23875)** | Survey, RL, LLM (tool) | arXiv 2026 | [Anecdotes](https://github.com/aadharna/aifw) |
-| **[AI for Mathematics: Progress, Challenges, and Prospects](https://arxiv.org/abs/2601.13209)** | Survey, LLM (tool) | arXiv 2026 |  |
+| **[AI for Mathematics: Progress, Challenges, and Prospects](https://doi.org/10.70777/si.v3i3.18747)** | Survey, LLM (tool) | SuperIntelligence - Robotics - Safety & Alignment 2026 | [arXiv](https://arxiv.org/abs/2601.13209) |
 | **[AI Mathematician as a Partner in Advancing Mathematical Discovery -- A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380)** | Analysis, LLM (minor) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2510.26380) |
 | **[AI Mathematician: Towards Fully Automated Frontier Mathematical Research](https://arxiv.org/abs/2505.22451)** | Analysis, LLM (tool) | arXiv 2025 | [Chat Logs](https://arxiv.org/abs/2505.22451) |
 | **[AI's solution of Conjecture 9.1](https://arxiv.org/abs/2609.33644)** | Combinatorics, Probability, LLM (major) | arXiv 2026 |  |
@@ -503,7 +503,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Are trees really just butterflies in disguise?](https://arxiv.org/abs/2609.09142)** | Graph Theory, LLM (minor) | arXiv 2026 | [Code](https://github.com/louisdebiasio/erdos-sos) |
 | **[Area stability of plank covers](https://arxiv.org/abs/2609.30409)** | Discrete Geometry, Geometry, LLM (minor) | arXiv 2026 |  |
 | **[Aria: An Agent For Retrieval and Iterative Auto-Formalization via Dependency Graph](https://arxiv.org/abs/2510.04520)** | LLM (tool), ATP | arXiv 2025 | [Code](https://github.com/frenzymath/jixia) |
-| **[Aristotle: IMO-level Automated Theorem Proving](https://arxiv.org/abs/2510.01346)** | ATP, LLM (tool) | arXiv 2025 |  |
+| **[Aristotle: IMO-level Automated Theorem Proving](https://doi.org/10.70777/si.v3i3.18745)** | ATP, LLM (tool) | SuperIntelligence - Robotics - Safety & Alignment 2026 | [arXiv](https://arxiv.org/abs/2510.01346) |
 | **[Arithmetic Poisson summation formulas](https://arxiv.org/abs/2610.36606)** | Number Theory, Analysis, LLM (minor) | arXiv 2026 |  |
 | **[Arithmetic Progressions in Midpoint Colourings](https://arxiv.org/abs/2610.11847)** | Combinatorics, Number Theory, LLM (minor) | arXiv 2026 |  |
 | **[Arithmetic properties of solubilizers](https://arxiv.org/abs/2610.03151)** | Group Theory, LLM (minor) | arXiv 2026 |  |
@@ -537,7 +537,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Auslander correspondence for higher stable dg categories and cluster Morita theory](https://arxiv.org/abs/2608.30740)** | Representation Theory, Category Theory, LLM (minor) | arXiv 2026 |  |
 | **[Autoformalizing the calculation of $π_3(S^2)$](https://arxiv.org/abs/2608.23721)** | Topology, Logic, LLM (minor), ATP | arXiv 2026 | [Code](https://github.com/emilyriehl/Codex-Homotopy-Group/tree/arxiv-v1) |
 | **[AutoGraphForge: Towards Automated Graph Theory Discovery](https://arxiv.org/abs/2609.03478)** | Graph Theory, LLM (tool), ATP | arXiv 2026 | [Code](https://github.com/JanPastorek/AutoGraphForge) |
-| **[Automated Conjecture Resolution with Formal Verification](https://arxiv.org/abs/2604.03789)** | LLM (major), ATP | arXiv 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) |
+| **[Automated Conjecture Resolution with Formal Verification](https://doi.org/10.70777/si.v3i3.18746)** | LLM (major), ATP | SuperIntelligence - Robotics - Safety & Alignment 2026 | [Code (Rethlas)](https://github.com/frenzymath/Rethlas), [Code (Archon)](https://github.com/frenzymath/Archon), [Code (Lean)](https://github.com/frenzymath/Anderson-Conjecture) [arXiv](https://arxiv.org/abs/2604.03789) |
 | **[Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences](https://proceedings.mlr.press/v202/razon23a.html)** | Number Theory | ICML 2023 | [Code](https://github.com/RamanujanMachine/) |
 | **[Automorphic commutator relations in relative geometric Langlands](https://arxiv.org/abs/2610.05781)** | Number Theory, Representation Theory, LLM (major) | arXiv 2026 |  |
 | **[Automorphism groups of endomorphism monoids of $0$-unit $3$-valent circulant digraphs](https://arxiv.org/abs/2609.12318)** | Graph Theory, Algebra, Number Theory, LLM (major) | arXiv 2026 |  |
@@ -954,7 +954,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Don't mind the gap: Absolutely Continuous Edge Spectrum in a Mobility Gap](https://arxiv.org/abs/2609.25000)** | Mathematical Physics, Analysis, LLM (minor) | arXiv 2026 |  |
 | **[Dot actions and Hessenberg spaces for dihedral groups](https://arxiv.org/abs/2610.16001)** | Combinatorics, Representation Theory, LLM (minor), ATP | arXiv 2026 |  |
 | **[Double-wells in a strong magnetic field: absence of tunneling for infinitely many values of the coupling constant](https://arxiv.org/abs/2609.21078)** | Differential Equations, Mathematical Physics, LLM (minor) | arXiv 2026 |  |
-| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://arxiv.org/abs/2604.21187)** | Combinatorics, LLM (major), ATP | arXiv 2026 | |
+| **[Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery](https://doi.org/10.1007/978-3-032-38214-6_18)** | Combinatorics, LLM (major), ATP | CICM 2026 | [arXiv](https://arxiv.org/abs/2604.21187) |
 | **[Dual companions and improved regularity of Lagrange multipliers in optimal control](https://arxiv.org/abs/2610.32520)** | Optimization Theory, Differential Equations, LLM (minor) | arXiv 2026 |  |
 | **[Duality and minors for embeddings of graphs in pseudosurfaces](https://arxiv.org/abs/2609.22061)** | Graph Theory, Combinatorics, LLM (minor) | arXiv 2026 |  |
 | **[Duality in Harmonic Analysis and beyond](https://arxiv.org/abs/2610.29803)** | Analysis, LLM (minor) | arXiv 2026 |  |
@@ -1170,7 +1170,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Formalizing PARITY Circuit Lower Bounds in Lean](https://arxiv.org/abs/2609.24188)** | Computational Complexity, Logic, LLM (minor), ATP | arXiv 2026 | [Code](https://github.com/formalcs/circuit-complexity) |
 | **[Formally Solving Answer-Construction Problems in Lean](https://arxiv.org/abs/2505.18492)** | LLM (tool), ATP | arXiv 2025 | [Code](https://github.com/sunjia72/ecp-lpar) |
 | **[Formally Verified Autoresearch for Analyzing the Expressivity of Multi-Head Attention](https://arxiv.org/abs/2610.25341)** | Computational Complexity, Logic, LLM (major), ATP | arXiv 2026 | [Code](https://github.com/VerifiedMechanisms/automlr) |
-| **[FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models](https://arxiv.org/abs/2505.02735)** | Benchmark, ATP, LLM (tool) | arXiv 2025 | [Website](https://spherelab.ai/FormalMATH/) |
+| **[FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models](https://doi.org/10.18653/2026.findings-emnlp.579)** | Benchmark, ATP, LLM (tool) | EMNLP Findings 2026 | [Website](https://spherelab.ai/FormalMATH/) [arXiv](https://arxiv.org/abs/2505.02735) |
 | **[FormalML: A Benchmark for Evaluating Formal Subgoal Completion in Machine Learning Theory](https://arxiv.org/abs/2510.02335)** | Statistics, Benchmark, LLM (tool), ATP | arXiv 2025 | [Code](https://github.com/njuyxw/FormalML) |
 | **[Formation of shear bands through discrete localized plastic increments](https://arxiv.org/abs/2609.37584)** | Differential Equations, LLM (minor) | arXiv 2026 |  |
 | **[FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/abs/2507.13337)** | Computational Complexity, Graph Theory, Benchmark, LLM (tool) | arXiv 2025 |  |

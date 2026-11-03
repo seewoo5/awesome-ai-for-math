@@ -22,8 +22,8 @@ Papers that used AI only for proofreading, grammar, literature search, or findin
 <!-- Stats start -->
 | Year | Papers | LLM (major / minor / tool) | Non-LLM | With code | With chat logs |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 2026 | 2,785 | 948 / 1,693 / 102 | 42 | 16% | 1.1% |
-| 2025 | 188 | 15 / 53 / 60 | 60 | 41% | 4.3% |
+| 2026 | 2,787 | 948 / 1,693 / 104 | 42 | 16% | 1.1% |
+| 2025 | 186 | 15 / 53 / 58 | 60 | 42% | 4.3% |
 | 2024 | 23 | 1 / 1 / 4 | 17 | 70% | 0% |
 | 2023 | 13 | 0 / 0 / 2 | 11 | 54% | 0% |
 | 2022 | 7 | 0 / 0 / 1 | 6 | 29% | 0% |
