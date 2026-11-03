@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to check for duplicate papers in the README table.
+Script to check for duplicate papers in the paper table.
 Duplicates are detected by:
 1. Exact title match (case-insensitive)
 2. Same URL in the title link
@@ -12,7 +12,7 @@ import re
 import sys
 from collections import defaultdict
 
-README_PATH = 'README.md'
+PAPERS_PATH = 'papers.md'
 TABLE_START_MARKER = '<!-- Table start -->'
 TABLE_END_MARKER = '<!-- Table end -->'
 
@@ -36,7 +36,7 @@ def extract_title_and_url(cell: str) -> tuple[str, str | None]:
 
 def parse_table_rows(content: str) -> list[dict]:
     """
-    Parse the README content and extract paper information from the table.
+    Parse the papers.md content and extract paper information from the table.
     Returns a list of dicts with 'title', 'url', and 'row_num' keys.
     """
     try:
@@ -100,10 +100,10 @@ def find_duplicates(papers: list[dict]) -> tuple[dict, dict]:
 
 def main():
     try:
-        with open(README_PATH, 'r', encoding='utf-8') as f:
+        with open(PAPERS_PATH, 'r', encoding='utf-8') as f:
             content = f.read()
     except FileNotFoundError:
-        print(f"Error: {README_PATH} not found.")
+        print(f"Error: {PAPERS_PATH} not found.")
         sys.exit(1)
 
     papers = parse_table_rows(content)

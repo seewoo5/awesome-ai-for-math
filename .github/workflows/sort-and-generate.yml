@@ -1,4 +1,4 @@
-# Combined GitHub Actions workflow to sort the README table and generate
+# Combined GitHub Actions workflow to sort the paper table (papers.md) and generate
 # data assets in a single run. This avoids multiple commits and ensures
 # that the Pages build is triggered only once after both tasks have completed.
 
@@ -41,15 +41,18 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip
 
-      - name: Sort the README table
+      - name: Sort the paper table and update the README count
         run: python .github/scripts/update_readme.py
 
       - name: Generate papers JSON for interactive table
         run: python .github/scripts/generate_papers_json.py
 
+      - name: Update the papers-by-year table in the README
+        run: python .github/scripts/generate_stats_table.py
+
       - name: Commit and push changes
         run: |
-          git add README.md assets/papers.json
+          git add papers.md README.md assets/papers.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-sort table and generate data"
             git pull --rebase origin main

@@ -1,4 +1,4 @@
-"""Shared utilities for parsing the README paper table."""
+"""Shared utilities for parsing the paper table."""
 
 import re
 
