@@ -315,7 +315,7 @@
     return p.subjects.some(isLlmSubject);
   }
 
-  // Same rules as .github/scripts/generate_papers_chart.py
+  // Same rules as .github/scripts/generate_stats_table.py
   function hasCode(p) {
     return p.links.some(function (l) { return /\bcode\b/i.test(l.label); });
   }
