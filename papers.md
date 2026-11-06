@@ -3034,6 +3034,7 @@ To add a paper, append a row to the table below; see [`CONTRIBUTING.md`](CONTRIB
 | **[Zero-free columns in character tables of symmetric groups](https://arxiv.org/abs/2608.27718)** | Combinatorics, Representation Theory, Number Theory, LLM (major), ATP | arXiv 2026 | [Code](https://github.com/AxiomMath/ZeroFree) |
 | **[Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback $H_\infty$ Policy Optimization](https://arxiv.org/abs/2608.23178)** | Optimization Theory, LLM (minor) | arXiv 2026 |  |
 | **[Zonoids whose polars are zonoids: the Banach--Mazur distance need not tend to one](https://arxiv.org/abs/2609.10852)** | Analysis, Geometry, LLM (minor) | arXiv 2026 |  |
+| **[SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](https://arxiv.org/abs/2611.08483)** | Discrete Geometry, Analysis, Combinatorics, Numerical Analysis, Genetic Algorithm, LLM (major) | arXiv 2026 | [Code](https://github.com/Qile-J/SwarmEvolve) |
 
 
 
