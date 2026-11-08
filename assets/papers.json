@@ -33368,6 +33368,26 @@
       "links": []
     },
     {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://arxiv.org/abs/2611.08483",
+      "subjects": [
+        "Discrete Geometry",
+        "Analysis",
+        "Combinatorics",
+        "Numerical Analysis",
+        "Genetic Algorithm",
+        "LLM (major)"
+      ],
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Qile-J/SwarmEvolve"
+        }
+      ]
+    },
+    {
       "title": "Sylow $2$-Subgroups of Finite Groups with a Single Conjugacy Class of Involutions",
       "url": "https://arxiv.org/abs/2610.14689",
       "subjects": [

@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-A curated list of 3025 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
+A curated list of 3026 awesome papers exploring the use of artificial intelligence / machine learning / deep learning for mathematical discoveries.
 
 **[Interactive page](https://seewoo5.github.io/awesome-ai-for-math/)**: search, filter by subject or year, and explore papers-by-year charts.
 
@@ -22,7 +22,7 @@ Papers that used AI only for proofreading, grammar, literature search, or findin
 <!-- Stats start -->
 | Year | Papers | LLM (major / minor / tool) | Non-LLM | With code | With chat logs |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 2026 | 2,787 | 948 / 1,693 / 104 | 42 | 16% | 1.1% |
+| 2026 | 2,788 | 949 / 1,693 / 104 | 42 | 16% | 1.1% |
 | 2025 | 186 | 15 / 53 / 58 | 60 | 42% | 4.3% |
 | 2024 | 23 | 1 / 1 / 4 | 17 | 70% | 0% |
 | 2023 | 13 | 0 / 0 / 2 | 11 | 54% | 0% |
@@ -31,7 +31,7 @@ Papers that used AI only for proofreading, grammar, literature search, or findin
 | 2020 | 1 | 0 / 0 / 0 | 1 | 100% | 0% |
 | 2019 | 1 | 0 / 0 / 0 | 1 | 0% | 0% |
 | 2017 | 2 | 0 / 0 / 0 | 2 | 0% | 0% |
-| **Total** | 3,025 | 964 / 1,747 / 169 | 145 | 18% | 1.3% |
+| **Total** | 3,026 | 965 / 1,747 / 169 | 145 | 18% | 1.3% |
 <!-- Stats end -->
 
 Counts reflect what has been collected here, not all AI-assisted mathematics. Recent months were searched more exhaustively than earlier years.
